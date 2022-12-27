@@ -1,0 +1,29 @@
+name: Deploy and Push Doxygen Documentation
+
+on:
+  repository_dispatch:
+    types: [mmcesim-cli-push]
+
+permissions:
+  contents: write
+
+jobs:
+  doxygen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out
+        uses: actions/checkout@v3
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Asia/Shanghai"
+      - name: Run Doxygen
+        run: chmod +x ./run && ./run
+      - name: Commit Files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs
+          git commit -m"Update Doxygen Documentation"
+      - name: Push Changes
+        uses: ad-m/github-push-action@master

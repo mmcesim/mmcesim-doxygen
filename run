@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# First clone the source repo and install doxygen
+git clone https://github.com/mmcesim/mmcesim.git --recurse-submodules
+sudo apt-get -y install doxygen
+
+# Run Doxygen
+cd mmcesim && doxygen ./misc/Doxyfile && cd ..
+
+# Copy Generated Files
+mv docs/favicon.ico tmp_favicon.ico
+rm -r docs
+cp -r ./mmcesim/misc/_doxygen/html docs
+mv tmp_favicon.ico docs/favicon.ico
