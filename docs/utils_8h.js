@@ -9,7 +9,7 @@ var utils_8h =
     [ "randomString", "utils_8h.html#a56d0292f4f5c1dcc1f4fc0b60c8b872e", null ],
     [ "removeQuote", "utils_8h.html#a0465457013518e168df05799c93cfa6e", null ],
     [ "removeSpaceCopy", "utils_8h.html#ab4f66f779d3faf3eb521e8b4f9639990", null ],
-    [ "removeSpaceInPlace", "utils_8h.html#af252ca3da61364babdf070d7aadbf32a", null ],
+    [ "removeSpaceInPlace", "utils_8h.html#ac6284fc857e600b96e441dcf4796543c", null ],
     [ "rtrim", "utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3", null ],
     [ "rtrim_copy", "utils_8h.html#ad586dffdfe677cbd99967a20e58403c9", null ],
     [ "strAs", "utils_8h.html#a223336dc205a68ee2c50038a90f6b946", null ],
