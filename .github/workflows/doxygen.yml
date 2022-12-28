@@ -17,12 +17,19 @@ jobs:
         uses: szenius/set-timezone@v1.1
         with:
           timezoneLinux: "Asia/Shanghai"
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
       - name: Run Doxygen
         run: chmod +x ./run && ./run
       - name: Commit Files
         run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "bot@mmcesim.org"
+          git config --local user.name "mmcesim-bot"
           git add docs
           git commit -m"Update Doxygen Documentation"
       - name: Push Changes
