@@ -17,7 +17,7 @@ var searchData=
   ['_5fbeamforming_5fw_14',['_beamforming_W',['../class_export.html#a26b02908bd579d7bd6460be760570bff',1,'Export']]],
   ['_5fbeginning_15',['_beginning',['../class_export.html#a6000afae41f65b45b6a1e11447c1789c',1,'Export']]],
   ['_5fbranch_5fline_16',['_branch_line',['../class_alg.html#a1c9d1163ba87985367e9ae02c70309ed',1,'Alg']]],
-  ['_5fcascaded_5fchannel_17',['_cascaded_channel',['../struct_macro.html#a0252622a5b2e056b244a1a055da4ad2a',1,'Macro::_cascaded_channel()'],['../class_export.html#ae93b1d7437e27ca5170ca5933c8ee88b',1,'Export::_cascaded_channel()']]],
+  ['_5fcascaded_5fchannel_17',['_cascaded_channel',['../class_export.html#ae93b1d7437e27ca5170ca5933c8ee88b',1,'Export::_cascaded_channel()'],['../struct_macro.html#a0252622a5b2e056b244a1a055da4ad2a',1,'Macro::_cascaded_channel()']]],
   ['_5fchangefunction_18',['_changeFunction',['../class_calc.html#af1d1bd5e83f9e5196627f5a4e1a5ee83',1,'Calc']]],
   ['_5fchangeoperator_19',['_changeOperator',['../class_calc.html#ae3d88bd40f9bdf2c8ec92c426bdca446',1,'Calc']]],
   ['_5fchangeparen_20',['_changeParen',['../class_calc.html#ad95be528148e0d63848d5fa916b93200',1,'Calc']]],
@@ -30,7 +30,7 @@ var searchData=
   ['_5fdim_27',['_dim',['../class_type.html#a5c7eb491e8ec3497237129fdf0883d04',1,'Type']]],
   ['_5fending_28',['_ending',['../class_export.html#a7278a492ec0a0394684cccc5949185ca',1,'Export']]],
   ['_5ferror_5fout_5fof_5fbound_29',['_error_out_of_bound',['../class_value___vec.html#a2772c8cec16434bdd2907fb68fb0398d',1,'Value_Vec']]],
-  ['_5ferrors_30',['_errors',['../class_alg.html#a0ee00c44ba20a3456959bf54d9ed00e0',1,'Alg::_errors()'],['../class_export.html#ac46a3b37a484a40d2ba2fa66fd11474a',1,'Export::_errors()']]],
+  ['_5ferrors_30',['_errors',['../class_export.html#ac46a3b37a484a40d2ba2fa66fd11474a',1,'Export::_errors()'],['../class_alg.html#a0ee00c44ba20a3456959bf54d9ed00e0',1,'Alg::_errors()']]],
   ['_5festimation_31',['_estimation',['../class_export.html#ae4811e1e4212029122c0ee29613714cc',1,'Export']]],
   ['_5ff_32',['_f',['../class_export.html#abe75ae41d7cc8afe8f1ba4bbf67dfcfc',1,'Export']]],
   ['_5ff_5fptr_33',['_f_ptr',['../class_export.html#ac088a82f536e08327b35efa33b6e0fe8',1,'Export']]],
@@ -120,5 +120,5 @@ var searchData=
   ['_5fuse_5fspace_117',['_use_space',['../class_alg.html#af04e630f535b14f385ecd0830ae4f8f8',1,'Alg']]],
   ['_5fvars_118',['_vars',['../class_alg.html#a51ca822d7d568361ee2738ef2bff4ca0',1,'Alg']]],
   ['_5fwarnings_119',['_warnings',['../class_alg.html#a3a7d2522670899457a72ab40a799ef01',1,'Alg']]],
-  ['_5fwcomment_120',['_wComment',['../class_export.html#a568b2f04e1b7837923d3f3af5f47abe2',1,'Export::_wComment()'],['../class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d',1,'Alg::_wComment()']]]
+  ['_5fwcomment_120',['_wComment',['../class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d',1,'Alg::_wComment()'],['../class_export.html#a568b2f04e1b7837923d3f3af5f47abe2',1,'Export::_wComment()']]]
 ];
