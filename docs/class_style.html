@@ -117,19 +117,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae9a2f02ed1f4864f93169e01aeee342"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_style.html#aae9a2f02ed1f4864f93169e01aeee342">Style</a> (const std::string &amp;file_name, const std::string &amp;options)</td></tr>
 <tr class="separator:aae9a2f02ed1f4864f93169e01aeee342"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06fd4016b36d2fa2e46c8c092701c7ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_style.html#a06fd4016b36d2fa2e46c8c092701c7ea">style</a> () const</td></tr>
-<tr class="memdesc:a06fd4016b36d2fa2e46c8c092701c7ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the astyle child process to style the generated Verilog code.  <a href="class_style.html#a06fd4016b36d2fa2e46c8c092701c7ea">More...</a><br /></td></tr>
+<tr class="memdesc:a06fd4016b36d2fa2e46c8c092701c7ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the astyle child process to style the generated C++ code.  <a href="class_style.html#a06fd4016b36d2fa2e46c8c092701c7ea">More...</a><br /></td></tr>
 <tr class="separator:a06fd4016b36d2fa2e46c8c092701c7ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4202615ba5c3a3b4c1b81a53f9c62b63"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_style.html#a4202615ba5c3a3b4c1b81a53f9c62b63">style</a> (const std::string &amp;file_name, const std::string &amp;options)</td></tr>
+<tr class="memdesc:a4202615ba5c3a3b4c1b81a53f9c62b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the astyle child process to style the generated C++ code.  <a href="class_style.html#a4202615ba5c3a3b4c1b81a53f9c62b63">More...</a><br /></td></tr>
 <tr class="separator:a4202615ba5c3a3b4c1b81a53f9c62b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a71e5cc8d5475dc95a8c1d0927af55663"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_style.html#a71e5cc8d5475dc95a8c1d0927af55663">_file_name</a></td></tr>
+<tr class="memdesc:a71e5cc8d5475dc95a8c1d0927af55663"><td class="mdescLeft">&#160;</td><td class="mdescRight">The generated C++ file name to be formatted.  <a href="class_style.html#a71e5cc8d5475dc95a8c1d0927af55663">More...</a><br /></td></tr>
 <tr class="separator:a71e5cc8d5475dc95a8c1d0927af55663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a750e616d2815aeffc18fc040b30b5a4c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_style.html#a750e616d2815aeffc18fc040b30b5a4c">_options</a></td></tr>
+<tr class="memdesc:a750e616d2815aeffc18fc040b30b5a4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The 'astyle' format options.  <a href="class_style.html#a750e616d2815aeffc18fc040b30b5a4c">More...</a><br /></td></tr>
 <tr class="separator:a750e616d2815aeffc18fc040b30b5a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -180,8 +183,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Call the astyle child process to style the generated Verilog code. </p>
-<dl class="section return"><dt>Returns</dt><dd>int (Exit code of 'astyle'.) </dd></dl>
+<p>Call the astyle child process to style the generated C++ code. </p>
+<dl class="section return"><dt>Returns</dt><dd>(int) Exit code of 'astyle'. </dd></dl>
 
 </div>
 </div>
@@ -219,6 +222,16 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Call the astyle child process to style the generated C++ code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file_name</td><td>The generated C++ file name to be formatted. </td></tr>
+    <tr><td class="paramname">options</td><td>The 'astyle' format options. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(int) Exit code of 'astyle'. </dd></dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -242,6 +255,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The generated C++ file name to be formatted. </p>
+
 </div>
 </div>
 <a id="a750e616d2815aeffc18fc040b30b5a4c" name="a750e616d2815aeffc18fc040b30b5a4c"></a>
@@ -264,6 +279,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The 'astyle' format options. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -276,7 +293,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_style.html">Style</a></li>
-    <li class="footer">Generated on Thu Dec 29 2022 11:01:07 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Dec 29 2022 15:41:28 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

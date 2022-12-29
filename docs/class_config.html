@@ -119,8 +119,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abd0c571c116924871e30444b192b792a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_config.html" title="User configuration.">Config</a> object.  <a href="class_config.html#abd0c571c116924871e30444b192b792a">More...</a><br /></td></tr>
 <tr class="separator:abd0c571c116924871e30444b192b792a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12acdcdbcb3f7a2c19c9af7aa5036c0c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config.html#a12acdcdbcb3f7a2c19c9af7aa5036c0c">operator[]</a> (const std::string &amp;key) const noexcept</td></tr>
+<tr class="memdesc:a12acdcdbcb3f7a2c19c9af7aa5036c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the key.  <a href="class_config.html#a12acdcdbcb3f7a2c19c9af7aa5036c0c">More...</a><br /></td></tr>
 <tr class="separator:a12acdcdbcb3f7a2c19c9af7aa5036c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af93e3fef79689ca4feaaeb45aae2645e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config.html#af93e3fef79689ca4feaaeb45aae2645e">set</a> (const std::string &amp;key, const std::string &amp;v) noexcept</td></tr>
+<tr class="memdesc:af93e3fef79689ca4feaaeb45aae2645e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the key value.  <a href="class_config.html#af93e3fef79689ca4feaaeb45aae2645e">More...</a><br /></td></tr>
 <tr class="separator:af93e3fef79689ca4feaaeb45aae2645e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a994c890a89bbd147443eecef3fe3caa2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config.html#a994c890a89bbd147443eecef3fe3caa2">size</a> () const noexcept</td></tr>
 <tr class="separator:a994c890a89bbd147443eecef3fe3caa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,6 +264,15 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Read the key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(std::string) The value. </dd></dl>
+
 </div>
 </div>
 <a id="a1a5599057522c73d9d171004c2cedd18" name="a1a5599057522c73d9d171004c2cedd18"></a>
@@ -360,6 +371,22 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Set the key value. </p>
+<p >It will only set the key value when the key exists. Return false if the key does not exist. No exception will be raised in this function, but it will return false if there is error when setting the key. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key. </td></tr>
+    <tr><td class="paramname">v</td><td>The value. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>Successfully set the key. </td></tr>
+    <tr><td class="paramname">false</td><td>Failed to set the key. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a994c890a89bbd147443eecef3fe3caa2" name="a994c890a89bbd147443eecef3fe3caa2"></a>
@@ -437,7 +464,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_config.html">Config</a></li>
-    <li class="footer">Generated on Thu Dec 29 2022 11:01:07 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Dec 29 2022 15:41:28 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
