@@ -51,5 +51,6 @@ var searchData=
   ['_5fsetvarnames_48',['_setVarNames',['../class_export.html#af41ce4a9c8f549930d43fbe47f84abaa',1,'Export']]],
   ['_5fsounding_49',['_sounding',['../class_export.html#a26fa49d9882a342d011ba715e0c14109',1,'Export']]],
   ['_5ftopcomment_50',['_topComment',['../class_export.html#a1ba2d8e9de49698d93a6dedbafbe6a0f',1,'Export']]],
-  ['_5fwcomment_51',['_wComment',['../class_export.html#a568b2f04e1b7837923d3f3af5f47abe2',1,'Export::_wComment()'],['../class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d',1,'Alg::_wComment()']]]
+  ['_5fvalidatepaths_51',['_validatePaths',['../class_channel___graph.html#ab3e5ebf07412eb058c176ef6a7693fd2',1,'Channel_Graph']]],
+  ['_5fwcomment_52',['_wComment',['../class_export.html#a568b2f04e1b7837923d3f3af5f47abe2',1,'Export::_wComment()'],['../class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d',1,'Alg::_wComment()']]]
 ];

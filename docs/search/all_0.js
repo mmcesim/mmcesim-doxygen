@@ -118,7 +118,8 @@ var searchData=
   ['_5ftype_5ftrack_5fprint_5finfo_115',['_TYPE_TRACK_PRINT_INFO',['../type__track_8h.html#af1b15376a4248263e460cc04aaf4e759',1,'type_track.h']]],
   ['_5ftypes_116',['_types',['../class_type___track.html#a9faef51ca16edae83dbce773baae81e4',1,'Type_Track']]],
   ['_5fuse_5fspace_117',['_use_space',['../class_alg.html#af04e630f535b14f385ecd0830ae4f8f8',1,'Alg']]],
-  ['_5fvars_118',['_vars',['../class_alg.html#a51ca822d7d568361ee2738ef2bff4ca0',1,'Alg']]],
-  ['_5fwarnings_119',['_warnings',['../class_alg.html#a3a7d2522670899457a72ab40a799ef01',1,'Alg']]],
-  ['_5fwcomment_120',['_wComment',['../class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d',1,'Alg::_wComment()'],['../class_export.html#a568b2f04e1b7837923d3f3af5f47abe2',1,'Export::_wComment()']]]
+  ['_5fvalidatepaths_118',['_validatePaths',['../class_channel___graph.html#ab3e5ebf07412eb058c176ef6a7693fd2',1,'Channel_Graph']]],
+  ['_5fvars_119',['_vars',['../class_alg.html#a51ca822d7d568361ee2738ef2bff4ca0',1,'Alg']]],
+  ['_5fwarnings_120',['_warnings',['../class_alg.html#a3a7d2522670899457a72ab40a799ef01',1,'Alg']]],
+  ['_5fwcomment_121',['_wComment',['../class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d',1,'Alg::_wComment()'],['../class_export.html#a568b2f04e1b7837923d3f3af5f47abe2',1,'Export::_wComment()']]]
 ];
