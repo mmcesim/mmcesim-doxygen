@@ -18,6 +18,11 @@ var class_export =
       [ "PY", "class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a0c145a13e49b47abccd510e5c899d80c", null ],
       [ "IPYNB", "class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a21435d1dbbc432abeaa461104f24ee61", null ]
     ] ],
+    [ "NodeRole", "class_export.html#aaffe355758b60cadd8405dd8793c6444", [
+      [ "Tx", "class_export.html#aaffe355758b60cadd8405dd8793c6444a4393102620f7750d259e3f050f32ba0b", null ],
+      [ "Rx", "class_export.html#aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35", null ],
+      [ "RIS", "class_export.html#aaffe355758b60cadd8405dd8793c6444a65993c27cba86aa4fb05e353a22ece9b", null ]
+    ] ],
     [ "Export", "class_export.html#a23f9a3cb5f7cd82b36037e6d4f7123ed", null ],
     [ "Export", "class_export.html#a29816209fb8014ccdea7f579933e07f4", null ],
     [ "~Export", "class_export.html#ad80ab1260b21d3a1f0bb03d39107f08b", null ],
@@ -30,6 +35,7 @@ var class_export =
     [ "_estimation", "class_export.html#ae4811e1e4212029122c0ee29613714cc", null ],
     [ "_f", "class_export.html#abe75ae41d7cc8afe8f1ba4bbf67dfcfc", null ],
     [ "_generateChannels", "class_export.html#ad7268f886ac4826f4b6ea738e423e520", null ],
+    [ "_generateReflection", "class_export.html#ae66fc989d7b34e251e6f988d8e78f70b", null ],
     [ "_getSize", "class_export.html#a4dd19b0ff2eb109897fb486769fefffe", null ],
     [ "_getTestNum", "class_export.html#ab8f7bd9bd6f244d03c3f332df34e0139", null ],
     [ "_info", "class_export.html#a21d0cb6d76223b8e7bcaae31c667219b", null ],
@@ -57,6 +63,7 @@ var class_export =
     [ "exportCode", "class_export.html#a94fab568af6ddd6447efca74e205e081", null ],
     [ "_already_error_before_export", "class_export.html#a509b16096eae17d97c4b6f8fa6ad57be", null ],
     [ "_beamforming_F", "class_export.html#a0ac514153df65afc051af4349cc0a544", null ],
+    [ "_beamforming_RIS", "class_export.html#a85413d8391aa490411377526158bab99", null ],
     [ "_beamforming_W", "class_export.html#a26b02908bd579d7bd6460be760570bff", null ],
     [ "_cascaded_channel", "class_export.html#ae93b1d7437e27ca5170ca5933c8ee88b", null ],
     [ "_channel_graph", "class_export.html#a537f42a1ecd0914a7c2054b831fb74aa", null ],

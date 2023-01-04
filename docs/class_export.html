@@ -140,6 +140,12 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:acc3267fe239d28f10e4b64f3061d4bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaffe355758b60cadd8405dd8793c6444"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#aaffe355758b60cadd8405dd8793c6444">NodeRole</a> { <a class="el" href="class_export.html#aaffe355758b60cadd8405dd8793c6444a4393102620f7750d259e3f050f32ba0b">Tx</a>
+, <a class="el" href="class_export.html#aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35">Rx</a>
+, <a class="el" href="class_export.html#aaffe355758b60cadd8405dd8793c6444a65993c27cba86aa4fb05e353a22ece9b">RIS</a>
+ }</td></tr>
+<tr class="memdesc:aaffe355758b60cadd8405dd8793c6444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Role of each node.  <a href="class_export.html#aaffe355758b60cadd8405dd8793c6444">More...</a><br /></td></tr>
+<tr class="separator:aaffe355758b60cadd8405dd8793c6444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -224,10 +230,15 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a69e74a4cd5dd68dec262869fecc0d359"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#a69e74a4cd5dd68dec262869fecc0d359">_setMaxTestNum</a> ()</td></tr>
 <tr class="separator:a69e74a4cd5dd68dec262869fecc0d359"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af41ce4a9c8f549930d43fbe47f84abaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#af41ce4a9c8f549930d43fbe47f84abaa">_setVarNames</a> ()</td></tr>
+<tr class="memdesc:af41ce4a9c8f549930d43fbe47f84abaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the variable names defined by users.  <a href="class_export.html#af41ce4a9c8f549930d43fbe47f84abaa">More...</a><br /></td></tr>
 <tr class="separator:af41ce4a9c8f549930d43fbe47f84abaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66fc989d7b34e251e6f988d8e78f70b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#ae66fc989d7b34e251e6f988d8e78f70b">_generateReflection</a> (unsigned Nt_B)</td></tr>
+<tr class="memdesc:ae66fc989d7b34e251e6f988d8e78f70b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate RIS reflection matrices.  <a href="class_export.html#ae66fc989d7b34e251e6f988d8e78f70b">More...</a><br /></td></tr>
+<tr class="separator:ae66fc989d7b34e251e6f988d8e78f70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8f7bd9bd6f244d03c3f332df34e0139"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#ab8f7bd9bd6f244d03c3f332df34e0139">_getTestNum</a> (const YAML::Node &amp;n)</td></tr>
 <tr class="separator:ab8f7bd9bd6f244d03c3f332df34e0139"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dd19b0ff2eb109897fb486769fefffe"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; unsigned, unsigned, unsigned, unsigned, unsigned, unsigned &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#a4dd19b0ff2eb109897fb486769fefffe">_getSize</a> (const YAML::Node &amp;n)</td></tr>
+<tr class="memdesc:a4dd19b0ff2eb109897fb486769fefffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the node (Tx/Rx/RIS).  <a href="class_export.html#a4dd19b0ff2eb109897fb486769fefffe">More...</a><br /></td></tr>
 <tr class="separator:a4dd19b0ff2eb109897fb486769fefffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -260,6 +271,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a26b02908bd579d7bd6460be760570bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ac514153df65afc051af4349cc0a544"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#a0ac514153df65afc051af4349cc0a544">_beamforming_F</a></td></tr>
 <tr class="separator:a0ac514153df65afc051af4349cc0a544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85413d8391aa490411377526158bab99"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#a85413d8391aa490411377526158bab99">_beamforming_RIS</a></td></tr>
+<tr class="separator:a85413d8391aa490411377526158bab99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a537f42a1ecd0914a7c2054b831fb74aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_channel___graph.html">Channel_Graph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#a537f42a1ecd0914a7c2054b831fb74aa">_channel_graph</a></td></tr>
 <tr class="separator:a537f42a1ecd0914a7c2054b831fb74aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb11d45448d3d5760e04a3524cac7caa"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#aeb11d45448d3d5760e04a3524cac7caa">_MAX_TX</a> = 1</td></tr>
@@ -334,6 +347,39 @@ Private Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a87df23cccd4e9eceaa6e5be2a03c9344a0c145a13e49b47abccd510e5c899d80c" name="a87df23cccd4e9eceaa6e5be2a03c9344a0c145a13e49b47abccd510e5c899d80c"></a>PY&#160;</td><td class="fielddoc"><p >Python with NumPy library. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a87df23cccd4e9eceaa6e5be2a03c9344a21435d1dbbc432abeaa461104f24ee61" name="a87df23cccd4e9eceaa6e5be2a03c9344a21435d1dbbc432abeaa461104f24ee61"></a>IPYNB&#160;</td><td class="fielddoc"><p >IPyNb with NumPy library. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="aaffe355758b60cadd8405dd8793c6444" name="aaffe355758b60cadd8405dd8793c6444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaffe355758b60cadd8405dd8793c6444">&#9670;&nbsp;</a></span>NodeRole</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="class_export.html#aaffe355758b60cadd8405dd8793c6444">Export::NodeRole</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Role of each node. </p>
+<p >RIS is the default role. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaffe355758b60cadd8405dd8793c6444a4393102620f7750d259e3f050f32ba0b" name="aaffe355758b60cadd8405dd8793c6444a4393102620f7750d259e3f050f32ba0b"></a>Tx&#160;</td><td class="fielddoc"><p >transmitter </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35" name="aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35"></a>Rx&#160;</td><td class="fielddoc"><p >receiver, </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaffe355758b60cadd8405dd8793c6444a65993c27cba86aa4fb05e353a22ece9b" name="aaffe355758b60cadd8405dd8793c6444a65993c27cba86aa4fb05e353a22ece9b"></a>RIS&#160;</td><td class="fielddoc"><p >RIS/IRS. </p>
 </td></tr>
 </table>
 
@@ -687,6 +733,47 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ae66fc989d7b34e251e6f988d8e78f70b" name="ae66fc989d7b34e251e6f988d8e78f70b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66fc989d7b34e251e6f988d8e78f70b">&#9670;&nbsp;</a></span>_generateReflection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Export::_generateReflection </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>Nt_B</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generate RIS reflection matrices. </p>
+<p >To generate the RIS reflection matrices (i.e. the passive beamforming at the RIS), four parameters should be known:</p><ol type="1">
+<li>Pilot;</li>
+<li>Beam Number at the Tx;</li>
+<li>RIS size;</li>
+<li>The variable names. The first two are necessary because we need to calculate the number of RIS reflection patterns; The variable names are also needed since we need to generate those definitions.<br  />
+ The pilot can be directly written as 'pilot'; The size of RIS can be obtained in the list; The variable names are listed in _beamforming_RIS. <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Nt_B</td><td>The beam number at the transmitter (Tx). </td></tr>
+  </table>
+  </dd>
+</dl>
+</li>
+</ol>
+
+</div>
+</div>
 <a id="a4dd19b0ff2eb109897fb486769fefffe" name="a4dd19b0ff2eb109897fb486769fefffe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4dd19b0ff2eb109897fb486769fefffe">&#9670;&nbsp;</a></span>_getSize()</h2>
 
@@ -710,6 +797,15 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get the size of the node (Tx/Rx/RIS). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>The node. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(std::tuple&lt;unsigned, unsigned, unsigned, unsigned, unsigned, unsigned&gt;) The size. The five elements are: Mx, My, GMx, GMy, BMx, BMy. </dd></dl>
 
 </div>
 </div>
@@ -1183,6 +1279,15 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Set the variable names defined by users. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>Success. </td></tr>
+    <tr><td class="paramname">false</td><td>Failure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a26fa49d9882a342d011ba715e0c14109" name="a26fa49d9882a342d011ba715e0c14109"></a>
@@ -1395,6 +1500,28 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">std::string Export::_beamforming_F</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85413d8391aa490411377526158bab99" name="a85413d8391aa490411377526158bab99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85413d8391aa490411377526158bab99">&#9670;&nbsp;</a></span>_beamforming_RIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; Export::_beamforming_RIS</td>
         </tr>
       </table>
   </td>
@@ -1760,7 +1887,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_export.html">Export</a></li>
-    <li class="footer">Generated on Tue Jan 3 2023 18:19:11 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Wed Jan 4 2023 23:35:19 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

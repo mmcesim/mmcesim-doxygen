@@ -16,8 +16,9 @@ var searchData=
   ['replacemacro_13',['replaceMacro',['../struct_macro.html#ac0ddd588c300108ca443b10316d99877',1,'Macro']]],
   ['return_5ftype_14',['Return_Type',['../struct_alg___line_1_1_return___type.html',1,'Alg_Line']]],
   ['returns_15',['returns',['../class_alg___line.html#a03215ccf19977fbabeec70ba282b5391',1,'Alg_Line::returns(std::vector&lt; Return_Type &gt;::size_type index) const'],['../class_alg___line.html#a8e21f6b69eaf80a2327f7308fb4299e0',1,'Alg_Line::returns() const noexcept']]],
-  ['rtrim_16',['rtrim',['../utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3',1,'utils.h']]],
-  ['rtrim_5fcopy_17',['rtrim_copy',['../utils_8h.html#ad586dffdfe677cbd99967a20e58403c9',1,'utils.h']]],
-  ['rx_18',['Rx',['../struct_x_y___size.html#a4797309f669c107e3eebbbb47f5e8c8c',1,'XY_Size::Rx()'],['../class_channel___graph.html#ac136c0c3ba0d6d7785fcb5ff256393a9',1,'Channel_Graph::Rx()']]],
-  ['ry_19',['Ry',['../struct_x_y___size.html#a8ecb2684f64c768af11665ed76dffcb6',1,'XY_Size']]]
+  ['ris_16',['RIS',['../class_export.html#aaffe355758b60cadd8405dd8793c6444a65993c27cba86aa4fb05e353a22ece9b',1,'Export']]],
+  ['rtrim_17',['rtrim',['../utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3',1,'utils.h']]],
+  ['rtrim_5fcopy_18',['rtrim_copy',['../utils_8h.html#ad586dffdfe677cbd99967a20e58403c9',1,'utils.h']]],
+  ['rx_19',['Rx',['../struct_x_y___size.html#a4797309f669c107e3eebbbb47f5e8c8c',1,'XY_Size::Rx()'],['../class_export.html#aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35',1,'Export::Rx()'],['../class_channel___graph.html#ac136c0c3ba0d6d7785fcb5ff256393a9',1,'Channel_Graph::Rx()']]],
+  ['ry_20',['Ry',['../struct_x_y___size.html#a8ecb2684f64c768af11665ed76dffcb6',1,'XY_Size']]]
 ];

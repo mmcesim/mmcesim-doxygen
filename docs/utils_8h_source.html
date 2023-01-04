@@ -236,7 +236,7 @@ $(document).ready(function(){initNavTree('utils_8h_source.html',''); initResizab
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="keyword">static</span> <span class="keyword">auto</span>&amp; chrs = <span class="stringliteral">&quot;0123456789&quot;</span></div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>                        <span class="stringliteral">&quot;abcdefghijklmnopqrstuvwxyz&quot;</span></div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>                        <span class="stringliteral">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span>;</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="keyword">thread_local</span> <span class="keyword">static</span> std::mt19937 rg{std::random_device{}()};</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="keyword">thread_local</span> <span class="keyword">static</span> std::mt19937 rg{ std::random_device{}() };</div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="keyword">thread_local</span> <span class="keyword">static</span> std::uniform_int_distribution&lt;std::string::size_type&gt; pick(0, <span class="keyword">sizeof</span>(chrs) - 2);</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    std::string s;</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    s.reserve(length);</div>
@@ -278,7 +278,7 @@ $(document).ready(function(){initNavTree('utils_8h_source.html',''); initResizab
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="utils_8h.html">utils.h</a></li>
-    <li class="footer">Generated on Tue Jan 3 2023 18:19:11 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Wed Jan 4 2023 23:35:19 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
