@@ -10,7 +10,7 @@ var struct_macro =
     [ "alg_num", "struct_macro.html#a2fea1a91d6ad53363719b9c06cd98170", null ],
     [ "alg_params", "struct_macro.html#a20e54d93f15814becf04b607ca255e50", null ],
     [ "beamforming", "struct_macro.html#a32a22e436080275fb2f67df001173a26", null ],
-    [ "custom", "struct_macro.html#a9d4bc5dc3a9349b4085b3ca18e3fc2a9", null ],
-    [ "custom_in_alg", "struct_macro.html#a579dec9f991757842f551f5492e5f47f", null ],
+    [ "custom", "struct_macro.html#ab80649e9b0e7025b5f35ac0232801f15", null ],
+    [ "custom_in_alg", "struct_macro.html#af9b644aebf876a0d7d9d70fae95851d9", null ],
     [ "job_num", "struct_macro.html#ac60ea11407a5a14d9b63377abcab139e", null ]
 ];

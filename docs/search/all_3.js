@@ -31,6 +31,6 @@ var searchData=
   ['contributing_2emd_28',['CONTRIBUTING.md',['../_c_o_n_t_r_i_b_u_t_i_n_g_8md.html',1,'']]],
   ['cpp_29',['CPP',['../class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a4c162442ef22c58f6f1e330e6b692c7e',1,'Export']]],
   ['cpp_5fkeywords_30',['CPP_Keywords',['../keywords_8h.html#a9e7f27f42b99bffb4fe8bcac89863b2f',1,'keywords.h']]],
-  ['custom_31',['custom',['../struct_macro.html#a9d4bc5dc3a9349b4085b3ca18e3fc2a9',1,'Macro']]],
-  ['custom_5fin_5falg_32',['custom_in_alg',['../struct_macro.html#a579dec9f991757842f551f5492e5f47f',1,'Macro']]]
+  ['custom_31',['custom',['../struct_macro.html#ab80649e9b0e7025b5f35ac0232801f15',1,'Macro']]],
+  ['custom_5fin_5falg_32',['custom_in_alg',['../struct_macro.html#af9b644aebf876a0d7d9d70fae95851d9',1,'Macro']]]
 ];
