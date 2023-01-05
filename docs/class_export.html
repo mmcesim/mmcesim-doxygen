@@ -273,6 +273,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a0ac514153df65afc051af4349cc0a544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85413d8391aa490411377526158bab99"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#a85413d8391aa490411377526158bab99">_beamforming_RIS</a></td></tr>
 <tr class="separator:a85413d8391aa490411377526158bab99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa46b0e3fb0b8d2f756408e01e3a8a367"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#aa46b0e3fb0b8d2f756408e01e3a8a367">_beamforming</a></td></tr>
+<tr class="separator:aa46b0e3fb0b8d2f756408e01e3a8a367"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a537f42a1ecd0914a7c2054b831fb74aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_channel___graph.html">Channel_Graph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#a537f42a1ecd0914a7c2054b831fb74aa">_channel_graph</a></td></tr>
 <tr class="separator:a537f42a1ecd0914a7c2054b831fb74aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb11d45448d3d5760e04a3524cac7caa"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_export.html#aeb11d45448d3d5760e04a3524cac7caa">_MAX_TX</a> = 1</td></tr>
@@ -377,7 +379,7 @@ Private Attributes</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaffe355758b60cadd8405dd8793c6444a4393102620f7750d259e3f050f32ba0b" name="aaffe355758b60cadd8405dd8793c6444a4393102620f7750d259e3f050f32ba0b"></a>Tx&#160;</td><td class="fielddoc"><p >transmitter </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35" name="aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35"></a>Rx&#160;</td><td class="fielddoc"><p >receiver, </p>
+<tr><td class="fieldname"><a id="aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35" name="aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35"></a>Rx&#160;</td><td class="fielddoc"><p >receiver </p>
 </td></tr>
 <tr><td class="fieldname"><a id="aaffe355758b60cadd8405dd8793c6444a65993c27cba86aa4fb05e353a22ece9b" name="aaffe355758b60cadd8405dd8793c6444a65993c27cba86aa4fb05e353a22ece9b"></a>RIS&#160;</td><td class="fielddoc"><p >RIS/IRS. </p>
 </td></tr>
@@ -762,15 +764,15 @@ template&lt;typename T &gt; </div>
 <li>Pilot;</li>
 <li>Beam Number at the Tx;</li>
 <li>RIS size;</li>
-<li>The variable names. The first two are necessary because we need to calculate the number of RIS reflection patterns; The variable names are also needed since we need to generate those definitions.<br  />
- The pilot can be directly written as 'pilot'; The size of RIS can be obtained in the list; The variable names are listed in _beamforming_RIS. <dl class="params"><dt>Parameters</dt><dd>
+<li>The variable names.</li>
+</ol>
+<p >The first two are necessary because we need to calculate the number of RIS reflection patterns; The variable names are also needed since we need to generate those definitions.<br  />
+ The pilot can be directly written as 'pilot'; The size of RIS can be obtained in the list; The variable names are listed in _beamforming_RIS. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">Nt_B</td><td>The beam number at the transmitter (Tx). </td></tr>
   </table>
   </dd>
 </dl>
-</li>
-</ol>
 
 </div>
 </div>
@@ -1489,6 +1491,28 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="aa46b0e3fb0b8d2f756408e01e3a8a367" name="aa46b0e3fb0b8d2f756408e01e3a8a367"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa46b0e3fb0b8d2f756408e01e3a8a367">&#9670;&nbsp;</a></span>_beamforming</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, std::string&gt; Export::_beamforming</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0ac514153df65afc051af4349cc0a544" name="a0ac514153df65afc051af4349cc0a544"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ac514153df65afc051af4349cc0a544">&#9670;&nbsp;</a></span>_beamforming_F</h2>
 
@@ -1887,7 +1911,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_export.html">Export</a></li>
-    <li class="footer">Generated on Wed Jan 4 2023 23:35:19 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Jan 5 2023 23:08:02 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

@@ -62,6 +62,7 @@ var class_export =
     [ "exportCode", "class_export.html#a3cc6e57eda0208e0eb8da1ce9efd6200", null ],
     [ "exportCode", "class_export.html#a94fab568af6ddd6447efca74e205e081", null ],
     [ "_already_error_before_export", "class_export.html#a509b16096eae17d97c4b6f8fa6ad57be", null ],
+    [ "_beamforming", "class_export.html#aa46b0e3fb0b8d2f756408e01e3a8a367", null ],
     [ "_beamforming_F", "class_export.html#a0ac514153df65afc051af4349cc0a544", null ],
     [ "_beamforming_RIS", "class_export.html#a85413d8391aa490411377526158bab99", null ],
     [ "_beamforming_W", "class_export.html#a26b02908bd579d7bd6460be760570bff", null ],
