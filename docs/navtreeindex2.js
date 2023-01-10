@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"struct_x_y___size.html#a8ecb2684f64c768af11665ed76dffcb6":[3,0,16,4],
 "struct_x_y___size.html#a903c465c82ea0c7b1e039f2e4aa54524":[3,0,16,6],
 "struct_x_y___size.html#acc0b4290938fb650a451fdd851d900a6":[3,0,16,2],
 "struct_y_a_m_l___error.html":[3,0,17],

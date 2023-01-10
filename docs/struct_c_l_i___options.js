@@ -7,5 +7,6 @@ var struct_c_l_i___options =
     [ "no_error_compile", "struct_c_l_i___options.html#afca390e5394936076bfc7ff4d848c4bf", null ],
     [ "output", "struct_c_l_i___options.html#a790300e85fa683c561e79026340ff701", null ],
     [ "style", "struct_c_l_i___options.html#a6574a7ce4c2f0828982c6cfa7d200dbe", null ],
-    [ "value", "struct_c_l_i___options.html#a25f5b1089812561085e36977d3556654", null ]
+    [ "value", "struct_c_l_i___options.html#a25f5b1089812561085e36977d3556654", null ],
+    [ "verbose", "struct_c_l_i___options.html#a791e3f77d8470adb64271a2a752f5107", null ]
 ];

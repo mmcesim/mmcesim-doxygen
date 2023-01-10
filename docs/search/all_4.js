@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['data_0',['Data',['../class_type.html#a573918fe25965adb633746c4efd7192d',1,'Type']]],
-  ['data_1',['data',['../class_type.html#a103e30d6912aa5a71f944b01778e0ead',1,'Type']]],
+  ['data_0',['data',['../class_type.html#a103e30d6912aa5a71f944b01778e0ead',1,'Type']]],
+  ['data_1',['Data',['../class_type.html#a573918fe25965adb633746c4efd7192d',1,'Type']]],
   ['dbg_2',['dbg',['../struct_shared___info.html#a2284cf0696da8f840c254d081865bd75',1,'Shared_Info']]],
   ['default_3',['DEFAULT',['../alg_8cpp.html#a3da44afeba217135a680a7477b5e3ce3',1,'alg.cpp']]],
   ['dim_4',['Dim',['../class_type.html#a31d6ef1e61fffb2cc5492635ebdea1b0',1,'Type']]],
