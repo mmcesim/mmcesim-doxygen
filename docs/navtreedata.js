@@ -35,6 +35,10 @@ var NAVTREE =
         [ "Cite Our Works", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md6", null ]
       ] ]
     ] ],
+    [ "New Features", "md_misc_release_note.html", [
+      [ "Bug Fixes", "md_misc_release_note.html#autotoc_md9", null ],
+      [ "News", "md_misc_release_note.html#autotoc_md10", null ]
+    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -73,7 +77,7 @@ var NAVTREEINDEX =
 [
 "alg_8cpp.html",
 "class_type.html#a431b223c78a46be647658ed38c0f9141",
-"struct_x_y___size.html#a8ecb2684f64c768af11665ed76dffcb6"
+"struct_x_y___size.html#a4797309f669c107e3eebbbb47f5e8c8c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
