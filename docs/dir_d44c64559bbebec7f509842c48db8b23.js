@@ -10,6 +10,7 @@ var dir_d44c64559bbebec7f509842c48db8b23 =
     [ "read.h", "read_8h.html", "read_8h" ],
     [ "simulate.h", "simulate_8h.html", "simulate_8h" ],
     [ "style.h", "style_8h.html", "style_8h" ],
+    [ "term.h", "term_8h.html", "term_8h" ],
     [ "utils.h", "utils_8h.html", "utils_8h" ],
     [ "yaml.h", "yaml_8h.html", "yaml_8h" ]
 ];

@@ -7,5 +7,6 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "main.cpp", "src_2main_8cpp.html", "src_2main_8cpp" ],
     [ "read.cpp", "read_8cpp.html", null ],
     [ "simulate.cpp", "simulate_8cpp.html", null ],
-    [ "style.cpp", "style_8cpp.html", null ]
+    [ "style.cpp", "style_8cpp.html", null ],
+    [ "term.cpp", "term_8cpp.html", null ]
 ];

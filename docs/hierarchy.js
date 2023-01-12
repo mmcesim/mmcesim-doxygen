@@ -18,6 +18,8 @@ var hierarchy =
     [ "Shared_Info", "struct_shared___info.html", null ],
     [ "Simulate", "class_simulate.html", null ],
     [ "Style", "class_style.html", null ],
+    [ "Term", "class_term.html", null ],
+    [ "TermOpt", "class_term_opt.html", null ],
     [ "Type", "class_type.html", null ],
     [ "Type_Track", "class_type___track.html", null ],
     [ "Value_Vec< T >", "class_value___vec.html", null ],

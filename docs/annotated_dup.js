@@ -13,6 +13,8 @@ var annotated_dup =
     [ "Shared_Info", "struct_shared___info.html", "struct_shared___info" ],
     [ "Simulate", "class_simulate.html", "class_simulate" ],
     [ "Style", "class_style.html", "class_style" ],
+    [ "Term", "class_term.html", "class_term" ],
+    [ "TermOpt", "class_term_opt.html", "class_term_opt" ],
     [ "Type", "class_type.html", "class_type" ],
     [ "Type_Track", "class_type___track.html", "class_type___track" ],
     [ "Value_Vec", "class_value___vec.html", "class_value___vec" ],

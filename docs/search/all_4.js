@@ -6,7 +6,8 @@ var searchData=
   ['default_3',['DEFAULT',['../alg_8cpp.html#a3da44afeba217135a680a7477b5e3ce3',1,'alg.cpp']]],
   ['dim_4',['Dim',['../class_type.html#a31d6ef1e61fffb2cc5492635ebdea1b0',1,'Type']]],
   ['dim_5',['dim',['../struct_alg_1_1_var.html#aee4506173f9aca009c9df1dfb76557cc',1,'Alg::Var::dim()'],['../class_type.html#abe15820e780d2f6646792d54f3ae3311',1,'Type::dim()']]],
-  ['double_6',['DOUBLE',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a953929e17447ad5a32078a646c0336fe',1,'Export']]],
-  ['doxygen_5fmainpage_2emd_7',['doxygen_mainpage.md',['../doxygen__mainpage_8md.html',1,'']]],
-  ['dtype_8',['DType',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9',1,'Export']]]
+  ['disable_6',['disable',['../class_term.html#aa1bd268b007aae3a2d5af229a59ff011',1,'Term']]],
+  ['double_7',['DOUBLE',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a953929e17447ad5a32078a646c0336fe',1,'Export']]],
+  ['doxygen_5fmainpage_2emd_8',['doxygen_mainpage.md',['../doxygen__mainpage_8md.html',1,'']]],
+  ['dtype_9',['DType',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9',1,'Export']]]
 ];
