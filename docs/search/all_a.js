@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['key_0',['key',['../struct_alg___line_1_1_param___type.html#ae3062847cfb6e751e94f7f92c7838e59',1,'Alg_Line::Param_Type']]],
-  ['keys_1',['Keys',['../class_alg.html#a433f69487fc0cea0e47ba648f9f5250d',1,'Alg']]],
-  ['keywords_2eh_2',['keywords.h',['../keywords_8h.html',1,'']]]
+  ['job_5fnum_0',['job_num',['../struct_macro.html#ac60ea11407a5a14d9b63377abcab139e',1,'Macro']]]
 ];

@@ -1,21 +1,15 @@
 var searchData=
 [
-  ['macro_0',['Macro',['../struct_macro.html',1,'']]],
-  ['macro_2ecpp_1',['macro.cpp',['../macro_8cpp.html',1,'']]],
-  ['macro_2eh_2',['macro.h',['../macro_8h.html',1,'']]],
-  ['macro_5fnone_3',['macro_none',['../macro_8h.html#a049537e46da67a3f9064cf1ff786a352',1,'macro.h']]],
-  ['main_4',['main',['../src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp'],['../gui_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp']]],
-  ['main_2ecpp_5',['main.cpp',['../gui_2main_8cpp.html',1,'(Global Namespace)'],['../src_2main_8cpp.html',1,'(Global Namespace)']]],
-  ['mainwindow_6',['MainWindow',['../class_main_window.html',1,'MainWindow'],['../class_main_window.html#a996c5a2b6f77944776856f08ec30858d',1,'MainWindow::MainWindow()']]],
-  ['mainwindow_2ecpp_7',['mainwindow.cpp',['../mainwindow_8cpp.html',1,'']]],
-  ['mainwindow_2eh_8',['mainwindow.h',['../mainwindow_8h.html',1,'']]],
-  ['map_9',['MAP',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9aed30db78291d9cc4220715a7ea3a0a72',1,'Export']]],
-  ['matlab_10',['MATLAB',['../class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a8f6823abd383a341f0d78ef38829bbbb',1,'Export']]],
-  ['matlab_5fkeywords_11',['MATLAB_Keywords',['../keywords_8h.html#af950fcd27522d6862cd0c39c65a8dbbb',1,'keywords.h']]],
-  ['max_5findex_12',['MAX_INDEX',['../class_channel___graph.html#a415044ac1016055d934669407a88cdbc',1,'Channel_Graph']]],
-  ['max_5flength_13',['max_length',['../class_alg.html#a68cd18cec20de7b33778ad9eb62937e5',1,'Alg']]],
-  ['meta_2eh_14',['meta.h',['../meta_8h.html',1,'']]],
-  ['mmce_15',['mmce',['../namespacemmce.html',1,'']]],
-  ['mmcesim_20dev_20documentation_16',['mmCEsim Dev Documentation',['../index.html',1,'']]],
-  ['msg_17',['msg',['../struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049',1,'Alg::Error::msg()'],['../struct_y_a_m_l___error.html#afc40dfc902b75bc079e19b88d27342e5',1,'YAML_Error::msg()']]]
+  ['label_5fspacer_0',['label_spacer',['../class_main_window.html#a0d42792293017d409ce2f2eeb560394a',1,'MainWindow']]],
+  ['lang_1',['lang',['../struct_c_l_i___options.html#a746df7c8cf5c20b5815457a895f7bdb9',1,'CLI_Options::lang()'],['../class_export.html#a7633a487abd9133277fd08d5508616f8',1,'Export::lang()']]],
+  ['lang_2',['Lang',['../class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344',1,'Export']]],
+  ['lang_5fcpp_3',['LANG_CPP',['../alg_8cpp.html#a9f485ecfa4e44c1d740061050827e1bb',1,'LANG_CPP():&#160;alg.cpp'],['../calc_8cpp.html#a9f485ecfa4e44c1d740061050827e1bb',1,'LANG_CPP():&#160;calc.cpp']]],
+  ['lang_5fm_4',['LANG_M',['../alg_8cpp.html#a55df33c9313e39b322f64ea20c2a5762',1,'LANG_M():&#160;alg.cpp'],['../calc_8cpp.html#a55df33c9313e39b322f64ea20c2a5762',1,'LANG_M():&#160;calc.cpp']]],
+  ['lang_5fpy_5',['LANG_PY',['../alg_8cpp.html#aaa7f1c95472daf6833fc2f3dabd20b3d',1,'LANG_PY():&#160;alg.cpp'],['../calc_8cpp.html#aaa7f1c95472daf6833fc2f3dabd20b3d',1,'LANG_PY():&#160;calc.cpp']]],
+  ['line_6',['line',['../struct_alg_1_1_error.html#aab6b1007047721c640dfa78105c40569',1,'Alg::Error::line()'],['../struct_y_a_m_l___error.html#a1a24f3738ff3ff5fd6850f1683f0c818',1,'YAML_Error::line()'],['../class_alg.html#af935e64a6eb4afa4ca1540f4da3dcc9c',1,'Alg::line(Alg_Lines::size_type index) const']]],
+  ['line_5fnos_7',['Line_Nos',['../class_alg.html#a889b0aa37c18b7ad1ba2f43a61686614',1,'Alg']]],
+  ['line_5fsearch_8',['line_search',['../class_main_window.html#a4fe96dbce9529d4d05175f2199af14cd',1,'MainWindow']]],
+  ['lines_9',['lines',['../class_alg.html#ae054235e362bd87b3132a9b12a5ee2ad',1,'Alg']]],
+  ['ltrim_10',['ltrim',['../utils_8h.html#a47084ee818936eef3c48be492c0e860f',1,'utils.h']]],
+  ['ltrim_5fcopy_11',['ltrim_copy',['../utils_8h.html#abe5b7cdc90fb04a4d79b4b6bd200ef3a',1,'utils.h']]]
 ];

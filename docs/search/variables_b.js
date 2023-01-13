@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['macro_5fnone_0',['macro_none',['../macro_8h.html#a049537e46da67a3f9064cf1ff786a352',1,'macro.h']]],
-  ['matlab_5fkeywords_1',['MATLAB_Keywords',['../keywords_8h.html#af950fcd27522d6862cd0c39c65a8dbbb',1,'keywords.h']]],
-  ['max_5findex_2',['MAX_INDEX',['../class_channel___graph.html#a415044ac1016055d934669407a88cdbc',1,'Channel_Graph']]],
-  ['max_5flength_3',['max_length',['../class_alg.html#a68cd18cec20de7b33778ad9eb62937e5',1,'Alg']]],
-  ['msg_4',['msg',['../struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049',1,'Alg::Error::msg()'],['../struct_y_a_m_l___error.html#afc40dfc902b75bc079e19b88d27342e5',1,'YAML_Error::msg()']]]
+  ['label_5fspacer_0',['label_spacer',['../class_main_window.html#a0d42792293017d409ce2f2eeb560394a',1,'MainWindow']]],
+  ['lang_1',['lang',['../struct_c_l_i___options.html#a746df7c8cf5c20b5815457a895f7bdb9',1,'CLI_Options::lang()'],['../class_export.html#a7633a487abd9133277fd08d5508616f8',1,'Export::lang()']]],
+  ['line_2',['line',['../struct_alg_1_1_error.html#aab6b1007047721c640dfa78105c40569',1,'Alg::Error::line()'],['../struct_y_a_m_l___error.html#a1a24f3738ff3ff5fd6850f1683f0c818',1,'YAML_Error::line()']]],
+  ['line_5fsearch_3',['line_search',['../class_main_window.html#a4fe96dbce9529d4d05175f2199af14cd',1,'MainWindow']]]
 ];
