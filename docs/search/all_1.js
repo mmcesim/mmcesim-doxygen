@@ -1,7 +1,7 @@
 var searchData=
 [
   ['addchannel_0',['addChannel',['../class_channel___graph.html#a1d5672c3f2f82748ae7ca25d38cdeffd',1,'Channel_Graph']]],
-  ['alg_1',['Alg',['../class_alg.html',1,'Alg'],['../class_alg.html#a6f0dea66afae3cb8ff438e3de3e3cd61',1,'Alg::Alg()=default'],['../class_alg.html#a616e49e02d295d3774d9e0f1d7c1c577',1,'Alg::Alg(const std::string &amp;str, const Macro &amp;macro=macro_none, int job_cnt=-1, int alg_cnt=-1, bool fail_fast=false, bool add_comment=true, bool add_semicolon=true)']]],
+  ['alg_1',['Alg',['../class_alg.html',1,'Alg'],['../class_alg.html#a6f0dea66afae3cb8ff438e3de3e3cd61',1,'Alg::Alg()=default'],['../class_alg.html#a3c7c829fb8b9699e7a45d595ee0bf148',1,'Alg::Alg(const std::string &amp;str, const Macro &amp;macro=macro_none, int job_cnt=-1, int alg_cnt=-1, bool fail_fast=false, bool add_comment=false, bool add_semicolon=true)']]],
   ['alg_2ecpp_2',['alg.cpp',['../alg_8cpp.html',1,'']]],
   ['alg_2eh_3',['alg.h',['../alg_8h.html',1,'']]],
   ['alg_5fcustom_4',['alg_custom',['../struct_macro.html#a74990196c7c7de749fbb6e1a4397657f',1,'Macro']]],

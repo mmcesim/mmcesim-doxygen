@@ -12,5 +12,6 @@ var struct_macro =
     [ "beamforming", "struct_macro.html#a32a22e436080275fb2f67df001173a26", null ],
     [ "custom", "struct_macro.html#ab80649e9b0e7025b5f35ac0232801f15", null ],
     [ "custom_in_alg", "struct_macro.html#af9b644aebf876a0d7d9d70fae95851d9", null ],
+    [ "custom_priority", "struct_macro.html#a350e01023426c2e6adb897989ab5d861", null ],
     [ "job_num", "struct_macro.html#ac60ea11407a5a14d9b63377abcab139e", null ]
 ];

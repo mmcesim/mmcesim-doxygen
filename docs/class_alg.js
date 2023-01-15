@@ -11,7 +11,7 @@ var class_alg =
     [ "Warning", "class_alg.html#a7a0470ed704e12c6dc2c9e00f9584607", null ],
     [ "Warnings", "class_alg.html#abfd2a4ae67b80ac7a81f9bdfcf8382a7", null ],
     [ "Alg", "class_alg.html#a6f0dea66afae3cb8ff438e3de3e3cd61", null ],
-    [ "Alg", "class_alg.html#a616e49e02d295d3774d9e0f1d7c1c577", null ],
+    [ "Alg", "class_alg.html#a3c7c829fb8b9699e7a45d595ee0bf148", null ],
     [ "_applyKey", "class_alg.html#afd5f2e9020a3706a1e2f54999745bf28", null ],
     [ "_indent", "class_alg.html#a8b4ddcb44c2678d7279c582fb14b7be8", null ],
     [ "_wComment", "class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d", null ],
