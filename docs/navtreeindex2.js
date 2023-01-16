@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049":[4,0,0,0,1],
+"struct_alg_1_1_error.html#aab6b1007047721c640dfa78105c40569":[4,0,0,0,0],
 "struct_alg_1_1_error.html#ae0bfa4be592a7492b29855d1f219c3ad":[4,0,0,0,2],
 "struct_alg_1_1_var.html":[4,0,0,1],
 "struct_alg_1_1_var.html#aee4506173f9aca009c9df1dfb76557cc":[4,0,0,1,0],

@@ -15,9 +15,10 @@ var searchData=
   ['matlab_5fkeywords_12',['MATLAB_Keywords',['../keywords_8h.html#af950fcd27522d6862cd0c39c65a8dbbb',1,'keywords.h']]],
   ['max_5findex_13',['MAX_INDEX',['../class_channel___graph.html#a415044ac1016055d934669407a88cdbc',1,'Channel_Graph']]],
   ['max_5flength_14',['max_length',['../class_alg.html#a68cd18cec20de7b33778ad9eb62937e5',1,'Alg']]],
-  ['meta_2eh_15',['meta.h',['../meta_8h.html',1,'']]],
-  ['mmce_16',['mmce',['../namespacemmce.html',1,'']]],
-  ['mmcesim_20dev_20documentation_17',['mmCEsim Dev Documentation',['../index.html',1,'']]],
-  ['msg_18',['msg',['../struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049',1,'Alg::Error::msg()'],['../struct_y_a_m_l___error.html#afc40dfc902b75bc079e19b88d27342e5',1,'YAML_Error::msg()']]],
-  ['msg_19',['MSG',['../class_term.html#accd514568fef2222b5b11b685b27f63a',1,'Term']]]
+  ['message_15',['message',['../class_term.html#a6e4574f1fe3f39c4a0be99511a434c89',1,'Term']]],
+  ['meta_2eh_16',['meta.h',['../meta_8h.html',1,'']]],
+  ['mmce_17',['mmce',['../namespacemmce.html',1,'']]],
+  ['mmcesim_20dev_20documentation_18',['mmCEsim Dev Documentation',['../index.html',1,'']]],
+  ['msg_19',['MSG',['../class_term.html#accd514568fef2222b5b11b685b27f63a',1,'Term']]],
+  ['msg_20',['msg',['../struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049',1,'Alg::Error::msg()'],['../struct_y_a_m_l___error.html#afc40dfc902b75bc079e19b88d27342e5',1,'YAML_Error::msg()']]]
 ];

@@ -119,6 +119,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9cc7b2c7f2bf8931d7b46a118b445dd4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_term.html#a9cc7b2c7f2bf8931d7b46a118b445dd4">enable</a> ()</td></tr>
 <tr class="memdesc:a9cc7b2c7f2bf8931d7b46a118b445dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable terminal color and style.  <a href="class_term.html#a9cc7b2c7f2bf8931d7b46a118b445dd4">More...</a><br /></td></tr>
 <tr class="separator:a9cc7b2c7f2bf8931d7b46a118b445dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd955a8def100354b03e33911c3b21f8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:abd955a8def100354b03e33911c3b21f8"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_term.html#abd955a8def100354b03e33911c3b21f8">error</a> (const T &amp;msg)</td></tr>
+<tr class="memdesc:abd955a8def100354b03e33911c3b21f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print error message.  <a href="class_term.html#abd955a8def100354b03e33911c3b21f8">More...</a><br /></td></tr>
+<tr class="separator:abd955a8def100354b03e33911c3b21f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4574f1fe3f39c4a0be99511a434c89"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6e4574f1fe3f39c4a0be99511a434c89"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_term.html#a6e4574f1fe3f39c4a0be99511a434c89">message</a> (const T &amp;msg)</td></tr>
+<tr class="memdesc:a6e4574f1fe3f39c4a0be99511a434c89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a message.  <a href="class_term.html#a6e4574f1fe3f39c4a0be99511a434c89">More...</a><br /></td></tr>
+<tr class="separator:a6e4574f1fe3f39c4a0be99511a434c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -244,6 +252,90 @@ Static Public Attributes</h2></td></tr>
 
 <p>Enable terminal color and style. </p>
 <p >The color and style is on by default. </p>
+
+</div>
+</div>
+<a id="abd955a8def100354b03e33911c3b21f8" name="abd955a8def100354b03e33911c3b21f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd955a8def100354b03e33911c3b21f8">&#9670;&nbsp;</a></span>error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Term::error </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Print error message. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The message type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">msg</td><td>The error message. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6e4574f1fe3f39c4a0be99511a434c89" name="a6e4574f1fe3f39c4a0be99511a434c89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e4574f1fe3f39c4a0be99511a434c89">&#9670;&nbsp;</a></span>message()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Term::message </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Print a message. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The message type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">msg</td><td>The message. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -998,7 +1090,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_term.html">Term</a></li>
-    <li class="footer">Generated on Sun Jan 15 2023 16:58:15 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jan 16 2023 20:07:01 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

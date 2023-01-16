@@ -168,9 +168,25 @@ $(document).ready(function(){initNavTree('term_8h_source.html',''); initResizabl
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_term.html#aa1bd268b007aae3a2d5af229a59ff011">disable</a>();</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_term.html#a9cc7b2c7f2bf8931d7b46a118b445dd4">enable</a>();</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>};</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_term.html#abd955a8def100354b03e33911c3b21f8">error</a>(<span class="keyword">const</span> T&amp; msg);</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_term.html#a6e4574f1fe3f39c4a0be99511a434c89">message</a>(<span class="keyword">const</span> T&amp; msg);</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>};</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="class_term.html#abd955a8def100354b03e33911c3b21f8">  154</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_term.html#abd955a8def100354b03e33911c3b21f8">Term::error</a>(<span class="keyword">const</span> T&amp; msg) {</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    std::cerr &lt;&lt; <a class="code hl_variable" href="class_term.html#ad02d48d0ba0db05da6e4be808295edaa">Term::ERR</a> &lt;&lt; <span class="stringliteral">&quot;[ERROR] &quot;</span> &lt;&lt; msg &lt;&lt; <a class="code hl_variable" href="class_term.html#ab83834f5c35dc0cfb2460c0f5ab0526c">Term::RESET</a> &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>}</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="class_term.html#a6e4574f1fe3f39c4a0be99511a434c89">  159</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_term.html#a6e4574f1fe3f39c4a0be99511a434c89">Term::message</a>(<span class="keyword">const</span> T&amp; msg) {</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    std::cerr &lt;&lt; <a class="code hl_variable" href="class_term.html#accd514568fef2222b5b11b685b27f63a">Term::MSG</a> &lt;&lt; <span class="stringliteral">&quot;[MESSAGE] &quot;</span> &lt;&lt; msg &lt;&lt; <a class="code hl_variable" href="class_term.html#ab83834f5c35dc0cfb2460c0f5ab0526c">Term::RESET</a> &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>}</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclass_term_html"><div class="ttname"><a href="class_term.html">Term</a></div><div class="ttdoc">Control terminal colors and styles.</div><div class="ttdef"><b>Definition:</b> term.h:82</div></div>
 <div class="ttc" id="aclass_term_html_a1288c7354a267e186d01129da650efee"><div class="ttname"><a href="class_term.html#a1288c7354a267e186d01129da650efee">Term::BF</a></div><div class="ttdeci">static TermOpt BF</div><div class="ttdef"><b>Definition:</b> term.h:104</div></div>
 <div class="ttc" id="aclass_term_html_a14efc004460a08763c3de897f043405f"><div class="ttname"><a href="class_term.html#a14efc004460a08763c3de897f043405f">Term::OFF_DIM</a></div><div class="ttdeci">static TermOpt OFF_DIM</div><div class="ttdef"><b>Definition:</b> term.h:111</div></div>
@@ -185,6 +201,7 @@ $(document).ready(function(){initNavTree('term_8h_source.html',''); initResizabl
 <div class="ttc" id="aclass_term_html_a64458015695a5f413bf690eb1534faa4"><div class="ttname"><a href="class_term.html#a64458015695a5f413bf690eb1534faa4">Term::BG_YELLOW</a></div><div class="ttdeci">static TermOpt BG_YELLOW</div><div class="ttdef"><b>Definition:</b> term.h:97</div></div>
 <div class="ttc" id="aclass_term_html_a651e29735628521fa5d6f92d1a4ef424"><div class="ttname"><a href="class_term.html#a651e29735628521fa5d6f92d1a4ef424">Term::CYAN</a></div><div class="ttdeci">static TermOpt CYAN</div><div class="ttdef"><b>Definition:</b> term.h:91</div></div>
 <div class="ttc" id="aclass_term_html_a6e1ff8d595f2569bf2d9a7210fad9f3b"><div class="ttname"><a href="class_term.html#a6e1ff8d595f2569bf2d9a7210fad9f3b">Term::BG_CYAN</a></div><div class="ttdeci">static TermOpt BG_CYAN</div><div class="ttdef"><b>Definition:</b> term.h:100</div></div>
+<div class="ttc" id="aclass_term_html_a6e4574f1fe3f39c4a0be99511a434c89"><div class="ttname"><a href="class_term.html#a6e4574f1fe3f39c4a0be99511a434c89">Term::message</a></div><div class="ttdeci">static void message(const T &amp;msg)</div><div class="ttdoc">Print a message.</div><div class="ttdef"><b>Definition:</b> term.h:159</div></div>
 <div class="ttc" id="aclass_term_html_a717be35c2c0bc41558bccd53371f8eaf"><div class="ttname"><a href="class_term.html#a717be35c2c0bc41558bccd53371f8eaf">Term::INV</a></div><div class="ttdeci">static TermOpt INV</div><div class="ttdef"><b>Definition:</b> term.h:109</div></div>
 <div class="ttc" id="aclass_term_html_a7fcb00840c392cb42a70c469c2ef8bc3"><div class="ttname"><a href="class_term.html#a7fcb00840c392cb42a70c469c2ef8bc3">Term::GREEN</a></div><div class="ttdeci">static TermOpt GREEN</div><div class="ttdef"><b>Definition:</b> term.h:87</div></div>
 <div class="ttc" id="aclass_term_html_a8e4a36d0ee14f856aa18ad0df141b0f4"><div class="ttname"><a href="class_term.html#a8e4a36d0ee14f856aa18ad0df141b0f4">Term::MAGENTA</a></div><div class="ttdeci">static TermOpt MAGENTA</div><div class="ttdef"><b>Definition:</b> term.h:90</div></div>
@@ -196,6 +213,7 @@ $(document).ready(function(){initNavTree('term_8h_source.html',''); initResizabl
 <div class="ttc" id="aclass_term_html_ab45dcaf7870b546dcc84f11402417ab5"><div class="ttname"><a href="class_term.html#ab45dcaf7870b546dcc84f11402417ab5">Term::BG_BLACK</a></div><div class="ttdeci">static TermOpt BG_BLACK</div><div class="ttdef"><b>Definition:</b> term.h:94</div></div>
 <div class="ttc" id="aclass_term_html_ab75ba7f40837bf78bd1abef1e363cba6"><div class="ttname"><a href="class_term.html#ab75ba7f40837bf78bd1abef1e363cba6">Term::BLINK</a></div><div class="ttdeci">static TermOpt BLINK</div><div class="ttdef"><b>Definition:</b> term.h:108</div></div>
 <div class="ttc" id="aclass_term_html_ab83834f5c35dc0cfb2460c0f5ab0526c"><div class="ttname"><a href="class_term.html#ab83834f5c35dc0cfb2460c0f5ab0526c">Term::RESET</a></div><div class="ttdeci">static TermOpt RESET</div><div class="ttdef"><b>Definition:</b> term.h:103</div></div>
+<div class="ttc" id="aclass_term_html_abd955a8def100354b03e33911c3b21f8"><div class="ttname"><a href="class_term.html#abd955a8def100354b03e33911c3b21f8">Term::error</a></div><div class="ttdeci">static void error(const T &amp;msg)</div><div class="ttdoc">Print error message.</div><div class="ttdef"><b>Definition:</b> term.h:154</div></div>
 <div class="ttc" id="aclass_term_html_acad6ad183ea7ce0b2fd844a72cbfbe68"><div class="ttname"><a href="class_term.html#acad6ad183ea7ce0b2fd844a72cbfbe68">Term::OFF_IT</a></div><div class="ttdeci">static TermOpt OFF_IT</div><div class="ttdef"><b>Definition:</b> term.h:112</div></div>
 <div class="ttc" id="aclass_term_html_accd514568fef2222b5b11b685b27f63a"><div class="ttname"><a href="class_term.html#accd514568fef2222b5b11b685b27f63a">Term::MSG</a></div><div class="ttdeci">static TermOpt MSG</div><div class="ttdef"><b>Definition:</b> term.h:119</div></div>
 <div class="ttc" id="aclass_term_html_ad02d48d0ba0db05da6e4be808295edaa"><div class="ttname"><a href="class_term.html#ad02d48d0ba0db05da6e4be808295edaa">Term::ERR</a></div><div class="ttdeci">static TermOpt ERR</div><div class="ttdef"><b>Definition:</b> term.h:118</div></div>
@@ -221,7 +239,7 @@ $(document).ready(function(){initNavTree('term_8h_source.html',''); initResizabl
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="term_8h.html">term.h</a></li>
-    <li class="footer">Generated on Sun Jan 15 2023 16:58:15 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jan 16 2023 20:07:01 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
