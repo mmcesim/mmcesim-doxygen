@@ -1,5 +1,9 @@
 var annotated_dup =
 [
+    [ "MyLibrary", "namespace_my_library.html", [
+      [ "Example", "class_my_library_1_1_example.html", "class_my_library_1_1_example" ],
+      [ "SubclassExample", "class_my_library_1_1_subclass_example.html", "class_my_library_1_1_subclass_example" ]
+    ] ],
     [ "Alg", "class_alg.html", "class_alg" ],
     [ "Alg_Line", "class_alg___line.html", "class_alg___line" ],
     [ "Calc", "class_calc.html", "class_calc" ],

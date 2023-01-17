@@ -15,6 +15,8 @@ var searchData=
   ['black_12',['BLACK',['../class_term.html#afd5267c1191d7a831aca3108b903af40',1,'Term']]],
   ['blink_13',['BLINK',['../class_term.html#ab75ba7f40837bf78bd1abef1e363cba6',1,'Term']]],
   ['blue_14',['BLUE',['../class_term.html#a3a22da44089eb80550b47d456dc89e91',1,'Term']]],
-  ['bool_15',['BOOL',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a8db344f807c1841afee6b4ca60a82a93',1,'Export::BOOL()'],['../class_type.html#a573918fe25965adb633746c4efd7192daa97b2c144243b2b9d2c593ec268b62f5',1,'Type::BOOL()']]],
-  ['button_5fsearch_16',['button_search',['../class_main_window.html#a62c91a46a9945c3e979ecad324c443df',1,'MainWindow']]]
+  ['blue_15',['blue',['../namespace_my_library.html#a79a9f4bbb675f6c082b09249c5a95ceda3d4a113e58853e5d81725d92fbfceb4d',1,'MyLibrary']]],
+  ['bool_16',['BOOL',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a8db344f807c1841afee6b4ca60a82a93',1,'Export::BOOL()'],['../class_type.html#a573918fe25965adb633746c4efd7192daa97b2c144243b2b9d2c593ec268b62f5',1,'Type::BOOL()']]],
+  ['bug_20list_17',['Bug List',['../bug.html',1,'']]],
+  ['button_5fsearch_18',['button_search',['../class_main_window.html#a62c91a46a9945c3e979ecad324c443df',1,'MainWindow']]]
 ];

@@ -35,15 +35,47 @@ var NAVTREE =
         [ "Cite Our Works", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md6", null ]
       ] ]
     ] ],
-    [ "New Features", "md_misc_release_note.html", [
-      [ "Bug Fixes", "md_misc_release_note.html#autotoc_md9", null ],
-      [ "News", "md_misc_release_note.html#autotoc_md10", null ]
+    [ "Customization", "md_misc_doxygen_awesome_css_docs_customization.html", [
+      [ "CSS-Variables", "md_misc_doxygen_awesome_css_docs_customization.html#autotoc_md8", [
+        [ "Setup", "md_misc_doxygen_awesome_css_docs_customization.html#autotoc_md9", null ],
+        [ "Available variables", "md_misc_doxygen_awesome_css_docs_customization.html#autotoc_md10", null ]
+      ] ],
+      [ "Doxygen generator", "md_misc_doxygen_awesome_css_docs_customization.html#autotoc_md11", null ],
+      [ "Share your customizations", "md_misc_doxygen_awesome_css_docs_customization.html#autotoc_md12", null ]
     ] ],
+    [ "Extensions", "md_misc_doxygen_awesome_css_docs_extensions.html", [
+      [ "Dark Mode Toggle", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md14", [
+        [ "Installation", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md15", null ],
+        [ "Customizing", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md16", null ]
+      ] ],
+      [ "Fragment Copy Button", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md17", [
+        [ "Installation", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md18", null ],
+        [ "Customizing", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md19", null ]
+      ] ],
+      [ "Paragraph Linking", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md20", [
+        [ "Installation", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md21", null ],
+        [ "Customizing", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md22", null ]
+      ] ],
+      [ "Interactive TOC", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md23", [
+        [ "Installation", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md24", null ],
+        [ "Customizing", "md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md25", null ]
+      ] ]
+    ] ],
+    [ "Tips & Tricks", "md_misc_doxygen_awesome_css_docs_tricks.html", [
+      [ "Diagrams with Graphviz", "md_misc_doxygen_awesome_css_docs_tricks.html#autotoc_md27", null ],
+      [ "Disable Dark Mode", "md_misc_doxygen_awesome_css_docs_tricks.html#autotoc_md28", null ],
+      [ "Choosing Sidebar Width", "md_misc_doxygen_awesome_css_docs_tricks.html#autotoc_md29", null ]
+    ] ],
+    [ "Bug List", "bug.html", null ],
+    [ "Deprecated List", "deprecated.html", null ],
+    [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -76,8 +108,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "alg_8cpp.html",
-"class_term.html#a3429ac1e2e7a6507c55d0f0c80f16eb8",
-"struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049"
+"class_read_config.html#ac43b7ebd5c8cf78497c7207509d33b62",
+"md_misc_doxygen_awesome_css_docs_extensions.html#autotoc_md20"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
