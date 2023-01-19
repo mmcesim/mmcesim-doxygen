@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['octave_0',['OCTAVE',['../class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a9644a39746251a183611aec6fc2c296e',1,'Export']]],
-  ['other_1',['OTHER',['../class_type.html#a573918fe25965adb633746c4efd7192da03570470bad94692ce93e32700d2e1cb',1,'Type']]],
-  ['output_5ffile_5fexists_2',['OUTPUT_FILE_EXISTS',['../error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa9febf681cfc3c79a00729de1337dabd2',1,'error_code.h']]]
+  ['py_0',['PY',['../class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a0c145a13e49b47abccd510e5c899d80c',1,'Export']]]
 ];

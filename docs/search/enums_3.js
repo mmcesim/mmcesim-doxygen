@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lang_0',['Lang',['../class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344',1,'Export']]]
+  ['noderole_0',['NodeRole',['../class_export.html#aaffe355758b60cadd8405dd8793c6444',1,'Export']]]
 ];

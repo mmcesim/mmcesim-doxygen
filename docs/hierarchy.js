@@ -7,9 +7,6 @@ var hierarchy =
     [ "CLI_Options", "struct_c_l_i___options.html", null ],
     [ "Config", "class_config.html", null ],
     [ "Alg::Error", "struct_alg_1_1_error.html", null ],
-    [ "MyLibrary::Example", "class_my_library_1_1_example.html", [
-      [ "MyLibrary::SubclassExample< TemplatedClass >", "class_my_library_1_1_subclass_example.html", null ]
-    ] ],
     [ "Export", "class_export.html", null ],
     [ "Macro", "struct_macro.html", null ],
     [ "Alg_Line::Param_Type", "struct_alg___line_1_1_param___type.html", null ],

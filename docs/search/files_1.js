@@ -7,6 +7,5 @@ var searchData=
   ['cli_5foptions_2eh_4',['cli_options.h',['../cli__options_8h.html',1,'']]],
   ['config_2ecpp_5',['config.cpp',['../config_8cpp.html',1,'']]],
   ['config_2eh_6',['config.h',['../config_8h.html',1,'']]],
-  ['contributing_2emd_7',['CONTRIBUTING.md',['../_c_o_n_t_r_i_b_u_t_i_n_g_8md.html',1,'']]],
-  ['customization_2emd_8',['customization.md',['../customization_8md.html',1,'']]]
+  ['contributing_2emd_7',['CONTRIBUTING.md',['../_c_o_n_t_r_i_b_u_t_i_n_g_8md.html',1,'']]]
 ];

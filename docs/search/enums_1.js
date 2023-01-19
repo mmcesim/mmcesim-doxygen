@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['data_0',['Data',['../class_type.html#a573918fe25965adb633746c4efd7192d',1,'Type']]],
-  ['dtype_1',['DType',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9',1,'Export']]]
+  ['err_0',['Err',['../error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0a',1,'error_code.h']]]
 ];
