@@ -35,6 +35,7 @@ var NAVTREE =
         [ "Cite Our Works", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md6", null ]
       ] ]
     ] ],
+    [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -73,7 +74,7 @@ var NAVTREEINDEX =
 [
 "alg_8cpp.html",
 "class_term.html#a3429ac1e2e7a6507c55d0f0c80f16eb8",
-"struct_alg_1_1_error.html"
+"src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
