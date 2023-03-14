@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['shared_5finfo_0',['Shared_Info',['../struct_shared___info.html',1,'']]],
-  ['simulate_1',['Simulate',['../class_simulate.html',1,'']]],
-  ['style_2',['Style',['../class_style.html',1,'']]]
+  ['readconfig_0',['ReadConfig',['../class_read_config.html',1,'']]],
+  ['return_5ftype_1',['Return_Type',['../struct_alg___line_1_1_return___type.html',1,'Alg_Line']]]
 ];

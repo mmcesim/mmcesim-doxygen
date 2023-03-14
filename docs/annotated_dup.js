@@ -7,6 +7,7 @@ var annotated_dup =
     [ "CLI_Options", "struct_c_l_i___options.html", "struct_c_l_i___options" ],
     [ "Config", "class_config.html", "class_config" ],
     [ "Export", "class_export.html", "class_export" ],
+    [ "Log", "class_log.html", "class_log" ],
     [ "Macro", "struct_macro.html", "struct_macro" ],
     [ "MainWindow", "class_main_window.html", "class_main_window" ],
     [ "ReadConfig", "class_read_config.html", "class_read_config" ],

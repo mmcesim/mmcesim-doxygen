@@ -21,6 +21,6 @@ var searchData=
   ['meta_2eh_18',['meta.h',['../meta_8h.html',1,'']]],
   ['mmce_19',['mmce',['../namespacemmce.html',1,'']]],
   ['mmcesim_20dev_20documentation_20',['mmCEsim Dev Documentation',['../index.html',1,'']]],
-  ['msg_21',['MSG',['../class_term.html#accd514568fef2222b5b11b685b27f63a',1,'Term']]],
-  ['msg_22',['msg',['../struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049',1,'Alg::Error::msg()'],['../struct_y_a_m_l___error.html#afc40dfc902b75bc079e19b88d27342e5',1,'YAML_Error::msg()']]]
+  ['msg_21',['msg',['../struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049',1,'Alg::Error::msg()'],['../struct_y_a_m_l___error.html#afc40dfc902b75bc079e19b88d27342e5',1,'YAML_Error::msg()'],['../class_log.html#ab2886344deeeb04e7414fc435a3598f4',1,'Log::msg()']]],
+  ['msg_22',['MSG',['../class_term.html#accd514568fef2222b5b11b685b27f63a',1,'Term']]]
 ];

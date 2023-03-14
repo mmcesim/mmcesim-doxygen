@@ -6,6 +6,8 @@ var dir_d44c64559bbebec7f509842c48db8b23 =
     [ "error_code.h", "error__code_8h.html", "error__code_8h" ],
     [ "export.h", "export_8h.html", "export_8h" ],
     [ "format_yaml.h", "format__yaml_8h.html", null ],
+    [ "log.h", "log_8h.html", "log_8h" ],
+    [ "log_global.h", "log__global_8h.html", "log__global_8h" ],
     [ "meta.h", "meta_8h.html", "meta_8h" ],
     [ "read.h", "read_8h.html", "read_8h" ],
     [ "simulate.h", "simulate_8h.html", "simulate_8h" ],

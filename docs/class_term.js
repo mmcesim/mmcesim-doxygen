@@ -4,6 +4,7 @@ var class_term =
     [ "enable", "class_term.html#a9cc7b2c7f2bf8931d7b46a118b445dd4", null ],
     [ "error", "class_term.html#abd955a8def100354b03e33911c3b21f8", null ],
     [ "message", "class_term.html#a6e4574f1fe3f39c4a0be99511a434c89", null ],
+    [ "warning", "class_term.html#aab5d22a2c1060bfba638a5574d4c5639", null ],
     [ "BF", "class_term.html#a1288c7354a267e186d01129da650efee", null ],
     [ "BG_BLACK", "class_term.html#ab45dcaf7870b546dcc84f11402417ab5", null ],
     [ "BG_BLUE", "class_term.html#a94e53e512c3e0f56224c8edd21793ba8", null ],
@@ -35,6 +36,7 @@ var class_term =
     [ "RED", "class_term.html#a44b2f5adaaedc292e80acc1326c95c73", null ],
     [ "RESET", "class_term.html#ab83834f5c35dc0cfb2460c0f5ab0526c", null ],
     [ "UL", "class_term.html#ad81365a57c7e0a2e775b0e98a7d4e365", null ],
+    [ "WAR", "class_term.html#a96bcc0593b315cd7b253de1134211ff6", null ],
     [ "WHITE", "class_term.html#adb2640be49183ec881ec8fe62645d931", null ],
     [ "YELLOW", "class_term.html#a92799595adf5a9aa426d049fd401818b", null ]
 ];
