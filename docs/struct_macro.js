@@ -1,6 +1,13 @@
 var struct_macro =
 [
+    [ "Type", "struct_macro.html#a642a1ef22744f5f22cfe440894531a54", [
+      [ "PRE", "struct_macro.html#a642a1ef22744f5f22cfe440894531a54ad5b582ed9ed4002bf2bcb386a68519cf", null ],
+      [ "USER", "struct_macro.html#a642a1ef22744f5f22cfe440894531a54a2e40ad879e955201df4dedbf8d479a12", null ],
+      [ "USER_PRIORITY", "struct_macro.html#a642a1ef22744f5f22cfe440894531a54a7bbeceb5b57b370ffbe499e3900b2078", null ]
+    ] ],
+    [ "replace", "struct_macro.html#a94360db4bd4a0a2516339dadc6c37bbd", null ],
     [ "replaceMacro", "struct_macro.html#ac0ddd588c300108ca443b10316d99877", null ],
+    [ "typeName", "struct_macro.html#a0a64263ca28e6e30160145a33ed5d77f", null ],
     [ "_B", "struct_macro.html#ad495f13e92b250a3305036cb562b213e", null ],
     [ "_cascaded_channel", "struct_macro.html#a0252622a5b2e056b244a1a055da4ad2a", null ],
     [ "_G", "struct_macro.html#ac62915ccb2226d48e988186c4ac1c90c", null ],

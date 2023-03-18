@@ -20,11 +20,13 @@ var class_alg___line =
     [ "params", "class_alg___line.html#a4e79eb77a1cddbdab1dbdde8a499342d", null ],
     [ "params", "class_alg___line.html#af804e9a6cb97c753ca6cd08b635a384a", null ],
     [ "params", "class_alg___line.html#a082382c41d9dffef34042d2117cfb78b", null ],
-    [ "print", "class_alg___line.html#a67341f0e426a989d82caf5c9a2015abf", null ],
+    [ "print", "class_alg___line.html#a801b08c6c164376039a4ba4e980d039e", null ],
+    [ "rawStr", "class_alg___line.html#ad7ae2a3a5630a18e5f43ec0e6eebdc7b", null ],
     [ "returns", "class_alg___line.html#a8e21f6b69eaf80a2327f7308fb4299e0", null ],
     [ "returns", "class_alg___line.html#a03215ccf19977fbabeec70ba282b5391", null ],
     [ "setKey", "class_alg___line.html#a6cf4ee64fb62bf5b0a12951198471036", null ],
     [ "_func", "class_alg___line.html#ab172201dc9e088d94649713be9760c3f", null ],
     [ "_params", "class_alg___line.html#a8212385ae41606761365cc6771883ee0", null ],
+    [ "_raw_str", "class_alg___line.html#af4f735621d8d7feb6d417f0b7a0e635e", null ],
     [ "_returns", "class_alg___line.html#a3c148c490d4502b8c25acc05c7e64759", null ]
 ];

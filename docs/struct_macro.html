@@ -101,6 +101,8 @@ $(document).ready(function(){initNavTree('struct_macro.html',''); initResizable(
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="struct_macro-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Macro Struct Reference</div></div>
 </div><!--header-->
@@ -112,6 +114,9 @@ $(document).ready(function(){initNavTree('struct_macro.html',''); initResizable(
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0ddd588c300108ca443b10316d99877"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_macro.html#ac0ddd588c300108ca443b10316d99877">replaceMacro</a> (const std::string &amp;s, int job_cnt, int alg_cnt) const</td></tr>
 <tr class="separator:ac0ddd588c300108ca443b10316d99877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94360db4bd4a0a2516339dadc6c37bbd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_macro.html#a94360db4bd4a0a2516339dadc6c37bbd">replace</a> (const std::string &amp;s, const std::string &amp;key, const std::string &amp;val, <a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54">Type</a> type=<a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54ad5b582ed9ed4002bf2bcb386a68519cf">Type::PRE</a>) const</td></tr>
+<tr class="memdesc:a94360db4bd4a0a2516339dadc6c37bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">RegEx replace.  <a href="struct_macro.html#a94360db4bd4a0a2516339dadc6c37bbd">More...</a><br /></td></tr>
+<tr class="separator:a94360db4bd4a0a2516339dadc6c37bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -141,8 +146,109 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ad495f13e92b250a3305036cb562b213e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac62915ccb2226d48e988186c4ac1c90c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_x_y___size.html">XY_Size</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_macro.html#ac62915ccb2226d48e988186c4ac1c90c">_G</a></td></tr>
 <tr class="separator:ac62915ccb2226d48e988186c4ac1c90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a642a1ef22744f5f22cfe440894531a54"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54">Type</a> { <a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54ad5b582ed9ed4002bf2bcb386a68519cf">PRE</a>
+, <a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54a2e40ad879e955201df4dedbf8d479a12">USER</a>
+, <a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54a7bbeceb5b57b370ffbe499e3900b2078">USER_PRIORITY</a>
+ }</td></tr>
+<tr class="separator:a642a1ef22744f5f22cfe440894531a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a0a64263ca28e6e30160145a33ed5d77f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_macro.html#a0a64263ca28e6e30160145a33ed5d77f">typeName</a> (<a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54">Type</a> type) const noexcept</td></tr>
+<tr class="memdesc:a0a64263ca28e6e30160145a33ed5d77f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of <a class="el" href="class_type.html">Type</a>.  <a href="struct_macro.html#a0a64263ca28e6e30160145a33ed5d77f">More...</a><br /></td></tr>
+<tr class="separator:a0a64263ca28e6e30160145a33ed5d77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a642a1ef22744f5f22cfe440894531a54" name="a642a1ef22744f5f22cfe440894531a54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a642a1ef22744f5f22cfe440894531a54">&#9670;&nbsp;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54">Macro::Type</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a642a1ef22744f5f22cfe440894531a54ad5b582ed9ed4002bf2bcb386a68519cf" name="a642a1ef22744f5f22cfe440894531a54ad5b582ed9ed4002bf2bcb386a68519cf"></a>PRE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a642a1ef22744f5f22cfe440894531a54a2e40ad879e955201df4dedbf8d479a12" name="a642a1ef22744f5f22cfe440894531a54a2e40ad879e955201df4dedbf8d479a12"></a>USER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a642a1ef22744f5f22cfe440894531a54a7bbeceb5b57b370ffbe499e3900b2078" name="a642a1ef22744f5f22cfe440894531a54a7bbeceb5b57b370ffbe499e3900b2078"></a>USER_PRIORITY&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a94360db4bd4a0a2516339dadc6c37bbd" name="a94360db4bd4a0a2516339dadc6c37bbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94360db4bd4a0a2516339dadc6c37bbd">&#9670;&nbsp;</a></span>replace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Macro::replace </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54">Type</a>&#160;</td>
+          <td class="paramname"><em>type</em> = <code><a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54ad5b582ed9ed4002bf2bcb386a68519cf">Type::PRE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>RegEx replace. </p>
+<p >During replacing, log information will be written. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The original string. </td></tr>
+    <tr><td class="paramname">key</td><td>The key to be replaced. </td></tr>
+    <tr><td class="paramname">val</td><td>The value to replace the key. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(std::string) The replaced string. </dd></dl>
+
+</div>
+</div>
 <a id="ac0ddd588c300108ca443b10316d99877" name="ac0ddd588c300108ca443b10316d99877"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0ddd588c300108ca443b10316d99877">&#9670;&nbsp;</a></span>replaceMacro()</h2>
 
@@ -174,6 +280,41 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a64263ca28e6e30160145a33ed5d77f" name="a0a64263ca28e6e30160145a33ed5d77f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a64263ca28e6e30160145a33ed5d77f">&#9670;&nbsp;</a></span>typeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Macro::typeName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_macro.html#a642a1ef22744f5f22cfe440894531a54">Type</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the name of <a class="el" href="class_type.html">Type</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The macro type (predefined, user defined or user defined with priority). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(std::string) The name of <a class="el" href="class_type.html">Type</a>. </dd></dl>
 
 </div>
 </div>
@@ -370,7 +511,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_macro.html">Macro</a></li>
-    <li class="footer">Generated on Tue Mar 14 2023 11:21:03 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Sat Mar 18 2023 12:42:01 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
