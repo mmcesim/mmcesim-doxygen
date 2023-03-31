@@ -1,5 +1,6 @@
 var class_term =
 [
+    [ "detectEnv", "class_term.html#a9cddc77e6bb55a5231b31cf79d59e39a", null ],
     [ "disable", "class_term.html#aa1bd268b007aae3a2d5af229a59ff011", null ],
     [ "enable", "class_term.html#a9cc7b2c7f2bf8931d7b46a118b445dd4", null ],
     [ "error", "class_term.html#abd955a8def100354b03e33911c3b21f8", null ],

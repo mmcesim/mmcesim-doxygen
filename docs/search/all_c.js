@@ -1,8 +1,8 @@
 var searchData=
 [
   ['label_5fspacer_0',['label_spacer',['../class_main_window.html#a0d42792293017d409ce2f2eeb560394a',1,'MainWindow']]],
-  ['lang_1',['Lang',['../class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344',1,'Export']]],
-  ['lang_2',['lang',['../struct_c_l_i___options.html#a746df7c8cf5c20b5815457a895f7bdb9',1,'CLI_Options::lang()'],['../class_export.html#a7633a487abd9133277fd08d5508616f8',1,'Export::lang()']]],
+  ['lang_1',['lang',['../struct_c_l_i___options.html#a746df7c8cf5c20b5815457a895f7bdb9',1,'CLI_Options::lang()'],['../class_export.html#a7633a487abd9133277fd08d5508616f8',1,'Export::lang()']]],
+  ['lang_2',['Lang',['../class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344',1,'Export']]],
   ['lang_5fcpp_3',['LANG_CPP',['../calc_8cpp.html#a9f485ecfa4e44c1d740061050827e1bb',1,'LANG_CPP():&#160;calc.cpp'],['../alg_8cpp.html#a9f485ecfa4e44c1d740061050827e1bb',1,'LANG_CPP():&#160;alg.cpp']]],
   ['lang_5fm_4',['LANG_M',['../calc_8cpp.html#a55df33c9313e39b322f64ea20c2a5762',1,'LANG_M():&#160;calc.cpp'],['../alg_8cpp.html#a55df33c9313e39b322f64ea20c2a5762',1,'LANG_M():&#160;alg.cpp']]],
   ['lang_5fpy_5',['LANG_PY',['../alg_8cpp.html#aaa7f1c95472daf6833fc2f3dabd20b3d',1,'LANG_PY():&#160;alg.cpp'],['../calc_8cpp.html#aaa7f1c95472daf6833fc2f3dabd20b3d',1,'LANG_PY():&#160;calc.cpp']]],
