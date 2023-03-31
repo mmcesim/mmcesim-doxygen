@@ -102,15 +102,66 @@ $(document).ready(function(){initNavTree('tools_2log_2log_8h_source.html',''); i
 </div><!--header-->
 <div class="contents">
 <a href="tools_2log_2log_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;clip.h&gt;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#ifndef _MMCESIM_LOG_LOG_H_</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define _MMCESIM_LOG_LOG_H_</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="meta_8h.html">meta.h</a>&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="utils_8h.html">utils.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;clip.h&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="tools_2log_2log_8h.html#a53a3c9f898cbcdf972ff5d33ab633a66abb7ef00ee665aba0a3dceaa720dc05f1">   22</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="tools_2log_2log_8h.html#a53a3c9f898cbcdf972ff5d33ab633a66">MMCESIM_LOG_ERR</a> { <a class="code hl_enumvalue" href="tools_2log_2log_8h.html#a53a3c9f898cbcdf972ff5d33ab633a66abb7ef00ee665aba0a3dceaa720dc05f1">CANNOT_OPEN_LOG_FILE</a> = 100 };</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="tools_2log_2log_8h.html#a5d2420c3e47ebff9cfe3c6004f0e62f7">   24</a></span><span class="keyword">static</span> <span class="keyword">inline</span> std::string <a class="code hl_function" href="tools_2log_2log_8h.html#a5d2420c3e47ebff9cfe3c6004f0e62f7">logFileName</a>() { <span class="keywordflow">return</span> <a class="code hl_function" href="utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70">appDir</a>() + <span class="stringliteral">&quot;/mmcesim.log&quot;</span>; }</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="tools_2log_2log_8h.html#a9e3a1b6a9042b139e9d37ad8c8e6bcfe">   31</a></span><span class="keyword">static</span> <span class="keyword">inline</span> std::string <a class="code hl_function" href="tools_2log_2log_8h.html#a9e3a1b6a9042b139e9d37ad8c8e6bcfe">localLogFileName</a>() {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    std::filesystem::path p(<a class="code hl_function" href="tools_2log_2log_8h.html#a5d2420c3e47ebff9cfe3c6004f0e62f7">logFileName</a>());</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordflow">return</span> p.string();</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>}</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="tools_2log_2log_8h.html#a6b9befdac8e9ce2119f15cc9e4159505">   36</a></span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="tools_2log_2log_8h.html#a6b9befdac8e9ce2119f15cc9e4159505">printLog</a>() {</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    std::ifstream f(<a class="code hl_function" href="tools_2log_2log_8h.html#a5d2420c3e47ebff9cfe3c6004f0e62f7">logFileName</a>());</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">if</span> (!f.is_open()) {</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="comment">// std::cerr &lt;&lt; &quot;[ERROR] Cannot open log file at &#39;&quot; &lt;&lt; localLogFileName() &lt;&lt; &quot;&#39;.&quot; &lt;&lt; std::endl;</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="comment">// exit(MMCESIM_LOG_ERR::CANNOT_OPEN_LOG_FILE);</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    std::stringstream buf;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    buf &lt;&lt; f.rdbuf();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    std::cout &lt;&lt; buf.str() &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="tools_2log_2log_8h.html#ac630e3419ab42e9d249a4171f99f12e6">   48</a></span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="tools_2log_2log_8h.html#ac630e3419ab42e9d249a4171f99f12e6">copyLogToClipboard</a>() {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    std::ifstream f(<a class="code hl_function" href="tools_2log_2log_8h.html#a5d2420c3e47ebff9cfe3c6004f0e62f7">logFileName</a>());</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">if</span> (!f.is_open()) {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="comment">// std::cerr &lt;&lt; &quot;[ERROR] Cannot open log file at &#39;&quot; &lt;&lt; localLogFileName() &lt;&lt; &quot;&#39;.&quot; &lt;&lt; std::endl;</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="comment">// exit(MMCESIM_LOG_ERR::CANNOT_OPEN_LOG_FILE);</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    std::stringstream buf;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    buf &lt;&lt; f.rdbuf();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    clip::set_text(buf.str());</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="ameta_8h_html"><div class="ttname"><a href="meta_8h.html">meta.h</a></div><div class="ttdoc">mmCEsim meta data</div></div>
+<div class="ttc" id="atools_2log_2log_8h_html_a53a3c9f898cbcdf972ff5d33ab633a66"><div class="ttname"><a href="tools_2log_2log_8h.html#a53a3c9f898cbcdf972ff5d33ab633a66">MMCESIM_LOG_ERR</a></div><div class="ttdeci">MMCESIM_LOG_ERR</div><div class="ttdef"><b>Definition:</b> log.h:22</div></div>
+<div class="ttc" id="atools_2log_2log_8h_html_a53a3c9f898cbcdf972ff5d33ab633a66abb7ef00ee665aba0a3dceaa720dc05f1"><div class="ttname"><a href="tools_2log_2log_8h.html#a53a3c9f898cbcdf972ff5d33ab633a66abb7ef00ee665aba0a3dceaa720dc05f1">CANNOT_OPEN_LOG_FILE</a></div><div class="ttdeci">@ CANNOT_OPEN_LOG_FILE</div><div class="ttdef"><b>Definition:</b> log.h:22</div></div>
+<div class="ttc" id="atools_2log_2log_8h_html_a5d2420c3e47ebff9cfe3c6004f0e62f7"><div class="ttname"><a href="tools_2log_2log_8h.html#a5d2420c3e47ebff9cfe3c6004f0e62f7">logFileName</a></div><div class="ttdeci">static std::string logFileName()</div><div class="ttdef"><b>Definition:</b> log.h:24</div></div>
+<div class="ttc" id="atools_2log_2log_8h_html_a6b9befdac8e9ce2119f15cc9e4159505"><div class="ttname"><a href="tools_2log_2log_8h.html#a6b9befdac8e9ce2119f15cc9e4159505">printLog</a></div><div class="ttdeci">static void printLog()</div><div class="ttdef"><b>Definition:</b> log.h:36</div></div>
+<div class="ttc" id="atools_2log_2log_8h_html_a9e3a1b6a9042b139e9d37ad8c8e6bcfe"><div class="ttname"><a href="tools_2log_2log_8h.html#a9e3a1b6a9042b139e9d37ad8c8e6bcfe">localLogFileName</a></div><div class="ttdeci">static std::string localLogFileName()</div><div class="ttdoc">Get the log file name on the local machine.</div><div class="ttdef"><b>Definition:</b> log.h:31</div></div>
+<div class="ttc" id="atools_2log_2log_8h_html_ac630e3419ab42e9d249a4171f99f12e6"><div class="ttname"><a href="tools_2log_2log_8h.html#ac630e3419ab42e9d249a4171f99f12e6">copyLogToClipboard</a></div><div class="ttdeci">static void copyLogToClipboard()</div><div class="ttdef"><b>Definition:</b> log.h:48</div></div>
+<div class="ttc" id="autils_8h_html"><div class="ttname"><a href="utils_8h.html">utils.h</a></div><div class="ttdoc">Utilities.</div></div>
+<div class="ttc" id="autils_8h_html_a49dc116689f1a4202be4d3f0743b1f70"><div class="ttname"><a href="utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70">appDir</a></div><div class="ttdeci">static std::string appDir()</div><div class="ttdef"><b>Definition:</b> utils.h:133</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html">tools</a></li><li class="navelem"><a class="el" href="dir_2eca44b8a3f67fc0b6ab295ded067b9a.html">log</a></li><li class="navelem"><a class="el" href="tools_2log_2log_8h.html">log.h</a></li>
-    <li class="footer">Generated on Fri Mar 31 2023 19:14:21 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Fri Mar 31 2023 21:36:26 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

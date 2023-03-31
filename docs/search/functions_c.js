@@ -4,5 +4,6 @@ var searchData=
   ['parsetoken_1',['parseToken',['../class_value___vec.html#a3e0d18971c171ba37737cbdcd9d9dc7d',1,'Value_Vec']]],
   ['pathsnum_2',['pathsNum',['../class_channel___graph.html#a6b7627957e70f8d68f488a903e08f966',1,'Channel_Graph']]],
   ['print_3',['print',['../class_alg___line.html#a801b08c6c164376039a4ba4e980d039e',1,'Alg_Line']]],
-  ['push_4',['push',['../class_type___track.html#a4548ba1c289fba60e88b0e725509219e',1,'Type_Track::push(const std::string &amp;var, const Type &amp;type)'],['../class_type___track.html#af71b2de2f3f6cbdeffed1f38e699a4ad',1,'Type_Track::push(const std::string &amp;var, const std::string &amp;type)']]]
+  ['printlog_4',['printLog',['../tools_2log_2log_8h.html#a6b9befdac8e9ce2119f15cc9e4159505',1,'log.h']]],
+  ['push_5',['push',['../class_type___track.html#a4548ba1c289fba60e88b0e725509219e',1,'Type_Track::push(const std::string &amp;var, const Type &amp;type)'],['../class_type___track.html#af71b2de2f3f6cbdeffed1f38e699a4ad',1,'Type_Track::push(const std::string &amp;var, const std::string &amp;type)']]]
 ];

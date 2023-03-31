@@ -5,7 +5,7 @@ var searchData=
   ['macro_2eh_2',['macro.h',['../macro_8h.html',1,'']]],
   ['macro_5fnone_3',['macro_none',['../macro_8h.html#a049537e46da67a3f9064cf1ff786a352',1,'macro.h']]],
   ['magenta_4',['MAGENTA',['../class_term.html#a8e4a36d0ee14f856aa18ad0df141b0f4',1,'Term']]],
-  ['main_5',['main',['../maintain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;maintain.cpp'],['../gui_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp'],['../src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp'],['../tools_2log_2log_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;log.cpp']]],
+  ['main_5',['main',['../maintain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;maintain.cpp'],['../gui_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp'],['../src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp'],['../tools_2log_2log_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;log.cpp']]],
   ['main_2ecpp_6',['main.cpp',['../src_2main_8cpp.html',1,'(Global Namespace)'],['../gui_2main_8cpp.html',1,'(Global Namespace)']]],
   ['maintain_2ecpp_7',['maintain.cpp',['../maintain_8cpp.html',1,'']]],
   ['maintain_2eh_8',['maintain.h',['../maintain_8h.html',1,'']]],
@@ -21,6 +21,7 @@ var searchData=
   ['meta_2eh_18',['meta.h',['../meta_8h.html',1,'']]],
   ['mmce_19',['mmce',['../namespacemmce.html',1,'']]],
   ['mmcesim_20dev_20documentation_20',['mmCEsim Dev Documentation',['../index.html',1,'']]],
-  ['msg_21',['msg',['../struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049',1,'Alg::Error::msg()'],['../struct_y_a_m_l___error.html#afc40dfc902b75bc079e19b88d27342e5',1,'YAML_Error::msg()'],['../class_log.html#ab2886344deeeb04e7414fc435a3598f4',1,'Log::msg()']]],
-  ['msg_22',['MSG',['../class_term.html#accd514568fef2222b5b11b685b27f63a',1,'Term']]]
+  ['mmcesim_5flog_5ferr_21',['MMCESIM_LOG_ERR',['../tools_2log_2log_8h.html#a53a3c9f898cbcdf972ff5d33ab633a66',1,'log.h']]],
+  ['msg_22',['msg',['../struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049',1,'Alg::Error::msg()'],['../struct_y_a_m_l___error.html#afc40dfc902b75bc079e19b88d27342e5',1,'YAML_Error::msg()'],['../class_log.html#ab2886344deeeb04e7414fc435a3598f4',1,'Log::msg()']]],
+  ['msg_23',['MSG',['../class_term.html#accd514568fef2222b5b11b685b27f63a',1,'Term']]]
 ];
