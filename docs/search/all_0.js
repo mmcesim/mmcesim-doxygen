@@ -26,7 +26,7 @@ var searchData=
   ['_5fchangesubscript_23',['_changeSubScript',['../class_calc.html#ad562619fef96a73cd3b4c27b35bc5f91',1,'Calc']]],
   ['_5fchangesuperscript_24',['_changeSuperScript',['../class_calc.html#a1aec4748092712e0995c0ae5dabbf54f',1,'Calc']]],
   ['_5fchannel_5fgraph_25',['_channel_graph',['../class_export.html#a537f42a1ecd0914a7c2054b831fb74aa',1,'Export']]],
-  ['_5fcheckalgdependency_26',['_checkALGdependency',['../class_export.html#a2830c2f5f7b150ca8c224ab68bdc4b7b',1,'Export']]],
+  ['_5fcheckalgdependency_26',['_checkALGdependency',['../class_export.html#a966a54f05ada435d6d1ce6e4a9750f41',1,'Export']]],
   ['_5fconfig_27',['_config',['../class_config.html#a61ce30eed10ac5f0f856f5955f265026',1,'Config::_config()'],['../class_export.html#ab9f4b8af6d46cd43480d55103a2c0760',1,'Export::_config()']]],
   ['_5fcontents_5fat_5fend_28',['_contents_at_end',['../class_alg.html#a8721b0029279b31e4c5c0d94b3773eaf',1,'Alg']]],
   ['_5fdata_29',['_data',['../class_type.html#a1ee0a292c9e569573596bd58c43dbb80',1,'Type::_data()'],['../class_value___vec.html#aba45f773841b0e1232ebe3fb0b5fe2c1',1,'Value_Vec::_data()']]],

@@ -14,7 +14,7 @@ var searchData=
   ['_5fchangeparen_11',['_changeParen',['../class_calc.html#ad95be528148e0d63848d5fa916b93200',1,'Calc']]],
   ['_5fchangesubscript_12',['_changeSubScript',['../class_calc.html#ad562619fef96a73cd3b4c27b35bc5f91',1,'Calc']]],
   ['_5fchangesuperscript_13',['_changeSuperScript',['../class_calc.html#a1aec4748092712e0995c0ae5dabbf54f',1,'Calc']]],
-  ['_5fcheckalgdependency_14',['_checkALGdependency',['../class_export.html#a2830c2f5f7b150ca8c224ab68bdc4b7b',1,'Export']]],
+  ['_5fcheckalgdependency_14',['_checkALGdependency',['../class_export.html#a966a54f05ada435d6d1ce6e4a9750f41',1,'Export']]],
   ['_5fending_15',['_ending',['../class_export.html#a7278a492ec0a0394684cccc5949185ca',1,'Export']]],
   ['_5festimation_16',['_estimation',['../class_export.html#ae4811e1e4212029122c0ee29613714cc',1,'Export']]],
   ['_5ff_17',['_f',['../class_export.html#abe75ae41d7cc8afe8f1ba4bbf67dfcfc',1,'Export']]],
