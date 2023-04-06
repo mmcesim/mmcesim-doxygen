@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['data_0',['Data',['../class_type.html#a573918fe25965adb633746c4efd7192d',1,'Type']]],
-  ['dtype_1',['DType',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9',1,'Export']]]
+  ['alg_5fopt_0',['ALG_Opt',['../alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7',1,'alg_opt.h']]]
 ];

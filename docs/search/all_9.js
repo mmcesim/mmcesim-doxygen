@@ -16,12 +16,13 @@ var searchData=
   ['isfuncisend_13',['isFuncIsEnd',['../functions_8h.html#a874ba6c7a581632b5ca72a1bd9fecdd1',1,'functions.h']]],
   ['isfuncneedsend_14',['isFuncNeedsEnd',['../functions_8h.html#a6f29a04c07a24fbea22fa058f8005608',1,'functions.h']]],
   ['isfuncnoend_15',['isFuncNoEnd',['../functions_8h.html#ac9dc58cb94b7547813c3a35154d97d18',1,'functions.h']]],
-  ['isquoted_16',['isQuoted',['../utils_8h.html#aaaee605fe46abaa420448438d89b22ed',1,'utils.h']]],
-  ['isreference_17',['isReference',['../class_type.html#a7aa7f09541830648b382911099d41931',1,'Type']]],
-  ['issuccess_18',['isSuccess',['../error__code_8h.html#a60ae163531328c76c18c0ea7f987a89c',1,'error_code.h']]],
-  ['isuint_19',['isUInt',['../utils_8h.html#aa0a3ba0e1cec6f6b77334767af46eef7',1,'utils.h']]],
-  ['isunknown_20',['isUnknown',['../class_type.html#a836b463aa4740a234e0d304ed4cd958f',1,'Type']]],
-  ['isvalidkey_21',['isValidKey',['../class_alg___line.html#ae7ed4751a3a31f23ab51da7db4fdb199',1,'Alg_Line']]],
-  ['iswarning_22',['isWarning',['../error__code_8h.html#a93586d9f0d85d201de99a246030d77b5',1,'error_code.h']]],
-  ['it_23',['IT',['../class_term.html#afeed18bdf0bb1bec076aec081c7e4812',1,'Term']]]
+  ['isfunctiondeclaration_16',['isFunctionDeclaration',['../class_alg___line.html#ad419191a99be7e34024e569ad833b04e',1,'Alg_Line']]],
+  ['isquoted_17',['isQuoted',['../utils_8h.html#aaaee605fe46abaa420448438d89b22ed',1,'utils.h']]],
+  ['isreference_18',['isReference',['../class_type.html#a7aa7f09541830648b382911099d41931',1,'Type']]],
+  ['issuccess_19',['isSuccess',['../error__code_8h.html#a60ae163531328c76c18c0ea7f987a89c',1,'error_code.h']]],
+  ['isuint_20',['isUInt',['../utils_8h.html#aa0a3ba0e1cec6f6b77334767af46eef7',1,'utils.h']]],
+  ['isunknown_21',['isUnknown',['../class_type.html#a836b463aa4740a234e0d304ed4cd958f',1,'Type']]],
+  ['isvalidkey_22',['isValidKey',['../class_alg___line.html#ae7ed4751a3a31f23ab51da7db4fdb199',1,'Alg_Line']]],
+  ['iswarning_23',['isWarning',['../error__code_8h.html#a93586d9f0d85d201de99a246030d77b5',1,'error_code.h']]],
+  ['it_24',['IT',['../class_term.html#afeed18bdf0bb1bec076aec081c7e4812',1,'Term']]]
 ];

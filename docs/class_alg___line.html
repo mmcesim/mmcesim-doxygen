@@ -126,9 +126,9 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7088fc8300318cb3e13b56910d24be2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg___line.html#a7088fc8300318cb3e13b56910d24be2c">Alg_Line</a> ()=default</td></tr>
 <tr class="separator:a7088fc8300318cb3e13b56910d24be2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5799b3005808f7c92cd56aec75993fd2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg___line.html#a5799b3005808f7c92cd56aec75993fd2">Alg_Line</a> (const std::string &amp;str)</td></tr>
-<tr class="memdesc:a5799b3005808f7c92cd56aec75993fd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_alg___line.html" title="Process line of Alg into standard formats.">Alg_Line</a> object. Process string at the same time.  <a href="class_alg___line.html#a5799b3005808f7c92cd56aec75993fd2">More...</a><br /></td></tr>
-<tr class="separator:a5799b3005808f7c92cd56aec75993fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f478c53dbfaecf16d55be668d959562"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg___line.html#a4f478c53dbfaecf16d55be668d959562">Alg_Line</a> (const std::string &amp;str, <a class="el" href="alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7">ALG_Opt</a> opt=<a class="el" href="alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7ac157bdf0b85a40d2619cbc8bc1ae5fe2">ALG_Opt::NONE</a>)</td></tr>
+<tr class="memdesc:a4f478c53dbfaecf16d55be668d959562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_alg___line.html" title="Process line of Alg into standard formats.">Alg_Line</a> object. Process string at the same time.  <a href="class_alg___line.html#a4f478c53dbfaecf16d55be668d959562">More...</a><br /></td></tr>
+<tr class="separator:a4f478c53dbfaecf16d55be668d959562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af651454e6ddfce164626b68b2c6cba97"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg___line.html#af651454e6ddfce164626b68b2c6cba97">func</a> () const noexcept</td></tr>
 <tr class="memdesc:af651454e6ddfce164626b68b2c6cba97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the function name.  <a href="class_alg___line.html#af651454e6ddfce164626b68b2c6cba97">More...</a><br /></td></tr>
 <tr class="separator:af651454e6ddfce164626b68b2c6cba97"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,6 +174,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae47ca250987c0b3e08587892448bc4c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg___line.html#ae47ca250987c0b3e08587892448bc4c0">isEnd</a> () const noexcept</td></tr>
 <tr class="memdesc:ae47ca250987c0b3e08587892448bc4c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether the function name serves as an 'end'.  <a href="class_alg___line.html#ae47ca250987c0b3e08587892448bc4c0">More...</a><br /></td></tr>
 <tr class="separator:ae47ca250987c0b3e08587892448bc4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad419191a99be7e34024e569ad833b04e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg___line.html#ad419191a99be7e34024e569ad833b04e">isFunctionDeclaration</a> () const noexcept</td></tr>
+<tr class="memdesc:ad419191a99be7e34024e569ad833b04e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the line is for function declaration.  <a href="class_alg___line.html#ad419191a99be7e34024e569ad833b04e">More...</a><br /></td></tr>
+<tr class="separator:ad419191a99be7e34024e569ad833b04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a801b08c6c164376039a4ba4e980d039e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg___line.html#a801b08c6c164376039a4ba4e980d039e">print</a> (std::ostream &amp;out=std::cout, std::string prefix=&quot;&quot;) const</td></tr>
 <tr class="memdesc:a801b08c6c164376039a4ba4e980d039e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print <a class="el" href="class_alg___line.html" title="Process line of Alg into standard formats.">Alg_Line</a> contents (including return values, function names and parameters).  <a href="class_alg___line.html#a801b08c6c164376039a4ba4e980d039e">More...</a><br /></td></tr>
 <tr class="separator:a801b08c6c164376039a4ba4e980d039e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,6 +209,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8212385ae41606761365cc6771883ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4f735621d8d7feb6d417f0b7a0e635e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg___line.html#af4f735621d8d7feb6d417f0b7a0e635e">_raw_str</a></td></tr>
 <tr class="separator:af4f735621d8d7feb6d417f0b7a0e635e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6257f1e27ce3ee684333736397dab17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7">ALG_Opt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg___line.html#ac6257f1e27ce3ee684333736397dab17">_opt</a></td></tr>
+<tr class="separator:ac6257f1e27ce3ee684333736397dab17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Process line of <a class="el" href="class_alg.html">Alg</a> into standard formats. </p>
@@ -236,8 +241,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5799b3005808f7c92cd56aec75993fd2" name="a5799b3005808f7c92cd56aec75993fd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5799b3005808f7c92cd56aec75993fd2">&#9670;&nbsp;</a></span>Alg_Line() <span class="overload">[2/2]</span></h2>
+<a id="a4f478c53dbfaecf16d55be668d959562" name="a4f478c53dbfaecf16d55be668d959562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f478c53dbfaecf16d55be668d959562">&#9670;&nbsp;</a></span>Alg_Line() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,8 +251,18 @@ Private Attributes</h2></td></tr>
           <td class="memname">Alg_Line::Alg_Line </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7">ALG_Opt</a>&#160;</td>
+          <td class="paramname"><em>opt</em> = <code><a class="el" href="alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7ac157bdf0b85a40d2619cbc8bc1ae5fe2">ALG_Opt::NONE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -256,6 +271,7 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">str</td><td>The raw string from <a class="el" href="class_alg.html">Alg</a> that is to be processed. </td></tr>
+    <tr><td class="paramname">opt</td><td>ALG parsing options. </td></tr>
   </table>
   </dd>
 </dl>
@@ -629,6 +645,40 @@ Private Attributes</h2></td></tr>
   <table class="retval">
     <tr><td class="paramname">true</td><td>The function serves as 'end'. ('END', 'ELSE', etc.) </td></tr>
     <tr><td class="paramname">false</td><td>The function does not serve as 'end'. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad419191a99be7e34024e569ad833b04e" name="ad419191a99be7e34024e569ad833b04e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad419191a99be7e34024e569ad833b04e">&#9670;&nbsp;</a></span>isFunctionDeclaration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Alg_Line::isFunctionDeclaration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check whether the line is for function declaration. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>The ALG_Opt is set to ALG_Opt::FUNCTION_DECLARATION </td></tr>
+    <tr><td class="paramname">false</td><td>The ALG_Opt is not ALG_Opt::FUNCTION_DECLARATION </td></tr>
   </table>
   </dd>
 </dl>
@@ -1067,6 +1117,29 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac6257f1e27ce3ee684333736397dab17" name="ac6257f1e27ce3ee684333736397dab17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6257f1e27ce3ee684333736397dab17">&#9670;&nbsp;</a></span>_opt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7">ALG_Opt</a> Alg_Line::_opt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >ALG options </p>
+
+</div>
+</div>
 <a id="a8212385ae41606761365cc6771883ee0" name="a8212385ae41606761365cc6771883ee0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8212385ae41606761365cc6771883ee0">&#9670;&nbsp;</a></span>_params</h2>
 
@@ -1146,7 +1219,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_alg___line.html">Alg_Line</a></li>
-    <li class="footer">Generated on Wed Apr 5 2023 11:26:16 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Apr 6 2023 10:49:50 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

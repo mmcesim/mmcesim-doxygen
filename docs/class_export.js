@@ -31,6 +31,7 @@ var class_export =
     [ "_asStr", "class_export.html#a638d6b9ced18342503ee6f4d4b274740", null ],
     [ "_asVarName", "class_export.html#a6cc4fd84ec85f052b4e4883953c72cda", null ],
     [ "_beginning", "class_export.html#a6000afae41f65b45b6a1e11447c1789c", null ],
+    [ "_checkALGdependency", "class_export.html#a2830c2f5f7b150ca8c224ab68bdc4b7b", null ],
     [ "_ending", "class_export.html#a7278a492ec0a0394684cccc5949185ca", null ],
     [ "_estimation", "class_export.html#ae4811e1e4212029122c0ee29613714cc", null ],
     [ "_f", "class_export.html#abe75ae41d7cc8afe8f1ba4bbf67dfcfc", null ],

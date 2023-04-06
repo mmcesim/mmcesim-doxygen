@@ -53,7 +53,7 @@ var searchData=
   ['_5fn_50',['_N',['../struct_macro.html#a8d0b88c62c9a90ffb1fd97bea2daa00e',1,'Macro']]],
   ['_5fnoise_51',['_noise',['../class_export.html#a026d7ecd2bd56159d4eeac65d0e72295',1,'Export']]],
   ['_5fopen_52',['_open',['../class_log.html#a59012f49d8724d33bffdf87d6c7967e8',1,'Log']]],
-  ['_5fopt_53',['_opt',['../class_export.html#a762fdfc59ceedf998b69da6f324b5a68',1,'Export']]],
+  ['_5fopt_53',['_opt',['../class_export.html#a762fdfc59ceedf998b69da6f324b5a68',1,'Export::_opt()'],['../class_alg___line.html#ac6257f1e27ce3ee684333736397dab17',1,'Alg_Line::_opt()']]],
   ['_5foptions_54',['_options',['../class_style.html#a750e616d2815aeffc18fc040b30b5a4c',1,'Style']]],
   ['_5fout_5fof_5fbound_5fval_55',['_out_of_bound_val',['../class_value___vec.html#ae0ea1f02bc235a33aba274392884677a',1,'Value_Vec']]],
   ['_5fparams_56',['_params',['../class_alg___line.html#a8212385ae41606761365cc6771883ee0',1,'Alg_Line']]],

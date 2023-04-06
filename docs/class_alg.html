@@ -142,8 +142,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f0dea66afae3cb8ff438e3de3e3cd61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg.html#a6f0dea66afae3cb8ff438e3de3e3cd61">Alg</a> ()=default</td></tr>
 <tr class="separator:a6f0dea66afae3cb8ff438e3de3e3cd61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c7c829fb8b9699e7a45d595ee0bf148"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg.html#a3c7c829fb8b9699e7a45d595ee0bf148">Alg</a> (const std::string &amp;str, const <a class="el" href="struct_macro.html">Macro</a> &amp;macro=<a class="el" href="macro_8h.html#a049537e46da67a3f9064cf1ff786a352">macro_none</a>, int job_cnt=-1, int alg_cnt=-1, bool fail_fast=false, bool add_comment=false, bool add_semicolon=true)</td></tr>
-<tr class="separator:a3c7c829fb8b9699e7a45d595ee0bf148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45e536cf797bba52c851877371ea64c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg.html#a45e536cf797bba52c851877371ea64c5">Alg</a> (const std::string &amp;str, const <a class="el" href="struct_macro.html">Macro</a> &amp;macro=<a class="el" href="macro_8h.html#a049537e46da67a3f9064cf1ff786a352">macro_none</a>, int job_cnt=-1, int alg_cnt=-1, bool fail_fast=false, bool add_comment=false, bool add_semicolon=true, <a class="el" href="alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7">ALG_Opt</a> opt=<a class="el" href="alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7ac157bdf0b85a40d2619cbc8bc1ae5fe2">ALG_Opt::NONE</a>)</td></tr>
+<tr class="separator:a45e536cf797bba52c851877371ea64c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae054235e362bd87b3132a9b12a5ee2ad"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_alg.html#a7ca1a1f4e63a1d202979c6c0fa2cc257">Alg_Lines</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg.html#ae054235e362bd87b3132a9b12a5ee2ad">lines</a> () const</td></tr>
 <tr class="separator:ae054235e362bd87b3132a9b12a5ee2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af935e64a6eb4afa4ca1540f4da3dcc9c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_alg___line.html">Alg_Line</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alg.html#af935e64a6eb4afa4ca1540f4da3dcc9c">line</a> (Alg_Lines::size_type index) const</td></tr>
@@ -353,8 +353,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c7c829fb8b9699e7a45d595ee0bf148" name="a3c7c829fb8b9699e7a45d595ee0bf148"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c7c829fb8b9699e7a45d595ee0bf148">&#9670;&nbsp;</a></span>Alg() <span class="overload">[2/2]</span></h2>
+<a id="a45e536cf797bba52c851877371ea64c5" name="a45e536cf797bba52c851877371ea64c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45e536cf797bba52c851877371ea64c5">&#9670;&nbsp;</a></span>Alg() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,7 +399,13 @@ Static Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>add_semicolon</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>add_semicolon</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7">ALG_Opt</a>&#160;</td>
+          <td class="paramname"><em>opt</em> = <code><a class="el" href="alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7ac157bdf0b85a40d2619cbc8bc1ae5fe2">ALG_Opt::NONE</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1171,7 +1177,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_alg.html">Alg</a></li>
-    <li class="footer">Generated on Wed Apr 5 2023 11:26:16 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Apr 6 2023 10:49:50 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

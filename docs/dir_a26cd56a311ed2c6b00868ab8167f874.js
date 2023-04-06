@@ -2,6 +2,7 @@ var dir_a26cd56a311ed2c6b00868ab8167f874 =
 [
     [ "alg.h", "alg_8h.html", "alg_8h" ],
     [ "alg_line.h", "alg__line_8h.html", "alg__line_8h" ],
+    [ "alg_opt.h", "alg__opt_8h.html", "alg__opt_8h" ],
     [ "calc.h", "calc_8h.html", "calc_8h" ],
     [ "channel_graph.h", "channel__graph_8h.html", "channel__graph_8h" ],
     [ "functions.h", "functions_8h.html", "functions_8h" ],

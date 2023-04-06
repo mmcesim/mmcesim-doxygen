@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['suffix_0',['Suffix',['../class_type.html#adb4de930dbfbd1696484f79180a619bb',1,'Type']]]
+  ['noderole_0',['NodeRole',['../class_export.html#aaffe355758b60cadd8405dd8793c6444',1,'Export']]]
 ];
