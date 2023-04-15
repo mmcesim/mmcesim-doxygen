@@ -1,0 +1,7 @@
+<map id="errorExit" name="errorExit">
+<area shape="rect" id="node1" title="Print error message and exit with exit code." alt="" coords="5,81,84,108"/>
+<area shape="rect" id="node2" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="137,5,207,32"/>
+<area shape="rect" id="node3" href="$error__code_8h.html#ae1ca599cceb33d2db79940c7d98937f8" title="Return the integer of the error code from class Err." alt="" coords="260,107,347,133"/>
+<area shape="rect" id="node4" href="$error__code_8h.html#ae1bfa02e1106eff84ddecb9f7773a1a4" title="Return the error message of the error code from class Err." alt="" coords="132,107,212,133"/>
+<area shape="rect" id="node5" href="$error__code_8h.html#a81aa27a794998cf874bbef6d0f34b9d9" title="Check if the error code corresponds to an error." alt="" coords="140,157,204,184"/>
+</map>

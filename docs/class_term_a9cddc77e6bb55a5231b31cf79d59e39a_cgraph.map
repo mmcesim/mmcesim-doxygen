@@ -1,0 +1,5 @@
+<map id="Term::detectEnv" name="Term::detectEnv">
+<area shape="rect" id="node1" title="Detect environment variable of NO_COLOR." alt="" coords="5,31,132,57"/>
+<area shape="rect" id="node2" href="$class_term.html#aa1bd268b007aae3a2d5af229a59ff011" title="Disable terminal color and style." alt="" coords="180,5,289,32"/>
+<area shape="rect" id="node3" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="195,56,274,83"/>
+</map>

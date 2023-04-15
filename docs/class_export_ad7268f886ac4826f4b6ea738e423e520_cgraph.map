@@ -1,0 +1,17 @@
+<map id="Export::_generateChannels" name="Export::_generateChannels">
+<area shape="rect" id="node1" title=" " alt="" coords="5,251,203,277"/>
+<area shape="rect" id="node2" href="$class_export.html#a638d6b9ced18342503ee6f4d4b274740" title=" " alt="" coords="547,99,659,125"/>
+<area shape="rect" id="node3" href="$class_export.html#abe75ae41d7cc8afe8f1ba4bbf67dfcfc" title=" " alt="" coords="326,48,410,75"/>
+<area shape="rect" id="node4" href="$class_export.html#a4dd19b0ff2eb109897fb486769fefffe" title="Get the size of the node (Tx/Rx/RIS)." alt="" coords="305,99,431,125"/>
+<area shape="rect" id="node5" href="$class_export.html#a27d3472d5a6043c28e616bbd0c50afc0" title=" " alt="" coords="251,149,485,176"/>
+<area shape="rect" id="node6" href="$class_export.html#a33b5d571af76c0d4f9b9ee6e72afd8a6" title=" " alt="" coords="533,251,673,277"/>
+<area shape="rect" id="node8" href="$class_export.html#a709b6e378fd97721b07a369d8a6191d7" title=" " alt="" coords="273,200,463,227"/>
+<area shape="rect" id="node9" href="$utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70" title=" " alt="" coords="335,301,401,328"/>
+<area shape="rect" id="node10" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="568,327,639,353"/>
+<area shape="rect" id="node11" href="$error__code_8h.html#a19ac3b5328ffcb7b241c272b98d3f002" title="Print error message and exit with exit code." alt="" coords="329,403,407,429"/>
+<area shape="rect" id="node14" href="$class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9" title="Flush the buff into the log file." alt="" coords="326,453,410,480"/>
+<area shape="rect" id="node15" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="329,504,407,531"/>
+<area shape="rect" id="node7" href="$error__code_8h.html#ae1bfa02e1106eff84ddecb9f7773a1a4" title="Return the error message of the error code from class Err." alt="" coords="725,365,805,392"/>
+<area shape="rect" id="node12" href="$error__code_8h.html#ae1ca599cceb33d2db79940c7d98937f8" title="Return the integer of the error code from class Err." alt="" coords="721,441,808,468"/>
+<area shape="rect" id="node13" href="$error__code_8h.html#a81aa27a794998cf874bbef6d0f34b9d9" title="Check if the error code corresponds to an error." alt="" coords="571,479,635,505"/>
+</map>

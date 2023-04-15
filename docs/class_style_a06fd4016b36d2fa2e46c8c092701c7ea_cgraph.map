@@ -1,0 +1,6 @@
+<map id="Style::style" name="Style::style">
+<area shape="rect" id="node1" title="Call the astyle child process to style the generated C++ code." alt="" coords="5,56,100,83"/>
+<area shape="rect" id="node2" href="$utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70" title=" " alt="" coords="155,5,220,32"/>
+<area shape="rect" id="node3" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="152,56,223,83"/>
+<area shape="rect" id="node4" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="148,107,227,133"/>
+</map>

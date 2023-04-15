@@ -1,0 +1,4 @@
+<map id="isWarning" name="isWarning">
+<area shape="rect" id="node1" title="Check if the error code corresponds to a warning." alt="" coords="5,5,92,32"/>
+<area shape="rect" id="node2" href="$error__code_8h.html#ae1ca599cceb33d2db79940c7d98937f8" title="Return the integer of the error code from class Err." alt="" coords="140,5,227,32"/>
+</map>

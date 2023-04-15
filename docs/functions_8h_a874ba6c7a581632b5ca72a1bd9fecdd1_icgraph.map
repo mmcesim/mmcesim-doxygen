@@ -1,0 +1,7 @@
+<map id="isFuncIsEnd" name="isFuncIsEnd">
+<area shape="rect" id="node1" title=" " alt="" coords="629,31,728,57"/>
+<area shape="rect" id="node2" href="$class_alg___line.html#ae47ca250987c0b3e08587892448bc4c0" title="Test whether the function name serves as an &#39;end&#39;." alt="" coords="461,5,581,32"/>
+<area shape="rect" id="node3" href="$functions_8h.html#a327f8ee07c785b0b6cb9f59b061effeb" title=" " alt="" coords="490,56,553,83"/>
+<area shape="rect" id="node4" href="$class_alg___line.html#a0047f4df72a2d10ebb74701c3d05bafc" title="Process function name and parameter variables." alt="" coords="193,31,413,57"/>
+<area shape="rect" id="node5" href="$class_alg___line.html#a4f478c53dbfaecf16d55be668d959562" title="Construct a new Alg_Line object. Process string at the same time." alt="" coords="5,56,145,83"/>
+</map>
