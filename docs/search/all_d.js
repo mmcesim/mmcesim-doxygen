@@ -5,7 +5,7 @@ var searchData=
   ['macro_2eh_2',['macro.h',['../macro_8h.html',1,'']]],
   ['macro_5fnone_3',['macro_none',['../macro_8h.html#a049537e46da67a3f9064cf1ff786a352',1,'macro.h']]],
   ['magenta_4',['MAGENTA',['../class_term.html#a8e4a36d0ee14f856aa18ad0df141b0f4',1,'Term']]],
-  ['main_5',['main',['../maintain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;maintain.cpp'],['../gui_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp'],['../src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp'],['../tools_2log_2log_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;log.cpp']]],
+  ['main_5',['main',['../tools_2log_2log_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;log.cpp'],['../maintain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;maintain.cpp'],['../src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp'],['../gui_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp']]],
   ['main_2ecpp_6',['main.cpp',['../src_2main_8cpp.html',1,'(Global Namespace)'],['../gui_2main_8cpp.html',1,'(Global Namespace)']]],
   ['maintain_2ecpp_7',['maintain.cpp',['../maintain_8cpp.html',1,'']]],
   ['maintain_2eh_8',['maintain.h',['../maintain_8h.html',1,'']]],
