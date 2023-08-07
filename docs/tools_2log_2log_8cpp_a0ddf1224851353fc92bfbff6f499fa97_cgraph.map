@@ -1,8 +1,10 @@
 <map id="main" name="main">
 <area shape="rect" id="node1" title=" " alt="" coords="5,56,60,83"/>
 <area shape="rect" id="node2" href="$tools_2log_2log_8h.html#ac630e3419ab42e9d249a4171f99f12e6" title=" " alt="" coords="108,5,260,32"/>
-<area shape="rect" id="node5" href="$tools_2log_2log_8h.html#a9e3a1b6a9042b139e9d37ad8c8e6bcfe" title="Get the log file name on the local machine." alt="" coords="115,56,253,83"/>
-<area shape="rect" id="node6" href="$tools_2log_2log_8h.html#a6b9befdac8e9ce2119f15cc9e4159505" title=" " alt="" coords="147,107,221,133"/>
+<area shape="rect" id="node7" href="$tools_2log_2log_8h.html#a9e3a1b6a9042b139e9d37ad8c8e6bcfe" title="Get the log file name on the local machine." alt="" coords="115,56,253,83"/>
+<area shape="rect" id="node8" href="$tools_2log_2log_8h.html#a6b9befdac8e9ce2119f15cc9e4159505" title=" " alt="" coords="147,107,221,133"/>
 <area shape="rect" id="node3" href="$tools_2log_2log_8h.html#a5d2420c3e47ebff9cfe3c6004f0e62f7" title=" " alt="" coords="308,56,412,83"/>
-<area shape="rect" id="node4" href="$utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70" title=" " alt="" coords="460,56,525,83"/>
+<area shape="rect" id="node4" href="$utils_8h.html#a4b2e6c6245b704aeb7448bf62b1cf422" title=" " alt="" coords="460,56,531,83"/>
+<area shape="rect" id="node5" href="$utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70" title=" " alt="" coords="585,31,651,57"/>
+<area shape="rect" id="node6" href="$utils_8h.html#a86caea3b83de102899d12b4100e61c1d" title=" " alt="" coords="579,81,657,108"/>
 </map>

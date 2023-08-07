@@ -52,7 +52,8 @@ var searchData=
   ['_5fsetmaxtestnum_49',['_setMaxTestNum',['../class_export.html#a69e74a4cd5dd68dec262869fecc0d359',1,'Export']]],
   ['_5fsetvarnames_50',['_setVarNames',['../class_export.html#af41ce4a9c8f549930d43fbe47f84abaa',1,'Export']]],
   ['_5fsounding_51',['_sounding',['../class_export.html#a26fa49d9882a342d011ba715e0c14109',1,'Export']]],
-  ['_5ftopcomment_52',['_topComment',['../class_export.html#a1ba2d8e9de49698d93a6dedbafbe6a0f',1,'Export']]],
-  ['_5fvalidatepaths_53',['_validatePaths',['../class_channel___graph.html#ab3e5ebf07412eb058c176ef6a7693fd2',1,'Channel_Graph']]],
-  ['_5fwcomment_54',['_wComment',['../class_export.html#a568b2f04e1b7837923d3f3af5f47abe2',1,'Export::_wComment()'],['../class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d',1,'Alg::_wComment()']]]
+  ['_5fstreamfromlogfile_52',['_streamFromLogFile',['../namespacemmcesim_1_1__log.html#a15aa5a1b01426cfc24ab810bb28329e5',1,'mmcesim::_log']]],
+  ['_5ftopcomment_53',['_topComment',['../class_export.html#a1ba2d8e9de49698d93a6dedbafbe6a0f',1,'Export']]],
+  ['_5fvalidatepaths_54',['_validatePaths',['../class_channel___graph.html#ab3e5ebf07412eb058c176ef6a7693fd2',1,'Channel_Graph']]],
+  ['_5fwcomment_55',['_wComment',['../class_export.html#a568b2f04e1b7837923d3f3af5f47abe2',1,'Export::_wComment()'],['../class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d',1,'Alg::_wComment()']]]
 ];

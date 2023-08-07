@@ -109,73 +109,74 @@ $(document).ready(function(){initNavTree('include_2log_8h_source.html',''); init
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="term_8h.html">term.h</a>&quot;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="utils_8h.html">utils.h</a>&quot;</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;ctime&gt;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;fstream&gt;</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;iomanip&gt;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;spy.hpp&gt;</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_log.html">   27</a></span><span class="keyword">class </span><a class="code hl_class" href="class_log.html">Log</a> {</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_function" href="class_log.html#af6071a60aa52b6c1b511f99b4bc1b8fe">Log</a>();</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_function" href="class_log.html#a0fbfda88fbee5027c89f6eb121059360">~Log</a>();</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    std::ofstream&amp; <a class="code hl_function" href="class_log.html#a3410828f35c9bf8dd0771ead28de27b0">write</a>();</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    std::ofstream&amp; <a class="code hl_function" href="class_log.html#add7e611cd3267d3fd5dae017e3aeef67">info</a>();</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    std::ofstream&amp; <a class="code hl_function" href="class_log.html#ab61203710351f6d33d7ba634d2c4eb32">war</a>();</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    std::ofstream&amp; <a class="code hl_function" href="class_log.html#ac7147942832455398ad289b706a02616">err</a>();</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    std::ofstream&amp; <a class="code hl_function" href="class_log.html#ab2886344deeeb04e7414fc435a3598f4">msg</a>();</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9">flush</a>();</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_log.html#a6a9b2e109e525daae7d0b81561d6cf9c">writeArg</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]);</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">  100</a></span>    std::ofstream <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>;   </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="class_log.html#a59012f49d8724d33bffdf87d6c7967e8">  101</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_log.html#a59012f49d8724d33bffdf87d6c7967e8">_open</a> = <span class="keyword">false</span>; </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>};</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="class_log.html#a3410828f35c9bf8dd0771ead28de27b0">  104</a></span><span class="keyword">inline</span> std::ofstream&amp; <a class="code hl_function" href="class_log.html#a3410828f35c9bf8dd0771ead28de27b0">Log::write</a>() { <span class="keywordflow">return</span> <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>; }</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="class_log.html#add7e611cd3267d3fd5dae017e3aeef67">  106</a></span><span class="keyword">inline</span> std::ofstream&amp; <a class="code hl_function" href="class_log.html#add7e611cd3267d3fd5dae017e3aeef67">Log::info</a>() {</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a> &lt;&lt; <span class="stringliteral">&quot;[INFO] &quot;</span>;</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>;</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>}</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="class_log.html#ab61203710351f6d33d7ba634d2c4eb32">  111</a></span><span class="keyword">inline</span> std::ofstream&amp; <a class="code hl_function" href="class_log.html#ab61203710351f6d33d7ba634d2c4eb32">Log::war</a>() {</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a> &lt;&lt; <span class="stringliteral">&quot;[WARNING] &quot;</span>;</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>;</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>}</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="class_log.html#ac7147942832455398ad289b706a02616">  116</a></span><span class="keyword">inline</span> std::ofstream&amp; <a class="code hl_function" href="class_log.html#ac7147942832455398ad289b706a02616">Log::err</a>() {</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a> &lt;&lt; <span class="stringliteral">&quot;[ERROR] &quot;</span>;</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>;</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>}</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="class_log.html#ab2886344deeeb04e7414fc435a3598f4">  121</a></span><span class="keyword">inline</span> std::ofstream&amp; <a class="code hl_function" href="class_log.html#ab2886344deeeb04e7414fc435a3598f4">Log::msg</a>() {</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a> &lt;&lt; <span class="stringliteral">&quot;[MESSAGE] &quot;</span>;</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>;</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>}</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9">  126</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9">Log::flush</a>() { <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a> &lt;&lt; std::flush; }</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclass_log_html"><div class="ttname"><a href="class_log.html">Log</a></div><div class="ttdoc">Log support during compilation.</div><div class="ttdef"><b>Definition:</b> log.h:27</div></div>
-<div class="ttc" id="aclass_log_html_a0fbfda88fbee5027c89f6eb121059360"><div class="ttname"><a href="class_log.html#a0fbfda88fbee5027c89f6eb121059360">Log::~Log</a></div><div class="ttdeci">~Log()</div><div class="ttdoc">Destroy the Log object.</div><div class="ttdef"><b>Definition:</b> log.cpp:29</div></div>
-<div class="ttc" id="aclass_log_html_a3410828f35c9bf8dd0771ead28de27b0"><div class="ttname"><a href="class_log.html#a3410828f35c9bf8dd0771ead28de27b0">Log::write</a></div><div class="ttdeci">std::ofstream &amp; write()</div><div class="ttdoc">Write contents to the log file.</div><div class="ttdef"><b>Definition:</b> log.h:104</div></div>
-<div class="ttc" id="aclass_log_html_a4689b970031c924e2310a9ecf932f01b"><div class="ttname"><a href="class_log.html#a4689b970031c924e2310a9ecf932f01b">Log::_f</a></div><div class="ttdeci">std::ofstream _f</div><div class="ttdoc">output file stream</div><div class="ttdef"><b>Definition:</b> log.h:100</div></div>
-<div class="ttc" id="aclass_log_html_a48b8faa1f9d2590c6fb650f1004e73c9"><div class="ttname"><a href="class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9">Log::flush</a></div><div class="ttdeci">void flush()</div><div class="ttdoc">Flush the buff into the log file.</div><div class="ttdef"><b>Definition:</b> log.h:126</div></div>
-<div class="ttc" id="aclass_log_html_a59012f49d8724d33bffdf87d6c7967e8"><div class="ttname"><a href="class_log.html#a59012f49d8724d33bffdf87d6c7967e8">Log::_open</a></div><div class="ttdeci">bool _open</div><div class="ttdoc">whether the file successfully opened</div><div class="ttdef"><b>Definition:</b> log.h:101</div></div>
-<div class="ttc" id="aclass_log_html_a6a9b2e109e525daae7d0b81561d6cf9c"><div class="ttname"><a href="class_log.html#a6a9b2e109e525daae7d0b81561d6cf9c">Log::writeArg</a></div><div class="ttdeci">void writeArg(int argc, char *argv[])</div><div class="ttdoc">Write CLI arguments information to log.</div><div class="ttdef"><b>Definition:</b> log.cpp:33</div></div>
-<div class="ttc" id="aclass_log_html_ab2886344deeeb04e7414fc435a3598f4"><div class="ttname"><a href="class_log.html#ab2886344deeeb04e7414fc435a3598f4">Log::msg</a></div><div class="ttdeci">std::ofstream &amp; msg()</div><div class="ttdoc">Write a message to the log file.</div><div class="ttdef"><b>Definition:</b> log.h:121</div></div>
-<div class="ttc" id="aclass_log_html_ab61203710351f6d33d7ba634d2c4eb32"><div class="ttname"><a href="class_log.html#ab61203710351f6d33d7ba634d2c4eb32">Log::war</a></div><div class="ttdeci">std::ofstream &amp; war()</div><div class="ttdoc">Write warning message to the log file.</div><div class="ttdef"><b>Definition:</b> log.h:111</div></div>
-<div class="ttc" id="aclass_log_html_ac7147942832455398ad289b706a02616"><div class="ttname"><a href="class_log.html#ac7147942832455398ad289b706a02616">Log::err</a></div><div class="ttdeci">std::ofstream &amp; err()</div><div class="ttdoc">Write error message to the log file.</div><div class="ttdef"><b>Definition:</b> log.h:116</div></div>
-<div class="ttc" id="aclass_log_html_add7e611cd3267d3fd5dae017e3aeef67"><div class="ttname"><a href="class_log.html#add7e611cd3267d3fd5dae017e3aeef67">Log::info</a></div><div class="ttdeci">std::ofstream &amp; info()</div><div class="ttdoc">Write infomation to the log file.</div><div class="ttdef"><b>Definition:</b> log.h:106</div></div>
-<div class="ttc" id="aclass_log_html_af6071a60aa52b6c1b511f99b4bc1b8fe"><div class="ttname"><a href="class_log.html#af6071a60aa52b6c1b511f99b4bc1b8fe">Log::Log</a></div><div class="ttdeci">Log()</div><div class="ttdoc">Construct a new Log object.</div><div class="ttdef"><b>Definition:</b> log.cpp:14</div></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;iomanip&gt;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;spy.hpp&gt;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_log.html">   28</a></span><span class="keyword">class </span><a class="code hl_class" href="class_log.html">Log</a> {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <a class="code hl_function" href="class_log.html#af6071a60aa52b6c1b511f99b4bc1b8fe">Log</a>();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_function" href="class_log.html#a0fbfda88fbee5027c89f6eb121059360">~Log</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    std::ofstream&amp; <a class="code hl_function" href="class_log.html#a3410828f35c9bf8dd0771ead28de27b0">write</a>();</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    std::ofstream&amp; <a class="code hl_function" href="class_log.html#add7e611cd3267d3fd5dae017e3aeef67">info</a>();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    std::ofstream&amp; <a class="code hl_function" href="class_log.html#ab61203710351f6d33d7ba634d2c4eb32">war</a>();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    std::ofstream&amp; <a class="code hl_function" href="class_log.html#ac7147942832455398ad289b706a02616">err</a>();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    std::ofstream&amp; <a class="code hl_function" href="class_log.html#ab2886344deeeb04e7414fc435a3598f4">msg</a>();</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9">flush</a>();</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_log.html#a6a9b2e109e525daae7d0b81561d6cf9c">writeArg</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">  101</a></span>    std::ofstream <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>;   </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="class_log.html#a59012f49d8724d33bffdf87d6c7967e8">  102</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_log.html#a59012f49d8724d33bffdf87d6c7967e8">_open</a> = <span class="keyword">false</span>; </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>};</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="class_log.html#a3410828f35c9bf8dd0771ead28de27b0">  105</a></span><span class="keyword">inline</span> std::ofstream&amp; <a class="code hl_function" href="class_log.html#a3410828f35c9bf8dd0771ead28de27b0">Log::write</a>() { <span class="keywordflow">return</span> <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>; }</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="class_log.html#add7e611cd3267d3fd5dae017e3aeef67">  107</a></span><span class="keyword">inline</span> std::ofstream&amp; <a class="code hl_function" href="class_log.html#add7e611cd3267d3fd5dae017e3aeef67">Log::info</a>() {</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a> &lt;&lt; <span class="stringliteral">&quot;[INFO] &quot;</span>;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>}</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="class_log.html#ab61203710351f6d33d7ba634d2c4eb32">  112</a></span><span class="keyword">inline</span> std::ofstream&amp; <a class="code hl_function" href="class_log.html#ab61203710351f6d33d7ba634d2c4eb32">Log::war</a>() {</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a> &lt;&lt; <span class="stringliteral">&quot;[WARNING] &quot;</span>;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>}</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="class_log.html#ac7147942832455398ad289b706a02616">  117</a></span><span class="keyword">inline</span> std::ofstream&amp; <a class="code hl_function" href="class_log.html#ac7147942832455398ad289b706a02616">Log::err</a>() {</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a> &lt;&lt; <span class="stringliteral">&quot;[ERROR] &quot;</span>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>}</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="class_log.html#ab2886344deeeb04e7414fc435a3598f4">  122</a></span><span class="keyword">inline</span> std::ofstream&amp; <a class="code hl_function" href="class_log.html#ab2886344deeeb04e7414fc435a3598f4">Log::msg</a>() {</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a> &lt;&lt; <span class="stringliteral">&quot;[MESSAGE] &quot;</span>;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a>;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>}</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9">  127</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9">Log::flush</a>() { <a class="code hl_variable" href="class_log.html#a4689b970031c924e2310a9ecf932f01b">_f</a> &lt;&lt; std::flush; }</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_log_html"><div class="ttname"><a href="class_log.html">Log</a></div><div class="ttdoc">Log support during compilation.</div><div class="ttdef"><b>Definition:</b> log.h:28</div></div>
+<div class="ttc" id="aclass_log_html_a0fbfda88fbee5027c89f6eb121059360"><div class="ttname"><a href="class_log.html#a0fbfda88fbee5027c89f6eb121059360">Log::~Log</a></div><div class="ttdeci">~Log()</div><div class="ttdoc">Destroy the Log object.</div><div class="ttdef"><b>Definition:</b> log.cpp:42</div></div>
+<div class="ttc" id="aclass_log_html_a3410828f35c9bf8dd0771ead28de27b0"><div class="ttname"><a href="class_log.html#a3410828f35c9bf8dd0771ead28de27b0">Log::write</a></div><div class="ttdeci">std::ofstream &amp; write()</div><div class="ttdoc">Write contents to the log file.</div><div class="ttdef"><b>Definition:</b> log.h:105</div></div>
+<div class="ttc" id="aclass_log_html_a4689b970031c924e2310a9ecf932f01b"><div class="ttname"><a href="class_log.html#a4689b970031c924e2310a9ecf932f01b">Log::_f</a></div><div class="ttdeci">std::ofstream _f</div><div class="ttdoc">output file stream</div><div class="ttdef"><b>Definition:</b> log.h:101</div></div>
+<div class="ttc" id="aclass_log_html_a48b8faa1f9d2590c6fb650f1004e73c9"><div class="ttname"><a href="class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9">Log::flush</a></div><div class="ttdeci">void flush()</div><div class="ttdoc">Flush the buff into the log file.</div><div class="ttdef"><b>Definition:</b> log.h:127</div></div>
+<div class="ttc" id="aclass_log_html_a59012f49d8724d33bffdf87d6c7967e8"><div class="ttname"><a href="class_log.html#a59012f49d8724d33bffdf87d6c7967e8">Log::_open</a></div><div class="ttdeci">bool _open</div><div class="ttdoc">whether the file successfully opened</div><div class="ttdef"><b>Definition:</b> log.h:102</div></div>
+<div class="ttc" id="aclass_log_html_a6a9b2e109e525daae7d0b81561d6cf9c"><div class="ttname"><a href="class_log.html#a6a9b2e109e525daae7d0b81561d6cf9c">Log::writeArg</a></div><div class="ttdeci">void writeArg(int argc, char *argv[])</div><div class="ttdoc">Write CLI arguments information to log.</div><div class="ttdef"><b>Definition:</b> log.cpp:46</div></div>
+<div class="ttc" id="aclass_log_html_ab2886344deeeb04e7414fc435a3598f4"><div class="ttname"><a href="class_log.html#ab2886344deeeb04e7414fc435a3598f4">Log::msg</a></div><div class="ttdeci">std::ofstream &amp; msg()</div><div class="ttdoc">Write a message to the log file.</div><div class="ttdef"><b>Definition:</b> log.h:122</div></div>
+<div class="ttc" id="aclass_log_html_ab61203710351f6d33d7ba634d2c4eb32"><div class="ttname"><a href="class_log.html#ab61203710351f6d33d7ba634d2c4eb32">Log::war</a></div><div class="ttdeci">std::ofstream &amp; war()</div><div class="ttdoc">Write warning message to the log file.</div><div class="ttdef"><b>Definition:</b> log.h:112</div></div>
+<div class="ttc" id="aclass_log_html_ac7147942832455398ad289b706a02616"><div class="ttname"><a href="class_log.html#ac7147942832455398ad289b706a02616">Log::err</a></div><div class="ttdeci">std::ofstream &amp; err()</div><div class="ttdoc">Write error message to the log file.</div><div class="ttdef"><b>Definition:</b> log.h:117</div></div>
+<div class="ttc" id="aclass_log_html_add7e611cd3267d3fd5dae017e3aeef67"><div class="ttname"><a href="class_log.html#add7e611cd3267d3fd5dae017e3aeef67">Log::info</a></div><div class="ttdeci">std::ofstream &amp; info()</div><div class="ttdoc">Write infomation to the log file.</div><div class="ttdef"><b>Definition:</b> log.h:107</div></div>
+<div class="ttc" id="aclass_log_html_af6071a60aa52b6c1b511f99b4bc1b8fe"><div class="ttname"><a href="class_log.html#af6071a60aa52b6c1b511f99b4bc1b8fe">Log::Log</a></div><div class="ttdeci">Log()</div><div class="ttdoc">Construct a new Log object.</div><div class="ttdef"><b>Definition:</b> log.cpp:27</div></div>
 <div class="ttc" id="ameta_8h_html"><div class="ttname"><a href="meta_8h.html">meta.h</a></div><div class="ttdoc">mmCEsim meta data</div></div>
 <div class="ttc" id="aterm_8h_html"><div class="ttname"><a href="term_8h.html">term.h</a></div><div class="ttdoc">Terminal Color and Style Control.</div></div>
 <div class="ttc" id="autils_8h_html"><div class="ttname"><a href="utils_8h.html">utils.h</a></div><div class="ttdoc">Utilities.</div></div>
@@ -185,7 +186,7 @@ $(document).ready(function(){initNavTree('include_2log_8h_source.html',''); init
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="include_2log_8h.html">log.h</a></li>
-    <li class="footer">Generated on Fri Jul 28 2023 14:00:07 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Tue Aug 8 2023 07:19:38 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

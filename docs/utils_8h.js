@@ -2,6 +2,8 @@ var utils_8h =
 [
     [ "appDir", "utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70", null ],
     [ "contains", "utils_8h.html#af11c7cca5b9ad860da4bdb556dce3234", null ],
+    [ "dataDir", "utils_8h.html#a4b2e6c6245b704aeb7448bf62b1cf422", null ],
+    [ "homeDir", "utils_8h.html#a86caea3b83de102899d12b4100e61c1d", null ],
     [ "isQuoted", "utils_8h.html#aaaee605fe46abaa420448438d89b22ed", null ],
     [ "isUInt", "utils_8h.html#aa0a3ba0e1cec6f6b77334767af46eef7", null ],
     [ "ltrim", "utils_8h.html#a47084ee818936eef3c48be492c0e860f", null ],

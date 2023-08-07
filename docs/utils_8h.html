@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('utils_8h.html',''); initResizable(); }
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;boost/dll/runtime_symbol_info.hpp&gt;</code><br />
+<code>#include &lt;pwd.h&gt;</code><br />
+<code>#include &lt;sys/types.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for utils.h:</div>
 <div class="dyncontent">
@@ -168,8 +171,12 @@ Functions</h2></td></tr>
 <tr class="memitem:af11c7cca5b9ad860da4bdb556dce3234"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:af11c7cca5b9ad860da4bdb556dce3234"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utils_8h.html#af11c7cca5b9ad860da4bdb556dce3234">contains</a> (const T &amp;container, const typename T::value_type value)</td></tr>
 <tr class="separator:af11c7cca5b9ad860da4bdb556dce3234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86caea3b83de102899d12b4100e61c1d"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a86caea3b83de102899d12b4100e61c1d">homeDir</a> ()</td></tr>
+<tr class="separator:a86caea3b83de102899d12b4100e61c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49dc116689f1a4202be4d3f0743b1f70"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70">appDir</a> ()</td></tr>
 <tr class="separator:a49dc116689f1a4202be4d3f0743b1f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b2e6c6245b704aeb7448bf62b1cf422"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a4b2e6c6245b704aeb7448bf62b1cf422">dataDir</a> ()</td></tr>
+<tr class="separator:a4b2e6c6245b704aeb7448bf62b1cf422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56d0292f4f5c1dcc1f4fc0b60c8b872e"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a56d0292f4f5c1dcc1f4fc0b60c8b872e">randomString</a> (std::string::size_type length)</td></tr>
 <tr class="separator:a56d0292f4f5c1dcc1f4fc0b60c8b872e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4a160832ef9fad47c531ece39752208"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -181,7 +188,7 @@ Functions</h2></td></tr>
 <div class="textblock"><p >Utilities. </p>
 <dl class="section author"><dt>Author</dt><dd>Wuqiong Zhao (<a href="#" onclick="location.href='mai'+'lto:'+'wqz'+'ha'+'o@s'+'eu'+'.ed'+'u.'+'cn'; return false;">wqzha<span class="obfuscator">.nosp@m.</span>o@se<span class="obfuscator">.nosp@m.</span>u.edu<span class="obfuscator">.nosp@m.</span>.cn</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.2.1 </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2022-07-11</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2023-07-29</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2022-2023 Wuqiong Zhao (Teddy van Jerry) </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a49dc116689f1a4202be4d3f0743b1f70" name="a49dc116689f1a4202be4d3f0743b1f70"></a>
@@ -254,6 +261,74 @@ template&lt;typename T &gt; </div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="utils_8h_af11c7cca5b9ad860da4bdb556dce3234_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a4b2e6c6245b704aeb7448bf62b1cf422" name="a4b2e6c6245b704aeb7448bf62b1cf422"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b2e6c6245b704aeb7448bf62b1cf422">&#9670;&nbsp;</a></span>dataDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string dataDir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="utils_8h_a4b2e6c6245b704aeb7448bf62b1cf422_cgraph.svg" width="208" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="utils_8h_a4b2e6c6245b704aeb7448bf62b1cf422_icgraph.svg" width="539" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a86caea3b83de102899d12b4100e61c1d" name="a86caea3b83de102899d12b4100e61c1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86caea3b83de102899d12b4100e61c1d">&#9670;&nbsp;</a></span>homeDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string homeDir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="utils_8h_a86caea3b83de102899d12b4100e61c1d_icgraph.svg" width="666" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -730,7 +805,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="utils_8h.html">utils.h</a></li>
-    <li class="footer">Generated on Fri Jul 28 2023 14:00:07 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Tue Aug 8 2023 07:19:38 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
