@@ -17,13 +17,14 @@ var searchData=
   ['type_14',['Type',['../struct_macro.html#a642a1ef22744f5f22cfe440894531a54',1,'Macro::Type()'],['../class_type.html#a571cd982de307ade28ef73435cf01bf5',1,'Type::Type()=default'],['../class_type.html#af1878aebdde61545f8172c64b288d04e',1,'Type::Type(const std::string &amp;str)']]],
   ['type_15',['type',['../struct_alg___line_1_1_return___type.html#ae9d64231ed73e6a0cb8a8e589a847831',1,'Alg_Line::Return_Type::type()'],['../struct_alg___line_1_1_param___type.html#a7e5ec39dcc417733579b0801293f7ab1',1,'Alg_Line::Param_Type::type()']]],
   ['type_16',['Type',['../class_type.html',1,'']]],
-  ['type_2ecpp_17',['type.cpp',['../type_8cpp.html',1,'']]],
-  ['type_2eh_18',['type.h',['../type_8h.html',1,'']]],
-  ['type_5fpair_19',['Type_Pair',['../type__track_8h.html#a27e8eec2e34bacc29d8226c6b8933cda',1,'type_track.h']]],
-  ['type_5ftrack_20',['type_track',['../calc_8cpp.html#a42c407db85a27a2bbdb8f5135ce88cbc',1,'type_track():&#160;calc.cpp'],['../type__track__global_8h.html#a42c407db85a27a2bbdb8f5135ce88cbc',1,'type_track():&#160;calc.cpp']]],
-  ['type_5ftrack_21',['Type_Track',['../class_type___track.html',1,'']]],
-  ['type_5ftrack_2ecpp_22',['type_track.cpp',['../type__track_8cpp.html',1,'']]],
-  ['type_5ftrack_2eh_23',['type_track.h',['../type__track_8h.html',1,'']]],
-  ['type_5ftrack_5fglobal_2eh_24',['type_track_global.h',['../type__track__global_8h.html',1,'']]],
-  ['typename_25',['typeName',['../struct_macro.html#a0a64263ca28e6e30160145a33ed5d77f',1,'Macro']]]
+  ['type_17',['type',['../namespaceversion__bump.html#aa6b95416146f04dd2239544b442a9051',1,'version_bump']]],
+  ['type_2ecpp_18',['type.cpp',['../type_8cpp.html',1,'']]],
+  ['type_2eh_19',['type.h',['../type_8h.html',1,'']]],
+  ['type_5fpair_20',['Type_Pair',['../type__track_8h.html#a27e8eec2e34bacc29d8226c6b8933cda',1,'type_track.h']]],
+  ['type_5ftrack_21',['type_track',['../calc_8cpp.html#a42c407db85a27a2bbdb8f5135ce88cbc',1,'type_track():&#160;calc.cpp'],['../type__track__global_8h.html#a42c407db85a27a2bbdb8f5135ce88cbc',1,'type_track():&#160;calc.cpp']]],
+  ['type_5ftrack_22',['Type_Track',['../class_type___track.html',1,'']]],
+  ['type_5ftrack_2ecpp_23',['type_track.cpp',['../type__track_8cpp.html',1,'']]],
+  ['type_5ftrack_2eh_24',['type_track.h',['../type__track_8h.html',1,'']]],
+  ['type_5ftrack_5fglobal_2eh_25',['type_track_global.h',['../type__track__global_8h.html',1,'']]],
+  ['typename_26',['typeName',['../struct_macro.html#a0a64263ca28e6e30160145a33ed5d77f',1,'Macro']]]
 ];

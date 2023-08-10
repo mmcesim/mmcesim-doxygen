@@ -1,7 +1,4 @@
 <map id="Type_Track::push" name="Type_Track::push">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,137,57"/>
-<area shape="rect" id="node2" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="195,5,273,32"/>
-<area shape="rect" id="node3" href="$class_type.html#a0153b8ff39040caf3ff2a6f7c7329d7c" title="Get the C++ type name." alt="" coords="185,56,283,83"/>
-<area shape="rect" id="node4" href="$class_type.html#a5b8adffb334040c53940ecf814ebcc65" title=" " alt="" coords="333,31,460,57"/>
-<area shape="rect" id="node5" href="$class_type.html#a836b463aa4740a234e0d304ed4cd958f" title=" " alt="" coords="331,81,463,108"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,137,32"/>
+<area shape="rect" id="node2" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="185,5,264,32"/>
 </map>

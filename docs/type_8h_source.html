@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('type_8h_source.html',''); initResizabl
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="class_type.html#a571cd982de307ade28ef73435cf01bf5">   58</a></span>    <a class="code hl_function" href="class_type.html#a571cd982de307ade28ef73435cf01bf5">Type</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_function" href="class_type.html#a571cd982de307ade28ef73435cf01bf5">Type</a>(<span class="keyword">const</span> std::string&amp; str);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_function" href="class_type.html#a571cd982de307ade28ef73435cf01bf5">Type</a>(<span class="keyword">const</span> std::string&amp; <a class="code hl_variable" href="namespaceversion__bump.html#ac919baf5122ac20c8aa9331952fa3c2d">str</a>);</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <a class="code hl_enumeration" href="class_type.html#a573918fe25965adb633746c4efd7192d">Data</a> <a class="code hl_function" href="class_type.html#a103e30d6912aa5a71f944b01778e0ead">data</a>() const noexcept;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
@@ -175,8 +175,8 @@ $(document).ready(function(){initNavTree('type_8h_source.html',''); initResizabl
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="class_type.html#a7aa7f09541830648b382911099d41931">  104</a></span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_type.html#a7aa7f09541830648b382911099d41931">Type::isReference</a>() const noexcept { <span class="keywordflow">return</span> <a class="code hl_variable" href="class_type.html#a6d1a074396d44c6cd8b727f8a3a4ccb1">_suffix</a> == <a class="code hl_enumvalue" href="class_type.html#adb4de930dbfbd1696484f79180a619bba45cdbddac5050eccbe703596714f9d97">Suffix::REFERENCE_</a>; }</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="class_type.html#afda11a690ae44985e9f7153dfbc5eab8">  106</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="class_type.html#a0153b8ff39040caf3ff2a6f7c7329d7c">Type::string</a>(<span class="keyword">const</span> std::string&amp; str) <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <a class="code hl_class" href="class_type.html">Type</a> t(str);</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="class_type.html#afda11a690ae44985e9f7153dfbc5eab8">  106</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="class_type.html#a0153b8ff39040caf3ff2a6f7c7329d7c">Type::string</a>(<span class="keyword">const</span> std::string&amp; <a class="code hl_variable" href="namespaceversion__bump.html#ac919baf5122ac20c8aa9331952fa3c2d">str</a>) <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <a class="code hl_class" href="class_type.html">Type</a> t(<a class="code hl_variable" href="namespaceversion__bump.html#ac919baf5122ac20c8aa9331952fa3c2d">str</a>);</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordflow">return</span> t.<a class="code hl_function" href="class_type.html#a0153b8ff39040caf3ff2a6f7c7329d7c">string</a>();</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>}</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
@@ -203,13 +203,14 @@ $(document).ready(function(){initNavTree('type_8h_source.html',''); initResizabl
 <div class="ttc" id="aclass_type_html_adb4de930dbfbd1696484f79180a619bba45cdbddac5050eccbe703596714f9d97"><div class="ttname"><a href="class_type.html#adb4de930dbfbd1696484f79180a619bba45cdbddac5050eccbe703596714f9d97">Type::Suffix::REFERENCE_</a></div><div class="ttdeci">@ REFERENCE_</div></div>
 <div class="ttc" id="aclass_type_html_adb4de930dbfbd1696484f79180a619bba696b031073e74bf2cb98e5ef201d4aa3"><div class="ttname"><a href="class_type.html#adb4de930dbfbd1696484f79180a619bba696b031073e74bf2cb98e5ef201d4aa3">Type::Suffix::UNKNOWN</a></div><div class="ttdeci">@ UNKNOWN</div></div>
 <div class="ttc" id="aclass_type_html_af9999b419bcb083766d1ac2ca6e0ed72"><div class="ttname"><a href="class_type.html#af9999b419bcb083766d1ac2ca6e0ed72">Type::_getSuffix</a></div><div class="ttdeci">Suffix _getSuffix(char c) const noexcept</div><div class="ttdef"><b>Definition:</b> type.cpp:112</div></div>
+<div class="ttc" id="anamespaceversion__bump_html_ac919baf5122ac20c8aa9331952fa3c2d"><div class="ttname"><a href="namespaceversion__bump.html#ac919baf5122ac20c8aa9331952fa3c2d">version_bump.str</a></div><div class="ttdeci">str</div><div class="ttdef"><b>Definition:</b> version_bump.py:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_a26cd56a311ed2c6b00868ab8167f874.html">export</a></li><li class="navelem"><a class="el" href="type_8h.html">type.h</a></li>
-    <li class="footer">Generated on Tue Aug 8 2023 07:19:38 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Aug 10 2023 15:47:40 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

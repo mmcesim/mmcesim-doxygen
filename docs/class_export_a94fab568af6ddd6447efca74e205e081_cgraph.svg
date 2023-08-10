@@ -628,48 +628,48 @@ var sectionId = 'dynsection-58';
 <path fill="none" stroke="midnightblue" d="M803.35,-102.19C819.9,-98.94 839.92,-92.96 855,-82 878.03,-65.26 868.72,-46.73 891,-29 894.86,-25.93 899.27,-23.31 903.83,-21.09"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="905.44,-24.2 913.27,-17.06 902.7,-17.76 905.44,-24.2"/>
 </g>
-<!-- Node32 -->
+<!-- Node35 -->
 <g id="node24" class="node">
-<title>Node32</title>
+<title>Node35</title>
 <g id="a_node24"><a xlink:href="class_type.html#abe15820e780d2f6646792d54f3ae3311" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="909,-152.5 909,-171.5 973,-171.5 973,-152.5 909,-152.5"/>
 <text text-anchor="middle" x="941" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Type::dim</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node32 -->
+<!-- Node22&#45;&gt;Node35 -->
 <g id="edge29" class="edge">
-<title>Node22&#45;&gt;Node32</title>
+<title>Node22&#45;&gt;Node35</title>
 <path fill="none" stroke="midnightblue" d="M801.29,-115.63C829.03,-124.9 871.15,-138.98 901.7,-149.2"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="900.99,-152.65 911.58,-152.5 903.21,-146.01 900.99,-152.65"/>
 </g>
-<!-- Node37 -->
+<!-- Node36 -->
 <g id="node25" class="node">
-<title>Node37</title>
+<title>Node36</title>
 <g id="a_node25"><a xlink:href="class_alg___line.html#af651454e6ddfce164626b68b2c6cba97" target="_top" xlink:title="Get the function name.">
 <polygon fill="white" stroke="black" points="898.5,-114.5 898.5,-133.5 983.5,-133.5 983.5,-114.5 898.5,-114.5"/>
 <text text-anchor="middle" x="941" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Alg_Line::func</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node37 -->
+<!-- Node22&#45;&gt;Node36 -->
 <g id="edge30" class="edge">
-<title>Node22&#45;&gt;Node37</title>
+<title>Node22&#45;&gt;Node36</title>
 <path fill="none" stroke="midnightblue" d="M803.22,-109.3C827.03,-111.86 860.54,-115.46 888.44,-118.46"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="888.11,-121.94 898.43,-119.53 888.86,-114.98 888.11,-121.94"/>
 </g>
-<!-- Node38 -->
+<!-- Node37 -->
 <g id="node26" class="node">
-<title>Node38</title>
+<title>Node37</title>
 <g id="a_node26"><a xlink:href="class_alg___line.html#a49a98870a1f09e35a3e15a7d7bab1666" target="_top" xlink:title="Check whether parameters contain the key.">
 <polygon fill="white" stroke="black" points="891.5,-76.5 891.5,-95.5 990.5,-95.5 990.5,-76.5 891.5,-76.5"/>
 <text text-anchor="middle" x="941" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Alg_Line::hasKey</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node38 -->
+<!-- Node22&#45;&gt;Node37 -->
 <g id="edge31" class="edge">
-<title>Node22&#45;&gt;Node38</title>
+<title>Node22&#45;&gt;Node37</title>
 <path fill="none" stroke="midnightblue" d="M803.22,-102.33C824.98,-99.73 854.86,-96.17 881.14,-93.03"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="881.87,-96.47 891.39,-91.8 881.04,-89.51 881.87,-96.47"/>
 </g>

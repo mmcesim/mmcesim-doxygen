@@ -4,42 +4,42 @@
 <area shape="rect" id="node3" href="$class_export.html#abe75ae41d7cc8afe8f1ba4bbf67dfcfc" title=" " alt="" coords="231,56,315,83"/>
 <area shape="rect" id="node4" href="$class_export.html#a68e698a5654fc800aa78c512da8f23b1" title=" " alt="" coords="210,107,335,133"/>
 <area shape="rect" id="node5" href="$class_export.html#a33b5d571af76c0d4f9b9ee6e72afd8a6" title=" " alt="" coords="203,157,343,184"/>
-<area shape="rect" id="node7" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="1080,703,1159,729"/>
+<area shape="rect" id="node7" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="1105,488,1184,515"/>
 <area shape="rect" id="node8" href="$utils_8h.html#a6ef734356291c638e5787a6c668192d4" title=" " alt="" coords="479,259,529,285"/>
 <area shape="rect" id="node11" href="$class_alg.html#ada1e8215f047b4ffd736e811b5ea3162" title=" " alt="" coords="231,664,315,691"/>
 <area shape="rect" id="node6" href="$error__code_8h.html#ae1bfa02e1106eff84ddecb9f7773a1a4" title="Return the error message of the error code from class Err." alt="" coords="464,157,544,184"/>
-<area shape="rect" id="node9" href="$utils_8h.html#a47084ee818936eef3c48be492c0e860f" title=" " alt="" coords="691,259,745,285"/>
-<area shape="rect" id="node10" href="$utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3" title=" " alt="" coords="691,309,745,336"/>
-<area shape="rect" id="node12" href="$class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d" title=" " alt="" coords="437,968,571,995"/>
-<area shape="rect" id="node13" href="$class_calc.html#ad6dbdfdd4bd21322e5836ff72c11ae1b" title="Convert the Alg CALC contents into a language command." alt="" coords="681,911,755,937"/>
-<area shape="rect" id="node21" href="$class_type.html#abe15820e780d2f6646792d54f3ae3311" title=" " alt="" coords="1077,1152,1162,1179"/>
-<area shape="rect" id="node27" href="$class_alg___line.html#af651454e6ddfce164626b68b2c6cba97" title="Get the function name." alt="" coords="447,1215,561,1241"/>
-<area shape="rect" id="node28" href="$class_alg___line.html#a49a98870a1f09e35a3e15a7d7bab1666" title="Check whether parameters contain the key." alt="" coords="438,309,570,336"/>
-<area shape="rect" id="node29" href="$class_alg.html#a3ee7f9963027158b3fbd442d97800111" title=" " alt="" coords="447,816,561,843"/>
-<area shape="rect" id="node30" href="$class_alg___line.html#ad419191a99be7e34024e569ad833b04e" title="Check whether the line is for function declaration." alt="" coords="391,360,617,387"/>
-<area shape="rect" id="node31" href="$class_alg.html#af935e64a6eb4afa4ca1540f4da3dcc9c" title=" " alt="" coords="467,411,541,437"/>
-<area shape="rect" id="node32" href="$class_alg___line.html#a4e79eb77a1cddbdab1dbdde8a499342d" title="Parameter variables." alt="" coords="437,461,571,488"/>
-<area shape="rect" id="node33" href="$class_alg___line.html#a801b08c6c164376039a4ba4e980d039e" title="Print Alg_Line contents (including return values, function names and parameters)." alt="" coords="447,512,561,539"/>
-<area shape="rect" id="node36" href="$class_type___track.html#a4548ba1c289fba60e88b0e725509219e" title=" " alt="" coords="438,765,570,792"/>
-<area shape="rect" id="node37" href="$class_type.html#a0153b8ff39040caf3ff2a6f7c7329d7c" title="Get the C++ type name." alt="" coords="669,1051,767,1077"/>
-<area shape="rect" id="node39" href="$utils_8h.html#a0465457013518e168df05799c93cfa6e" title=" " alt="" coords="449,563,559,589"/>
-<area shape="rect" id="node41" href="$class_alg___line.html#a8e21f6b69eaf80a2327f7308fb4299e0" title="Return variables." alt="" coords="439,613,569,640"/>
-<area shape="rect" id="node42" href="$namespacemmce.html#ad4a160832ef9fad47c531ece39752208" title="Change a number to string." alt="" coords="440,664,568,691"/>
-<area shape="rect" id="node43" href="$class_log.html#a3410828f35c9bf8dd0771ead28de27b0" title="Write contents to the log file." alt="" coords="461,867,547,893"/>
-<area shape="rect" id="node14" href="$class_calc.html#af1d1bd5e83f9e5196627f5a4e1a5ee83" title=" " alt="" coords="829,836,995,863"/>
-<area shape="rect" id="node17" href="$class_calc.html#ae3d88bd40f9bdf2c8ec92c426bdca446" title=" " alt="" coords="827,785,997,812"/>
-<area shape="rect" id="node18" href="$class_calc.html#ad95be528148e0d63848d5fa916b93200" title=" " alt="" coords="838,961,986,988"/>
-<area shape="rect" id="node19" href="$class_calc.html#ad562619fef96a73cd3b4c27b35bc5f91" title=" " alt="" coords="825,911,999,937"/>
-<area shape="rect" id="node26" href="$class_calc.html#a1aec4748092712e0995c0ae5dabbf54f" title=" " alt="" coords="819,1012,1005,1039"/>
-<area shape="rect" id="node15" href="$class_calc.html#a7d793eba0a7c9fcbafec4310359f165d" title=" " alt="" coords="1057,823,1181,849"/>
-<area shape="rect" id="node16" href="$class_calc.html#af58cd6a2174e577a6246366de03b949e" title=" " alt="" coords="1055,772,1184,799"/>
-<area shape="rect" id="node20" href="$class_calc.html#a284818e83b0d85bdd029f3d72d4ef0bd" title=" " alt="" coords="1073,924,1166,951"/>
-<area shape="rect" id="node22" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="1084,975,1155,1001"/>
-<area shape="rect" id="node23" href="$utils_8h.html#aa0a3ba0e1cec6f6b77334767af46eef7" title="Check if the string is an unsigned integer." alt="" coords="1089,1025,1149,1052"/>
-<area shape="rect" id="node24" href="$class_type.html#a836b463aa4740a234e0d304ed4cd958f" title=" " alt="" coords="1053,1096,1185,1123"/>
-<area shape="rect" id="node25" href="$class_type___track.html#ab510214767b1b4d71e3beadecb814bb7" title=" " alt="" coords="1056,873,1183,900"/>
-<area shape="rect" id="node34" href="$functions_8h.html#ac9dc58cb94b7547813c3a35154d97d18" title=" " alt="" coords="665,512,771,539"/>
-<area shape="rect" id="node35" href="$utils_8h.html#af11c7cca5b9ad860da4bdb556dce3234" title=" " alt="" coords="873,512,951,539"/>
-<area shape="rect" id="node38" href="$class_type.html#a5b8adffb334040c53940ecf814ebcc65" title=" " alt="" coords="849,1063,975,1089"/>
-<area shape="rect" id="node40" href="$utils_8h.html#aaaee605fe46abaa420448438d89b22ed" title=" " alt="" coords="678,563,758,589"/>
+<area shape="rect" id="node9" href="$utils_8h.html#a47084ee818936eef3c48be492c0e860f" title=" " alt="" coords="705,259,758,285"/>
+<area shape="rect" id="node10" href="$utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3" title=" " alt="" coords="704,309,759,336"/>
+<area shape="rect" id="node12" href="$class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d" title=" " alt="" coords="437,512,571,539"/>
+<area shape="rect" id="node13" href="$class_calc.html#ad6dbdfdd4bd21322e5836ff72c11ae1b" title="Convert the Alg CALC contents into a language command." alt="" coords="695,765,768,792"/>
+<area shape="rect" id="node25" href="$class_type.html#abe15820e780d2f6646792d54f3ae3311" title=" " alt="" coords="461,613,547,640"/>
+<area shape="rect" id="node26" href="$class_alg___line.html#af651454e6ddfce164626b68b2c6cba97" title="Get the function name." alt="" coords="447,664,561,691"/>
+<area shape="rect" id="node27" href="$class_alg___line.html#a49a98870a1f09e35a3e15a7d7bab1666" title="Check whether parameters contain the key." alt="" coords="438,715,570,741"/>
+<area shape="rect" id="node28" href="$class_alg.html#a3ee7f9963027158b3fbd442d97800111" title=" " alt="" coords="447,765,561,792"/>
+<area shape="rect" id="node29" href="$class_alg___line.html#ad419191a99be7e34024e569ad833b04e" title="Check whether the line is for function declaration." alt="" coords="391,816,617,843"/>
+<area shape="rect" id="node30" href="$class_alg.html#af935e64a6eb4afa4ca1540f4da3dcc9c" title=" " alt="" coords="467,867,541,893"/>
+<area shape="rect" id="node31" href="$class_alg___line.html#a4e79eb77a1cddbdab1dbdde8a499342d" title="Parameter variables." alt="" coords="437,917,571,944"/>
+<area shape="rect" id="node32" href="$class_alg___line.html#a801b08c6c164376039a4ba4e980d039e" title="Print Alg_Line contents (including return values, function names and parameters)." alt="" coords="447,1019,561,1045"/>
+<area shape="rect" id="node35" href="$class_type___track.html#a4548ba1c289fba60e88b0e725509219e" title=" " alt="" coords="873,532,1005,559"/>
+<area shape="rect" id="node36" href="$utils_8h.html#a0465457013518e168df05799c93cfa6e" title=" " alt="" coords="449,1069,559,1096"/>
+<area shape="rect" id="node38" href="$class_alg___line.html#a8e21f6b69eaf80a2327f7308fb4299e0" title="Return variables." alt="" coords="439,1120,569,1147"/>
+<area shape="rect" id="node39" href="$class_type.html#a0153b8ff39040caf3ff2a6f7c7329d7c" title="Get the C++ type name." alt="" coords="455,309,553,336"/>
+<area shape="rect" id="node42" href="$namespacemmce.html#ad4a160832ef9fad47c531ece39752208" title="Change a number to string." alt="" coords="440,360,568,387"/>
+<area shape="rect" id="node43" href="$class_log.html#a3410828f35c9bf8dd0771ead28de27b0" title="Write contents to the log file." alt="" coords="461,411,547,437"/>
+<area shape="rect" id="node14" href="$class_calc.html#af1d1bd5e83f9e5196627f5a4e1a5ee83" title=" " alt="" coords="855,879,1022,905"/>
+<area shape="rect" id="node17" href="$class_calc.html#ae3d88bd40f9bdf2c8ec92c426bdca446" title=" " alt="" coords="854,601,1023,628"/>
+<area shape="rect" id="node18" href="$class_calc.html#ad95be528148e0d63848d5fa916b93200" title=" " alt="" coords="865,652,1013,679"/>
+<area shape="rect" id="node19" href="$class_calc.html#ad562619fef96a73cd3b4c27b35bc5f91" title=" " alt="" coords="852,777,1025,804"/>
+<area shape="rect" id="node24" href="$class_calc.html#a1aec4748092712e0995c0ae5dabbf54f" title=" " alt="" coords="845,703,1032,729"/>
+<area shape="rect" id="node15" href="$class_calc.html#a7d793eba0a7c9fcbafec4310359f165d" title=" " alt="" coords="1083,929,1207,956"/>
+<area shape="rect" id="node16" href="$class_calc.html#af58cd6a2174e577a6246366de03b949e" title=" " alt="" coords="1080,879,1209,905"/>
+<area shape="rect" id="node20" href="$class_calc.html#a284818e83b0d85bdd029f3d72d4ef0bd" title=" " alt="" coords="1098,828,1191,855"/>
+<area shape="rect" id="node21" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="1109,676,1180,703"/>
+<area shape="rect" id="node22" href="$utils_8h.html#aa0a3ba0e1cec6f6b77334767af46eef7" title="Check if the string is an unsigned integer." alt="" coords="1115,727,1175,753"/>
+<area shape="rect" id="node23" href="$class_type___track.html#ab510214767b1b4d71e3beadecb814bb7" title=" " alt="" coords="1081,777,1208,804"/>
+<area shape="rect" id="node33" href="$functions_8h.html#ac9dc58cb94b7547813c3a35154d97d18" title=" " alt="" coords="679,1019,784,1045"/>
+<area shape="rect" id="node34" href="$utils_8h.html#af11c7cca5b9ad860da4bdb556dce3234" title=" " alt="" coords="900,1019,977,1045"/>
+<area shape="rect" id="node37" href="$utils_8h.html#aaaee605fe46abaa420448438d89b22ed" title=" " alt="" coords="691,1069,771,1096"/>
+<area shape="rect" id="node40" href="$class_type.html#a5b8adffb334040c53940ecf814ebcc65" title=" " alt="" coords="668,360,795,387"/>
+<area shape="rect" id="node41" href="$class_type.html#a836b463aa4740a234e0d304ed4cd958f" title=" " alt="" coords="665,411,797,437"/>
 </map>

@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['name_0',['name',['../struct_alg_1_1_var.html#afb8faba6ce31b6f05409994f74ddd129',1,'Alg::Var::name()'],['../struct_alg___line_1_1_return___type.html#a4c33a8321c06c55c5ada072e78c87773',1,'Alg_Line::Return_Type::name()']]],
-  ['no_5ferror_5fcompile_1',['no_error_compile',['../struct_c_l_i___options.html#afca390e5394936076bfc7ff4d848c4bf',1,'CLI_Options']]],
-  ['nodes_2',['nodes',['../class_channel___graph.html#a280068cd565b156eccfb2ab913e7aa98',1,'Channel_Graph']]]
+  ['macro_5fnone_0',['macro_none',['../macro_8h.html#a049537e46da67a3f9064cf1ff786a352',1,'macro.h']]],
+  ['magenta_1',['MAGENTA',['../class_term.html#a8e4a36d0ee14f856aa18ad0df141b0f4',1,'Term']]],
+  ['matlab_5fkeywords_2',['MATLAB_Keywords',['../keywords_8h.html#af950fcd27522d6862cd0c39c65a8dbbb',1,'keywords.h']]],
+  ['max_5findex_3',['MAX_INDEX',['../class_channel___graph.html#a415044ac1016055d934669407a88cdbc',1,'Channel_Graph']]],
+  ['max_5flength_4',['max_length',['../class_alg.html#a68cd18cec20de7b33778ad9eb62937e5',1,'Alg']]],
+  ['msg_5',['MSG',['../class_term.html#accd514568fef2222b5b11b685b27f63a',1,'Term']]],
+  ['msg_6',['msg',['../struct_alg_1_1_error.html#a5c00a7e9e2751359475ee2c1490f8049',1,'Alg::Error::msg()'],['../struct_y_a_m_l___error.html#afc40dfc902b75bc079e19b88d27342e5',1,'YAML_Error::msg()']]]
 ];
