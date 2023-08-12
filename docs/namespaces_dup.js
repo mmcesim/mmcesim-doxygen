@@ -7,6 +7,7 @@ var namespaces_dup =
     [ "Ui", "namespace_ui.html", null ],
     [ "version_bump", "namespaceversion__bump.html", [
       [ "find_files", "namespaceversion__bump.html#a5839073d66e1878a6e828939926b9a02", null ],
+      [ "action", "namespaceversion__bump.html#ac68c623598ff5a08714ec4e8678826ac", null ],
       [ "args", "namespaceversion__bump.html#a0c68586e22858f80e207614cf8eb6159", null ],
       [ "content", "namespaceversion__bump.html#aed3478cf2b1325399050c50d3b365aac", null ],
       [ "cpp_files", "namespaceversion__bump.html#a4b8c1a7e8d811e2dbc340a991b5e825e", null ],
