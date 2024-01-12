@@ -15,5 +15,6 @@ var meta_8h =
     [ "_MMCESIM_VER_REVISION", "meta_8h.html#ac38ceb853dfd86cda96f510aa5ca230f", null ],
     [ "_MMCESIM_VER_STR", "meta_8h.html#a2d54159399c4afcafff84723136bed97", null ],
     [ "_MMCESIM_WEB", "meta_8h.html#a64f4c56003caf893182f854d81671d86", null ],
-    [ "_MMCESIM_WEBAPP", "meta_8h.html#ae97ad6c8bf9834245b7ec910b15deb6e", null ]
+    [ "_MMCESIM_WEBAPP", "meta_8h.html#ae97ad6c8bf9834245b7ec910b15deb6e", null ],
+    [ "_MMCESIM_YEARS", "meta_8h.html#afd994edf8cfd8ae50ddda45285679d89", null ]
 ];
