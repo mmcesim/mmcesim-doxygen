@@ -23,6 +23,6 @@ var searchData=
   ['ris_20',['RIS',['../class_export.html#aaffe355758b60cadd8405dd8793c6444a65993c27cba86aa4fb05e353a22ece9b',1,'Export']]],
   ['rtrim_21',['rtrim',['../utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3',1,'utils.h']]],
   ['rtrim_5fcopy_22',['rtrim_copy',['../utils_8h.html#ad586dffdfe677cbd99967a20e58403c9',1,'utils.h']]],
-  ['rx_23',['Rx',['../struct_x_y___size.html#a4797309f669c107e3eebbbb47f5e8c8c',1,'XY_Size::Rx()'],['../class_export.html#aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35',1,'Export::Rx()'],['../class_channel___graph.html#ac136c0c3ba0d6d7785fcb5ff256393a9',1,'Channel_Graph::Rx()']]],
+  ['rx_23',['Rx',['../struct_x_y___size.html#a4797309f669c107e3eebbbb47f5e8c8c',1,'XY_Size::Rx()'],['../class_export.html#aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35',1,'Export::Rx()'],['../class_channel___graph.html#a1ba06f3bcb94b02177ffa1f7d4b929a9',1,'Channel_Graph::Rx()']]],
   ['ry_24',['Ry',['../struct_x_y___size.html#a8ecb2684f64c768af11665ed76dffcb6',1,'XY_Size']]]
 ];

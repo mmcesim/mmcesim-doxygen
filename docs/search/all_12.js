@@ -18,11 +18,12 @@ var searchData=
   ['string_15',['string',['../class_type.html#a0153b8ff39040caf3ff2a6f7c7329d7c',1,'Type::string() const noexcept'],['../class_type.html#afda11a690ae44985e9f7153dfbc5eab8',1,'Type::string(const std::string &amp;) noexcept']]],
   ['string_16',['STRING',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a0d21b7428e9c36da462bddd4bf5d5288',1,'Export::STRING()'],['../class_type.html#a573918fe25965adb633746c4efd7192da63b588d5559f64f89a416e656880b949',1,'Type::STRING()']]],
   ['stringvecasstring_17',['stringVecAsString',['../utils_8h.html#ae31c9f892e58a51912420849e40e8671',1,'utils.h']]],
-  ['style_18',['style',['../struct_c_l_i___options.html#a6574a7ce4c2f0828982c6cfa7d200dbe',1,'CLI_Options::style()'],['../class_style.html#a06fd4016b36d2fa2e46c8c092701c7ea',1,'Style::style() const'],['../class_style.html#a4202615ba5c3a3b4c1b81a53f9c62b63',1,'Style::style(const std::string &amp;file_name, const std::string &amp;options)']]],
-  ['style_19',['Style',['../class_style.html#aae9a2f02ed1f4864f93169e01aeee342',1,'Style::Style()'],['../class_style.html',1,'Style']]],
-  ['style_2ecpp_20',['style.cpp',['../style_8cpp.html',1,'']]],
-  ['style_2eh_21',['style.h',['../style_8h.html',1,'']]],
-  ['success_22',['SUCCESS',['../error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0aad0749aaba8b833466dfcbb0428e4f89c',1,'error_code.h']]],
-  ['suffix_23',['Suffix',['../class_type.html#adb4de930dbfbd1696484f79180a619bb',1,'Type']]],
-  ['switch_5ffunc_24',['SWITCH_FUNC',['../alg_8cpp.html#a87090a0802c6c94f9107c9c76c4c5cd9',1,'alg.cpp']]]
+  ['style_18',['Style',['../class_style.html#aae9a2f02ed1f4864f93169e01aeee342',1,'Style']]],
+  ['style_19',['style',['../struct_c_l_i___options.html#a6574a7ce4c2f0828982c6cfa7d200dbe',1,'CLI_Options::style()'],['../class_style.html#a06fd4016b36d2fa2e46c8c092701c7ea',1,'Style::style() const'],['../class_style.html#a4202615ba5c3a3b4c1b81a53f9c62b63',1,'Style::style(const std::string &amp;file_name, const std::string &amp;options)']]],
+  ['style_20',['Style',['../class_style.html',1,'']]],
+  ['style_2ecpp_21',['style.cpp',['../style_8cpp.html',1,'']]],
+  ['style_2eh_22',['style.h',['../style_8h.html',1,'']]],
+  ['success_23',['SUCCESS',['../error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0aad0749aaba8b833466dfcbb0428e4f89c',1,'error_code.h']]],
+  ['suffix_24',['Suffix',['../class_type.html#adb4de930dbfbd1696484f79180a619bb',1,'Type']]],
+  ['switch_5ffunc_25',['SWITCH_FUNC',['../alg_8cpp.html#a87090a0802c6c94f9107c9c76c4c5cd9',1,'alg.cpp']]]
 ];

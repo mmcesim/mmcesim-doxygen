@@ -102,30 +102,32 @@ $(document).ready(function(){initNavTree('maintain_8h_source.html',''); initResi
 </div><!--header-->
 <div class="contents">
 <a href="maintain_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="meta_8h.html">meta.h</a>&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;boost/process.hpp&gt;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;fstream&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="maintain_8h.html#ad4ea1945167ae64b404adedf5111109b">   23</a></span><span class="keyword">static</span> <span class="keyword">inline</span> std::string <a class="code hl_function" href="maintain_8h.html#ad4ea1945167ae64b404adedf5111109b">fetchUpstreamVersion</a>() {</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">const</span> std::string url = <span class="stringliteral">&quot;https://mmcesim.org/VERSION&quot;</span>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    std::string response;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    std::string error;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    boost::process::ipstream out, err;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">try</span> {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        boost::process::child curl_process(<span class="stringliteral">&quot;curl &quot;</span> + url, boost::process::std_out &gt; out, boost::process::std_err &gt; err);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">while</span> (curl_process.running() &amp;&amp; (std::getline(out, response) || std::getline(err, error))) {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            <span class="keywordflow">if</span> (!error.empty()) std::cerr &lt;&lt; error &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <span class="keywordflow">else</span> <span class="keywordflow">return</span> response;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        }</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    } <span class="keywordflow">catch</span> (std::exception&amp; e) {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        std::cerr &lt;&lt; <span class="stringliteral">&quot;Exception: &quot;</span> &lt;&lt; e.what() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">return</span> response;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
-<div class="ttc" id="amaintain_8h_html_ad4ea1945167ae64b404adedf5111109b"><div class="ttname"><a href="maintain_8h.html#ad4ea1945167ae64b404adedf5111109b">fetchUpstreamVersion</a></div><div class="ttdeci">static std::string fetchUpstreamVersion()</div><div class="ttdoc">Fetch the mmCEsim upstream version.</div><div class="ttdef"><b>Definition:</b> maintain.h:23</div></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="__boost__config_8h.html">_boost_config.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="meta_8h.html">meta.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;boost/process.hpp&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="maintain_8h.html#ad4ea1945167ae64b404adedf5111109b">   24</a></span><span class="keyword">static</span> <span class="keyword">inline</span> std::string <a class="code hl_function" href="maintain_8h.html#ad4ea1945167ae64b404adedf5111109b">fetchUpstreamVersion</a>() {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">const</span> std::string url = <span class="stringliteral">&quot;https://mmcesim.org/VERSION&quot;</span>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    std::string response;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    std::string error;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    boost::process::ipstream out, err;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordflow">try</span> {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        boost::process::child curl_process(<span class="stringliteral">&quot;curl &quot;</span> + url, boost::process::std_out &gt; out, boost::process::std_err &gt; err);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">while</span> (curl_process.running() &amp;&amp; (std::getline(out, response) || std::getline(err, error))) {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <span class="keywordflow">if</span> (!error.empty()) std::cerr &lt;&lt; error &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            <span class="keywordflow">else</span> <span class="keywordflow">return</span> response;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    } <span class="keywordflow">catch</span> (std::exception&amp; e) {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        std::cerr &lt;&lt; <span class="stringliteral">&quot;Exception: &quot;</span> &lt;&lt; e.what() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordflow">return</span> response;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>}</div>
+<div class="ttc" id="a__boost__config_8h_html"><div class="ttname"><a href="__boost__config_8h.html">_boost_config.h</a></div><div class="ttdoc">Boost Configurations.</div></div>
+<div class="ttc" id="amaintain_8h_html_ad4ea1945167ae64b404adedf5111109b"><div class="ttname"><a href="maintain_8h.html#ad4ea1945167ae64b404adedf5111109b">fetchUpstreamVersion</a></div><div class="ttdeci">static std::string fetchUpstreamVersion()</div><div class="ttdoc">Fetch the mmCEsim upstream version.</div><div class="ttdef"><b>Definition:</b> maintain.h:24</div></div>
 <div class="ttc" id="ameta_8h_html"><div class="ttname"><a href="meta_8h.html">meta.h</a></div><div class="ttdoc">mmCEsim meta data</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('maintain_8h_source.html',''); initResi
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html">tools</a></li><li class="navelem"><a class="el" href="dir_e2a3254c0ec7ce6646438f02ce44aceb.html">maintain</a></li><li class="navelem"><a class="el" href="maintain_8h.html">maintain.h</a></li>
-    <li class="footer">Generated on Fri Jan 12 2024 20:54:44 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Sun Jan 14 2024 23:08:43 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

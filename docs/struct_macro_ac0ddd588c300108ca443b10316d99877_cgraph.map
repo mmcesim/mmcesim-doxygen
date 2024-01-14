@@ -1,11 +1,12 @@
 <map id="Macro::replaceMacro" name="Macro::replaceMacro">
-<area shape="rect" id="node1" title=" " alt="" coords="5,119,164,145"/>
-<area shape="rect" id="node2" href="$struct_x_y___size.html#a5e681ada57de15aeca79e2d09f3162f1" title=" " alt="" coords="232,43,320,69"/>
-<area shape="rect" id="node3" href="$struct_x_y___size.html#a0c52dcb9cfa4d7ccbe373c482ebf2337" title=" " alt="" coords="414,5,501,32"/>
-<area shape="rect" id="node4" href="$struct_x_y___size.html#acc0b4290938fb650a451fdd851d900a6" title=" " alt="" coords="414,68,501,95"/>
-<area shape="rect" id="node5" href="$class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9" title="Flush the buff into the log file." alt="" coords="234,144,318,171"/>
-<area shape="rect" id="node6" href="$struct_macro.html#a94360db4bd4a0a2516339dadc6c37bbd" title="RegEx replace." alt="" coords="217,195,335,221"/>
-<area shape="rect" id="node9" href="$namespacemmce.html#ad4a160832ef9fad47c531ece39752208" title="Change a number to string." alt="" coords="212,245,340,272"/>
-<area shape="rect" id="node7" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="418,169,497,196"/>
-<area shape="rect" id="node8" href="$struct_macro.html#a0a64263ca28e6e30160145a33ed5d77f" title="Get the name of Type." alt="" coords="388,220,527,247"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,144,164,171"/>
+<area shape="rect" id="node2" href="$struct_x_y___size.html#a5e681ada57de15aeca79e2d09f3162f1" title=" " alt="" coords="240,43,328,69"/>
+<area shape="rect" id="node3" href="$struct_x_y___size.html#a0c52dcb9cfa4d7ccbe373c482ebf2337" title=" " alt="" coords="430,5,517,32"/>
+<area shape="rect" id="node4" href="$struct_x_y___size.html#acc0b4290938fb650a451fdd851d900a6" title=" " alt="" coords="430,68,517,95"/>
+<area shape="rect" id="node5" href="$struct_macro.html#a2b2226fb501a9da22d7fb047ea769c5d" title=" " alt="" coords="212,144,356,171"/>
+<area shape="rect" id="node6" href="$class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9" title="Flush the buff into the log file." alt="" coords="242,195,326,221"/>
+<area shape="rect" id="node7" href="$struct_macro.html#a94360db4bd4a0a2516339dadc6c37bbd" title="RegEx replace." alt="" coords="225,245,343,272"/>
+<area shape="rect" id="node10" href="$namespacemmce.html#ad4a160832ef9fad47c531ece39752208" title="Change a number to string." alt="" coords="220,296,348,323"/>
+<area shape="rect" id="node8" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="434,220,513,247"/>
+<area shape="rect" id="node9" href="$struct_macro.html#a0a64263ca28e6e30160145a33ed5d77f" title="Get the name of Type." alt="" coords="404,271,543,297"/>
 </map>

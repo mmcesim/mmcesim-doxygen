@@ -16,5 +16,6 @@ var searchData=
   ['blink_13',['BLINK',['../class_term.html#ab75ba7f40837bf78bd1abef1e363cba6',1,'Term']]],
   ['blue_14',['BLUE',['../class_term.html#a3a22da44089eb80550b47d456dc89e91',1,'Term']]],
   ['bool_15',['BOOL',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a8db344f807c1841afee6b4ca60a82a93',1,'Export::BOOL()'],['../class_type.html#a573918fe25965adb633746c4efd7192daa97b2c144243b2b9d2c593ec268b62f5',1,'Type::BOOL()']]],
-  ['button_5fsearch_16',['button_search',['../class_main_window.html#a62c91a46a9945c3e979ecad324c443df',1,'MainWindow']]]
+  ['boost_5fno_5fcxx98_5ffunction_5fbase_16',['BOOST_NO_CXX98_FUNCTION_BASE',['../__boost__config_8h.html#ac6d807d33b506b7a9af4f7c031303389',1,'_boost_config.h']]],
+  ['button_5fsearch_17',['button_search',['../class_main_window.html#a62c91a46a9945c3e979ecad324c443df',1,'MainWindow']]]
 ];

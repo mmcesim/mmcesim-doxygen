@@ -1,52 +1,52 @@
 <map id="Export::exportCode" name="Export::exportCode">
-<area shape="rect" id="node1" title=" " alt="" coords="5,921,152,948"/>
-<area shape="rect" id="node2" href="$class_export.html#a89d3ae54dd2261cf35be148011b79fe4" title=" " alt="" coords="224,1960,373,1986"/>
-<area shape="rect" id="node4" href="$class_export.html#abe75ae41d7cc8afe8f1ba4bbf67dfcfc" title=" " alt="" coords="797,769,881,796"/>
-<area shape="rect" id="node28" href="$class_export.html#a6000afae41f65b45b6a1e11447c1789c" title=" " alt="" coords="227,60,370,86"/>
-<area shape="rect" id="node30" href="$class_export.html#a7278a492ec0a0394684cccc5949185ca" title=" " alt="" coords="237,490,360,517"/>
-<area shape="rect" id="node31" href="$class_export.html#ad7268f886ac4826f4b6ea738e423e520" title=" " alt="" coords="200,338,397,365"/>
-<area shape="rect" id="node34" href="$class_export.html#a21d0cb6d76223b8e7bcaae31c667219b" title=" " alt="" coords="247,2061,351,2088"/>
-<area shape="rect" id="node35" href="$class_export.html#af64597af0c0b4cf569f96216bcd23b2c" title=" " alt="" coords="229,1200,368,1226"/>
-<area shape="rect" id="node40" href="$class_export.html#ad7bd412c3fe1d5accc38cf1f2ab65ea0" title=" " alt="" coords="455,2466,670,2493"/>
-<area shape="rect" id="node44" href="$class_export.html#a69e74a4cd5dd68dec262869fecc0d359" title=" " alt="" coords="207,566,391,593"/>
-<area shape="rect" id="node45" href="$class_export.html#af41ce4a9c8f549930d43fbe47f84abaa" title="Set the variable names defined by users." alt="" coords="479,1757,646,1784"/>
-<area shape="rect" id="node46" href="$class_export.html#a26fa49d9882a342d011ba715e0c14109" title=" " alt="" coords="229,1808,368,1834"/>
-<area shape="rect" id="node49" href="$class_export.html#a1ba2d8e9de49698d93a6dedbafbe6a0f" title=" " alt="" coords="217,781,381,808"/>
-<area shape="rect" id="node3" href="$class_export.html#a638d6b9ced18342503ee6f4d4b274740" title=" " alt="" coords="783,1530,895,1557"/>
-<area shape="rect" id="node5" href="$class_export.html#a4dd19b0ff2eb109897fb486769fefffe" title="Get the size of the node (Tx/Rx/RIS)." alt="" coords="776,1581,903,1608"/>
-<area shape="rect" id="node6" href="$class_export.html#a68e698a5654fc800aa78c512da8f23b1" title=" " alt="" coords="777,2213,902,2240"/>
-<area shape="rect" id="node7" href="$class_export.html#a833aa02973f6b5c1f3e536e8646cf1ac" title=" " alt="" coords="496,2061,629,2088"/>
-<area shape="rect" id="node12" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="1026,2352,1105,2378"/>
-<area shape="rect" id="node13" href="$class_export.html#a33b5d571af76c0d4f9b9ee6e72afd8a6" title=" " alt="" coords="769,1301,909,1328"/>
-<area shape="rect" id="node17" href="$utils_8h.html#a6ef734356291c638e5787a6c668192d4" title=" " alt="" coords="1041,2250,1090,2277"/>
-<area shape="rect" id="node20" href="$class_alg.html#ada1e8215f047b4ffd736e811b5ea3162" title=" " alt="" coords="797,2010,881,2037"/>
-<area shape="rect" id="node8" href="$class_export.html#a966a54f05ada435d6d1ce6e4a9750f41" title=" " alt="" coords="728,1834,951,1861"/>
-<area shape="rect" id="node9" href="$utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70" title=" " alt="" coords="1033,1232,1098,1258"/>
-<area shape="rect" id="node10" href="$utils_8h.html#af11c7cca5b9ad860da4bdb556dce3234" title=" " alt="" coords="1027,1820,1104,1846"/>
-<area shape="rect" id="node15" href="$class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9" title="Flush the buff into the log file." alt="" coords="797,1632,881,1658"/>
-<area shape="rect" id="node16" href="$utils_8h.html#a88311911bb82476c66e267a39713c170" title=" " alt="" coords="796,2061,883,2088"/>
-<area shape="rect" id="node11" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="1030,1769,1101,1796"/>
-<area shape="rect" id="node14" href="$error__code_8h.html#ae1bfa02e1106eff84ddecb9f7773a1a4" title="Return the error message of the error code from class Err." alt="" coords="1025,1016,1105,1042"/>
-<area shape="rect" id="node18" href="$utils_8h.html#a47084ee818936eef3c48be492c0e860f" title=" " alt="" coords="1190,2276,1243,2302"/>
-<area shape="rect" id="node19" href="$utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3" title=" " alt="" coords="1189,2225,1244,2252"/>
-<area shape="rect" id="node21" href="$class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d" title=" " alt="" coords="999,1972,1132,1998"/>
-<area shape="rect" id="node22" href="$class_calc.html#ad6dbdfdd4bd21322e5836ff72c11ae1b" title="Convert the Alg CALC contents into a language command." alt="" coords="1180,2048,1253,2074"/>
-<area shape="rect" id="node23" href="$class_type.html#abe15820e780d2f6646792d54f3ae3311" title=" " alt="" coords="1023,2124,1108,2150"/>
-<area shape="rect" id="node24" href="$class_alg___line.html#af651454e6ddfce164626b68b2c6cba97" title="Get the function name." alt="" coords="1009,2174,1122,2201"/>
-<area shape="rect" id="node25" href="$class_alg___line.html#a49a98870a1f09e35a3e15a7d7bab1666" title="Check whether parameters contain the key." alt="" coords="999,1921,1131,1948"/>
-<area shape="rect" id="node26" href="$class_alg.html#a3ee7f9963027158b3fbd442d97800111" title=" " alt="" coords="1008,2022,1123,2049"/>
-<area shape="rect" id="node27" href="$namespacemmce.html#ad4a160832ef9fad47c531ece39752208" title="Change a number to string." alt="" coords="1001,1870,1129,1897"/>
-<area shape="rect" id="node29" href="$class_export.html#a27d3472d5a6043c28e616bbd0c50afc0" title=" " alt="" coords="445,85,680,112"/>
-<area shape="rect" id="node32" href="$class_export.html#a709b6e378fd97721b07a369d8a6191d7" title=" " alt="" coords="468,693,657,720"/>
-<area shape="rect" id="node33" href="$error__code_8h.html#a19ac3b5328ffcb7b241c272b98d3f002" title="Print error message and exit with exit code." alt="" coords="800,136,879,162"/>
-<area shape="rect" id="node36" href="$class_export.html#ab8f7bd9bd6f244d03c3f332df34e0139" title=" " alt="" coords="484,1301,641,1328"/>
-<area shape="rect" id="node37" href="$class_value___vec.html#ad2bf1b9a255e5433d3e0d4237543e35a" title=" " alt="" coords="498,1504,627,1530"/>
-<area shape="rect" id="node38" href="$class_value___vec.html#ace4be7ed03c08409ea3d21e5ba29762e" title=" " alt="" coords="501,1453,624,1480"/>
-<area shape="rect" id="node39" href="$utils_8h.html#ae31c9f892e58a51912420849e40e8671" title=" " alt="" coords="495,1098,631,1125"/>
-<area shape="rect" id="node41" href="$class_channel___graph.html#a1d5672c3f2f82748ae7ca25d38cdeffd" title="Add channel from configuration to the channel graph." alt="" coords="736,2618,943,2645"/>
-<area shape="rect" id="node42" href="$class_channel___graph.html#ac8aeff35f809d61816b2e1fadde523bf" title=" " alt="" coords="750,2466,929,2493"/>
-<area shape="rect" id="node43" href="$class_channel___graph.html#a6b7627957e70f8d68f488a903e08f966" title=" " alt="" coords="741,2416,937,2442"/>
-<area shape="rect" id="node47" href="$class_export.html#ae4811e1e4212029122c0ee29613714cc" title=" " alt="" coords="488,2112,637,2138"/>
-<area shape="rect" id="node48" href="$class_export.html#a59ba705b2369f21006ec7d7b7f3a4513" title="Generate RIS reflection matrices." alt="" coords="485,2010,640,2037"/>
-<area shape="rect" id="node50" href="$class_export.html#a568b2f04e1b7837923d3f3af5f47abe2" title=" " alt="" coords="485,642,640,669"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,1210,152,1236"/>
+<area shape="rect" id="node2" href="$class_export.html#a89d3ae54dd2261cf35be148011b79fe4" title=" " alt="" coords="224,1235,373,1262"/>
+<area shape="rect" id="node4" href="$class_export.html#abe75ae41d7cc8afe8f1ba4bbf67dfcfc" title=" " alt="" coords="797,652,881,679"/>
+<area shape="rect" id="node27" href="$class_export.html#a6000afae41f65b45b6a1e11447c1789c" title=" " alt="" coords="227,222,370,248"/>
+<area shape="rect" id="node29" href="$class_export.html#a7278a492ec0a0394684cccc5949185ca" title=" " alt="" coords="237,120,360,147"/>
+<area shape="rect" id="node30" href="$class_export.html#ad7268f886ac4826f4b6ea738e423e520" title=" " alt="" coords="200,1184,397,1211"/>
+<area shape="rect" id="node33" href="$class_export.html#a21d0cb6d76223b8e7bcaae31c667219b" title=" " alt="" coords="247,2198,351,2224"/>
+<area shape="rect" id="node34" href="$class_export.html#af64597af0c0b4cf569f96216bcd23b2c" title=" " alt="" coords="229,2046,368,2072"/>
+<area shape="rect" id="node39" href="$class_export.html#ad7bd412c3fe1d5accc38cf1f2ab65ea0" title=" " alt="" coords="455,2476,670,2503"/>
+<area shape="rect" id="node43" href="$class_export.html#a69e74a4cd5dd68dec262869fecc0d359" title=" " alt="" coords="207,2096,391,2123"/>
+<area shape="rect" id="node44" href="$class_export.html#af41ce4a9c8f549930d43fbe47f84abaa" title="Set the variable names defined by users." alt="" coords="479,804,646,831"/>
+<area shape="rect" id="node45" href="$class_export.html#a26fa49d9882a342d011ba715e0c14109" title=" " alt="" coords="229,1590,368,1616"/>
+<area shape="rect" id="node49" href="$class_export.html#a1ba2d8e9de49698d93a6dedbafbe6a0f" title=" " alt="" coords="217,399,381,426"/>
+<area shape="rect" id="node3" href="$class_export.html#a638d6b9ced18342503ee6f4d4b274740" title=" " alt="" coords="783,1058,895,1084"/>
+<area shape="rect" id="node5" href="$class_export.html#a4dd19b0ff2eb109897fb486769fefffe" title="Get the size of the node (Tx/Rx/RIS)." alt="" coords="776,1804,903,1831"/>
+<area shape="rect" id="node6" href="$class_export.html#a68e698a5654fc800aa78c512da8f23b1" title=" " alt="" coords="777,1108,902,1135"/>
+<area shape="rect" id="node7" href="$class_export.html#a833aa02973f6b5c1f3e536e8646cf1ac" title=" " alt="" coords="496,956,629,983"/>
+<area shape="rect" id="node12" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="1026,1830,1105,1856"/>
+<area shape="rect" id="node13" href="$class_export.html#a33b5d571af76c0d4f9b9ee6e72afd8a6" title=" " alt="" coords="769,1919,909,1946"/>
+<area shape="rect" id="node17" href="$utils_8h.html#a6ef734356291c638e5787a6c668192d4" title=" " alt="" coords="1041,1007,1090,1034"/>
+<area shape="rect" id="node20" href="$class_alg.html#ada1e8215f047b4ffd736e811b5ea3162" title=" " alt="" coords="797,1602,881,1628"/>
+<area shape="rect" id="node8" href="$class_export.html#a966a54f05ada435d6d1ce6e4a9750f41" title=" " alt="" coords="728,1362,951,1388"/>
+<area shape="rect" id="node9" href="$utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70" title=" " alt="" coords="1033,855,1098,882"/>
+<area shape="rect" id="node10" href="$utils_8h.html#af11c7cca5b9ad860da4bdb556dce3234" title=" " alt="" coords="1027,1210,1104,1236"/>
+<area shape="rect" id="node15" href="$class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9" title="Flush the buff into the log file." alt="" coords="797,855,881,882"/>
+<area shape="rect" id="node16" href="$utils_8h.html#a88311911bb82476c66e267a39713c170" title=" " alt="" coords="796,956,883,983"/>
+<area shape="rect" id="node11" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="1030,1450,1101,1476"/>
+<area shape="rect" id="node14" href="$error__code_8h.html#ae1bfa02e1106eff84ddecb9f7773a1a4" title="Return the error message of the error code from class Err." alt="" coords="1025,1500,1105,1527"/>
+<area shape="rect" id="node18" href="$utils_8h.html#a47084ee818936eef3c48be492c0e860f" title=" " alt="" coords="1181,982,1234,1008"/>
+<area shape="rect" id="node19" href="$utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3" title=" " alt="" coords="1180,1032,1235,1059"/>
+<area shape="rect" id="node21" href="$class_alg.html#a2cf2b7f4e37c8e401d9c6dad6687917d" title=" " alt="" coords="999,1602,1132,1628"/>
+<area shape="rect" id="node22" href="$class_calc.html#ad6dbdfdd4bd21322e5836ff72c11ae1b" title="Convert the Alg CALC contents into a language command." alt="" coords="1029,1652,1102,1679"/>
+<area shape="rect" id="node23" href="$class_type.html#abe15820e780d2f6646792d54f3ae3311" title=" " alt="" coords="1023,1703,1108,1730"/>
+<area shape="rect" id="node24" href="$class_alg___line.html#af651454e6ddfce164626b68b2c6cba97" title="Get the function name." alt="" coords="1009,1754,1122,1780"/>
+<area shape="rect" id="node25" href="$class_alg___line.html#a49a98870a1f09e35a3e15a7d7bab1666" title="Check whether parameters contain the key." alt="" coords="999,1551,1131,1578"/>
+<area shape="rect" id="node26" href="$namespacemmce.html#ad4a160832ef9fad47c531ece39752208" title="Change a number to string." alt="" coords="1001,2502,1129,2528"/>
+<area shape="rect" id="node28" href="$class_export.html#a27d3472d5a6043c28e616bbd0c50afc0" title=" " alt="" coords="445,247,680,274"/>
+<area shape="rect" id="node31" href="$class_export.html#a709b6e378fd97721b07a369d8a6191d7" title=" " alt="" coords="468,1362,657,1388"/>
+<area shape="rect" id="node32" href="$error__code_8h.html#a19ac3b5328ffcb7b241c272b98d3f002" title="Print error message and exit with exit code." alt="" coords="800,1514,879,1540"/>
+<area shape="rect" id="node35" href="$class_export.html#ab8f7bd9bd6f244d03c3f332df34e0139" title=" " alt="" coords="484,2172,641,2199"/>
+<area shape="rect" id="node36" href="$class_value___vec.html#ad2bf1b9a255e5433d3e0d4237543e35a" title=" " alt="" coords="498,2527,627,2554"/>
+<area shape="rect" id="node37" href="$class_value___vec.html#ace4be7ed03c08409ea3d21e5ba29762e" title=" " alt="" coords="501,2274,624,2300"/>
+<area shape="rect" id="node38" href="$utils_8h.html#ae31c9f892e58a51912420849e40e8671" title=" " alt="" coords="495,2375,631,2402"/>
+<area shape="rect" id="node40" href="$class_channel___graph.html#a1d5672c3f2f82748ae7ca25d38cdeffd" title="Add channel from configuration to the channel graph." alt="" coords="736,2338,943,2364"/>
+<area shape="rect" id="node41" href="$class_channel___graph.html#ac8aeff35f809d61816b2e1fadde523bf" title=" " alt="" coords="750,2274,929,2300"/>
+<area shape="rect" id="node42" href="$class_channel___graph.html#a435ff7fef8f4eb3703ec34945476d845" title="The number of paths in the channel graph." alt="" coords="741,2223,937,2250"/>
+<area shape="rect" id="node46" href="$class_export.html#ae4811e1e4212029122c0ee29613714cc" title=" " alt="" coords="488,1311,637,1338"/>
+<area shape="rect" id="node47" href="$class_export.html#a59ba705b2369f21006ec7d7b7f3a4513" title="Generate RIS reflection matrices." alt="" coords="485,1210,640,1236"/>
+<area shape="rect" id="node48" href="$class_export.html#a2feed8186a8ee3e7e140b1a143ccf233" title=" " alt="" coords="461,703,664,730"/>
+<area shape="rect" id="node50" href="$class_export.html#a568b2f04e1b7837923d3f3af5f47abe2" title=" " alt="" coords="485,196,640,223"/>
 </map>

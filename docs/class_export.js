@@ -11,13 +11,6 @@ var class_export =
       [ "NUL", "class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a938a051472b57c986a52eaadbc061342", null ],
       [ "UNDEF", "class_export.html#acc3267fe239d28f10e4b64f3061d4bb9aec696f35fba5c6dfa1dde2c35581e3cf", null ]
     ] ],
-    [ "Lang", "class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344", [
-      [ "CPP", "class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a4c162442ef22c58f6f1e330e6b692c7e", null ],
-      [ "MATLAB", "class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a8f6823abd383a341f0d78ef38829bbbb", null ],
-      [ "OCTAVE", "class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a9644a39746251a183611aec6fc2c296e", null ],
-      [ "PY", "class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a0c145a13e49b47abccd510e5c899d80c", null ],
-      [ "IPYNB", "class_export.html#a87df23cccd4e9eceaa6e5be2a03c9344a21435d1dbbc432abeaa461104f24ee61", null ]
-    ] ],
     [ "NodeRole", "class_export.html#aaffe355758b60cadd8405dd8793c6444", [
       [ "Tx", "class_export.html#aaffe355758b60cadd8405dd8793c6444a4393102620f7750d259e3f050f32ba0b", null ],
       [ "Rx", "class_export.html#aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35", null ],
@@ -37,6 +30,7 @@ var class_export =
     [ "_f", "class_export.html#abe75ae41d7cc8afe8f1ba4bbf67dfcfc", null ],
     [ "_generateBF", "class_export.html#a59ba705b2369f21006ec7d7b7f3a4513", null ],
     [ "_generateChannels", "class_export.html#ad7268f886ac4826f4b6ea738e423e520", null ],
+    [ "_generateConstants", "class_export.html#a2feed8186a8ee3e7e140b1a143ccf233", null ],
     [ "_getSize", "class_export.html#a4dd19b0ff2eb109897fb486769fefffe", null ],
     [ "_getTestNum", "class_export.html#ab8f7bd9bd6f244d03c3f332df34e0139", null ],
     [ "_info", "class_export.html#a21d0cb6d76223b8e7bcaae31c667219b", null ],
@@ -70,6 +64,7 @@ var class_export =
     [ "_cascaded_channel", "class_export.html#ae93b1d7437e27ca5170ca5933c8ee88b", null ],
     [ "_channel_graph", "class_export.html#a537f42a1ecd0914a7c2054b831fb74aa", null ],
     [ "_config", "class_export.html#ab9f4b8af6d46cd43480d55103a2c0760", null ],
+    [ "_constants", "class_export.html#a2eadcbdd3b429de5811e7c5aa0fc92fd", null ],
     [ "_errors", "class_export.html#ac46a3b37a484a40d2ba2fa66fd11474a", null ],
     [ "_f_ptr", "class_export.html#ac088a82f536e08327b35efa33b6e0fe8", null ],
     [ "_MAX_RX", "class_export.html#aa6f6498e6ae8e60f100022f730ca70bb", null ],
@@ -81,5 +76,5 @@ var class_export =
     [ "_receivers", "class_export.html#a0a5225da1e63606c8813eb46b5f43b39", null ],
     [ "_s_info", "class_export.html#a1a1938f994ad258314cb88e437457afc", null ],
     [ "_transmitters", "class_export.html#a67af6cbabcbe53522a51b5e183569bb4", null ],
-    [ "lang", "class_export.html#a7633a487abd9133277fd08d5508616f8", null ]
+    [ "lang", "class_export.html#aed1ebca6149b721b581ce3e8f7207df5", null ]
 ];

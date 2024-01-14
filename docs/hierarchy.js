@@ -8,6 +8,7 @@ var hierarchy =
     [ "Config", "class_config.html", null ],
     [ "Alg::Error", "struct_alg_1_1_error.html", null ],
     [ "Export", "class_export.html", null ],
+    [ "fmt::formatter< std::any >", "structfmt_1_1formatter_3_01std_1_1any_01_4.html", null ],
     [ "Log", "class_log.html", null ],
     [ "Macro", "struct_macro.html", null ],
     [ "Alg_Line::Param_Type", "struct_alg___line_1_1_param___type.html", null ],

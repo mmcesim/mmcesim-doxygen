@@ -1,11 +1,7 @@
 var searchData=
 [
-  ['macro_2ecpp_0',['macro.cpp',['../macro_8cpp.html',1,'']]],
-  ['macro_2eh_1',['macro.h',['../macro_8h.html',1,'']]],
-  ['main_2ecpp_2',['main.cpp',['../gui_2main_8cpp.html',1,'(Global Namespace)'],['../src_2main_8cpp.html',1,'(Global Namespace)']]],
-  ['maintain_2ecpp_3',['maintain.cpp',['../maintain_8cpp.html',1,'']]],
-  ['maintain_2eh_4',['maintain.h',['../maintain_8h.html',1,'']]],
-  ['mainwindow_2ecpp_5',['mainwindow.cpp',['../mainwindow_8cpp.html',1,'']]],
-  ['mainwindow_2eh_6',['mainwindow.h',['../mainwindow_8h.html',1,'']]],
-  ['meta_2eh_7',['meta.h',['../meta_8h.html',1,'']]]
+  ['lang_2eh_0',['lang.h',['../lang_8h.html',1,'']]],
+  ['log_2ecpp_1',['log.cpp',['../src_2log_8cpp.html',1,'(Global Namespace)'],['../tools_2log_2log_8cpp.html',1,'(Global Namespace)']]],
+  ['log_2eh_2',['log.h',['../include_2log_8h.html',1,'(Global Namespace)'],['../tools_2log_2log_8h.html',1,'(Global Namespace)']]],
+  ['log_5fglobal_2eh_3',['log_global.h',['../log__global_8h.html',1,'']]]
 ];

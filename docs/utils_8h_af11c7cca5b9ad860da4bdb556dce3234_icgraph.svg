@@ -127,7 +127,7 @@ var sectionId = 'dynsection-3';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="class_channel___graph.html#aee6312375a301acbc05862e28b86dedb" target="_top" xlink:title="Form paths based on the current frontier.">
+<g id="a_node13"><a xlink:href="class_channel___graph.html#afe38f4cb30dbc0b32ac4746d1ac506ab" target="_top" xlink:title="Form paths based on the current frontier.">
 <polygon fill="white" stroke="black" points="1019.5,-506.5 1019.5,-525.5 1171.5,-525.5 1171.5,-506.5 1019.5,-506.5"/>
 <text text-anchor="middle" x="1095.5" y="-513.5" font-family="Helvetica,sans-Serif" font-size="10.00">Channel_Graph::_formPaths</text>
 </a>

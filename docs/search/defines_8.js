@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['warning_0',['WARNING',['../alg_8cpp.html#a5eb81717658ef959b101d61d2fa2cce7',1,'alg.cpp']]]
+  ['switch_5ffunc_0',['SWITCH_FUNC',['../alg_8cpp.html#a87090a0802c6c94f9107c9c76c4c5cd9',1,'alg.cpp']]]
 ];

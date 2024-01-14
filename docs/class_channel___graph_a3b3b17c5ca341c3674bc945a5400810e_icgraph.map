@@ -1,5 +1,0 @@
-<map id="Channel_Graph::channelIndex" name="Channel_Graph::channelIndex">
-<area shape="rect" id="node1" title=" " alt="" coords="267,31,483,57"/>
-<area shape="rect" id="node2" href="$class_channel___graph.html#add85cc0cdc065921a06cd6ccb6e134c3" title="Get the &#39;from&#39; node index of channel." alt="" coords="5,5,219,32"/>
-<area shape="rect" id="node3" href="$class_channel___graph.html#ae5d5d8876c0973ec845e4abd8f7d92f0" title="Get the &#39;to&#39; node index of channel." alt="" coords="15,56,209,83"/>
-</map>

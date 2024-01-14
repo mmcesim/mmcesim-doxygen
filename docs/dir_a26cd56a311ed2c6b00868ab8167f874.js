@@ -7,6 +7,7 @@ var dir_a26cd56a311ed2c6b00868ab8167f874 =
     [ "channel_graph.h", "channel__graph_8h.html", "channel__graph_8h" ],
     [ "functions.h", "functions_8h.html", "functions_8h" ],
     [ "keywords.h", "keywords_8h.html", "keywords_8h" ],
+    [ "lang.h", "lang_8h.html", "lang_8h" ],
     [ "macro.h", "macro_8h.html", "macro_8h" ],
     [ "shared_info.h", "shared__info_8h.html", "shared__info_8h" ],
     [ "type.h", "type_8h.html", "type_8h" ],

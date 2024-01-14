@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['case_0',['CASE',['../alg_8cpp.html#a3777d3a36b40eca8055a0a910a3143b5',1,'alg.cpp']]]
+  ['boost_5fno_5fcxx98_5ffunction_5fbase_0',['BOOST_NO_CXX98_FUNCTION_BASE',['../__boost__config_8h.html#ac6d807d33b506b7a9af4f7c031303389',1,'_boost_config.h']]]
 ];

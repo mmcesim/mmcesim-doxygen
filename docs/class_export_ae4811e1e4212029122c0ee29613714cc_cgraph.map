@@ -6,7 +6,7 @@
 <area shape="rect" id="node5" href="$class_export.html#a33b5d571af76c0d4f9b9ee6e72afd8a6" title=" " alt="" coords="203,157,343,184"/>
 <area shape="rect" id="node7" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="1105,488,1184,515"/>
 <area shape="rect" id="node8" href="$utils_8h.html#a6ef734356291c638e5787a6c668192d4" title=" " alt="" coords="479,259,529,285"/>
-<area shape="rect" id="node11" href="$class_alg.html#ada1e8215f047b4ffd736e811b5ea3162" title=" " alt="" coords="231,664,315,691"/>
+<area shape="rect" id="node11" href="$class_alg.html#ada1e8215f047b4ffd736e811b5ea3162" title=" " alt="" coords="231,689,315,716"/>
 <area shape="rect" id="node6" href="$error__code_8h.html#ae1bfa02e1106eff84ddecb9f7773a1a4" title="Return the error message of the error code from class Err." alt="" coords="464,157,544,184"/>
 <area shape="rect" id="node9" href="$utils_8h.html#a47084ee818936eef3c48be492c0e860f" title=" " alt="" coords="705,259,758,285"/>
 <area shape="rect" id="node10" href="$utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3" title=" " alt="" coords="704,309,759,336"/>
@@ -15,7 +15,7 @@
 <area shape="rect" id="node25" href="$class_type.html#abe15820e780d2f6646792d54f3ae3311" title=" " alt="" coords="461,613,547,640"/>
 <area shape="rect" id="node26" href="$class_alg___line.html#af651454e6ddfce164626b68b2c6cba97" title="Get the function name." alt="" coords="447,664,561,691"/>
 <area shape="rect" id="node27" href="$class_alg___line.html#a49a98870a1f09e35a3e15a7d7bab1666" title="Check whether parameters contain the key." alt="" coords="438,715,570,741"/>
-<area shape="rect" id="node28" href="$class_alg.html#a3ee7f9963027158b3fbd442d97800111" title=" " alt="" coords="447,765,561,792"/>
+<area shape="rect" id="node28" href="$class_alg.html#a3ee7f9963027158b3fbd442d97800111" title=" " alt="" coords="447,968,561,995"/>
 <area shape="rect" id="node29" href="$class_alg___line.html#ad419191a99be7e34024e569ad833b04e" title="Check whether the line is for function declaration." alt="" coords="391,816,617,843"/>
 <area shape="rect" id="node30" href="$class_alg.html#af935e64a6eb4afa4ca1540f4da3dcc9c" title=" " alt="" coords="467,867,541,893"/>
 <area shape="rect" id="node31" href="$class_alg___line.html#a4e79eb77a1cddbdab1dbdde8a499342d" title="Parameter variables." alt="" coords="437,917,571,944"/>
@@ -23,9 +23,10 @@
 <area shape="rect" id="node35" href="$class_type___track.html#a4548ba1c289fba60e88b0e725509219e" title=" " alt="" coords="873,532,1005,559"/>
 <area shape="rect" id="node36" href="$utils_8h.html#a0465457013518e168df05799c93cfa6e" title=" " alt="" coords="449,1069,559,1096"/>
 <area shape="rect" id="node38" href="$class_alg___line.html#a8e21f6b69eaf80a2327f7308fb4299e0" title="Return variables." alt="" coords="439,1120,569,1147"/>
-<area shape="rect" id="node39" href="$class_type.html#a0153b8ff39040caf3ff2a6f7c7329d7c" title="Get the C++ type name." alt="" coords="455,309,553,336"/>
-<area shape="rect" id="node42" href="$namespacemmce.html#ad4a160832ef9fad47c531ece39752208" title="Change a number to string." alt="" coords="440,360,568,387"/>
-<area shape="rect" id="node43" href="$class_log.html#a3410828f35c9bf8dd0771ead28de27b0" title="Write contents to the log file." alt="" coords="461,411,547,437"/>
+<area shape="rect" id="node39" href="$class_type.html#a0153b8ff39040caf3ff2a6f7c7329d7c" title="Get the C++ type name." alt="" coords="455,1171,553,1197"/>
+<area shape="rect" id="node42" href="$namespacemmce.html#ad4a160832ef9fad47c531ece39752208" title="Change a number to string." alt="" coords="440,309,568,336"/>
+<area shape="rect" id="node43" href="$class_log.html#ab61203710351f6d33d7ba634d2c4eb32" title="Write warning message to the log file." alt="" coords="465,360,543,387"/>
+<area shape="rect" id="node44" href="$class_log.html#a3410828f35c9bf8dd0771ead28de27b0" title="Write contents to the log file." alt="" coords="461,411,547,437"/>
 <area shape="rect" id="node14" href="$class_calc.html#af1d1bd5e83f9e5196627f5a4e1a5ee83" title=" " alt="" coords="855,879,1022,905"/>
 <area shape="rect" id="node17" href="$class_calc.html#ae3d88bd40f9bdf2c8ec92c426bdca446" title=" " alt="" coords="854,601,1023,628"/>
 <area shape="rect" id="node18" href="$class_calc.html#ad95be528148e0d63848d5fa916b93200" title=" " alt="" coords="865,652,1013,679"/>
@@ -40,6 +41,6 @@
 <area shape="rect" id="node33" href="$functions_8h.html#ac9dc58cb94b7547813c3a35154d97d18" title=" " alt="" coords="679,1019,784,1045"/>
 <area shape="rect" id="node34" href="$utils_8h.html#af11c7cca5b9ad860da4bdb556dce3234" title=" " alt="" coords="900,1019,977,1045"/>
 <area shape="rect" id="node37" href="$utils_8h.html#aaaee605fe46abaa420448438d89b22ed" title=" " alt="" coords="691,1069,771,1096"/>
-<area shape="rect" id="node40" href="$class_type.html#a5b8adffb334040c53940ecf814ebcc65" title=" " alt="" coords="668,360,795,387"/>
-<area shape="rect" id="node41" href="$class_type.html#a836b463aa4740a234e0d304ed4cd958f" title=" " alt="" coords="665,411,797,437"/>
+<area shape="rect" id="node40" href="$class_type.html#a5b8adffb334040c53940ecf814ebcc65" title=" " alt="" coords="668,1145,795,1172"/>
+<area shape="rect" id="node41" href="$class_type.html#a836b463aa4740a234e0d304ed4cd958f" title=" " alt="" coords="665,1196,797,1223"/>
 </map>

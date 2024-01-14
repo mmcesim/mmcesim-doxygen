@@ -1,5 +1,8 @@
 var annotated_dup =
 [
+    [ "fmt", null, [
+      [ "formatter< std::any >", "structfmt_1_1formatter_3_01std_1_1any_01_4.html", "structfmt_1_1formatter_3_01std_1_1any_01_4" ]
+    ] ],
     [ "Alg", "class_alg.html", "class_alg" ],
     [ "Alg_Line", "class_alg___line.html", "class_alg___line" ],
     [ "Calc", "class_calc.html", "class_calc" ],

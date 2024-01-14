@@ -1,8 +1,9 @@
 <map id="tools/maintain/maintain.h" name="tools/maintain/maintain.h">
-<area shape="rect" id="node1" title="mmCEsim Maintainence Functions" alt="" coords="137,5,328,32"/>
-<area shape="rect" id="node2" href="$meta_8h.html" title="mmCEsim meta data" alt="" coords="5,80,73,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="97,80,237,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="261,80,335,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="359,80,439,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="10,155,69,181"/>
+<area shape="rect" id="node1" title="mmCEsim Maintainence Functions" alt="" coords="219,5,410,32"/>
+<area shape="rect" id="node2" href="$__boost__config_8h.html" title="Boost Configurations." alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node3" href="$meta_8h.html" title="mmCEsim meta data" alt="" coords="153,80,221,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="245,80,385,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="409,80,482,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="507,80,587,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="157,155,216,181"/>
 </map>

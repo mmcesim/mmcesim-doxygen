@@ -38,6 +38,7 @@ var class_alg =
     [ "_lines", "class_alg.html#ad354ae83f43df07c7d8481be54c8102f", null ],
     [ "_macro", "class_alg.html#a50c0862c0927fe327154762e0f590efc", null ],
     [ "_raw_strings", "class_alg.html#afc84e376bf7f81307e8342b8ee03440e", null ],
+    [ "_recover_cnt", "class_alg.html#a3100924f5c524fc93424cac35dcd5842", null ],
     [ "_use_space", "class_alg.html#af04e630f535b14f385ecd0830ae4f8f8", null ],
     [ "_vars", "class_alg.html#a51ca822d7d568361ee2738ef2bff4ca0", null ],
     [ "_warnings", "class_alg.html#a3a7d2522670899457a72ab40a799ef01", null ],
