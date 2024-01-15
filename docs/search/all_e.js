@@ -7,7 +7,8 @@ var searchData=
   ['nodeindex_4',['nodeIndex',['../class_channel___graph.html#aae9750c0d38d48b6280336efcb258dc3',1,'Channel_Graph']]],
   ['noderole_5',['NodeRole',['../class_export.html#aaffe355758b60cadd8405dd8793c6444',1,'Export']]],
   ['nodes_6',['nodes',['../class_channel___graph.html#a280068cd565b156eccfb2ab913e7aa98',1,'Channel_Graph']]],
-  ['none_7',['NONE',['../class_type.html#adb4de930dbfbd1696484f79180a619bbab50339a10e1de285ac99d4c3990b8693',1,'Type::NONE()'],['../alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7ac157bdf0b85a40d2619cbc8bc1ae5fe2',1,'NONE():&#160;alg_opt.h']]],
-  ['none_8',['None',['../namespaceversion__bump.html#a482f600b607de7971c6e3957874f1ff1',1,'version_bump']]],
-  ['nul_9',['NUL',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a938a051472b57c986a52eaadbc061342',1,'Export']]]
+  ['nodes_5fxy_7',['nodes_xy',['../struct_x_y___size.html#aa10b4626ebcfc2fb619efb21415c9415',1,'XY_Size']]],
+  ['none_8',['NONE',['../class_type.html#adb4de930dbfbd1696484f79180a619bbab50339a10e1de285ac99d4c3990b8693',1,'Type::NONE()'],['../alg__opt_8h.html#a91ede589f97d1fe6a102e4f5d5b40ae7ac157bdf0b85a40d2619cbc8bc1ae5fe2',1,'NONE():&#160;alg_opt.h']]],
+  ['none_9',['None',['../namespaceversion__bump.html#a482f600b607de7971c6e3957874f1ff1',1,'version_bump']]],
+  ['nul_10',['NUL',['../class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a938a051472b57c986a52eaadbc061342',1,'Export']]]
 ];

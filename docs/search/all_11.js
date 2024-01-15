@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['r_0',['r',['../struct_x_y___size.html#a0c52dcb9cfa4d7ccbe373c482ebf2337',1,'XY_Size']]],
+  ['r_0',['r',['../struct_x_y___size.html#a9792ad3175a0f85674ae7e5e2ffe3a5e',1,'XY_Size']]],
   ['randomstring_1',['randomString',['../utils_8h.html#a56d0292f4f5c1dcc1f4fc0b60c8b872e',1,'utils.h']]],
   ['raw_5fstr_2',['raw_str',['../struct_alg_1_1_error.html#ae0bfa4be592a7492b29855d1f219c3ad',1,'Alg::Error']]],
   ['raw_5fstrings_3',['Raw_Strings',['../class_alg.html#aec41001df780bd4f5a224cacc00163f1',1,'Alg']]],
   ['rawstr_4',['rawStr',['../class_alg___line.html#ad7ae2a3a5630a18e5f43ec0e6eebdc7b',1,'Alg_Line']]],
-  ['read_5',['read',['../class_read_config.html#aa7976fbf5c2cb70d4a3cca8f1c6f3f11',1,'ReadConfig::read(const std::string &amp;file)'],['../class_read_config.html#a2c8f10578b84a966baca70aa9de7ffb2',1,'ReadConfig::read() const'],['../class_config.html#a3fa53b039dfd3ece429259597950cff6',1,'Config::read(const std::string &amp;key, const std::string &amp;default_val)'],['../class_config.html#a1a5599057522c73d9d171004c2cedd18',1,'Config::read(const std::string &amp;key)']]],
+  ['read_5',['read',['../class_config.html#a1a5599057522c73d9d171004c2cedd18',1,'Config::read(const std::string &amp;key)'],['../class_config.html#a3fa53b039dfd3ece429259597950cff6',1,'Config::read(const std::string &amp;key, const std::string &amp;default_val)'],['../class_read_config.html#a2c8f10578b84a966baca70aa9de7ffb2',1,'ReadConfig::read() const'],['../class_read_config.html#aa7976fbf5c2cb70d4a3cca8f1c6f3f11',1,'ReadConfig::read(const std::string &amp;file)']]],
   ['read_2ecpp_6',['read.cpp',['../read_8cpp.html',1,'']]],
   ['read_2eh_7',['read.h',['../read_8h.html',1,'']]],
   ['readconfig_8',['ReadConfig',['../class_read_config.html#a6de5ec04280618e68572cdb711238d8f',1,'ReadConfig::ReadConfig()'],['../class_read_config.html',1,'ReadConfig']]],
@@ -17,12 +17,13 @@ var searchData=
   ['removespaceinplace_14',['removeSpaceInPlace',['../utils_8h.html#af252ca3da61364babdf070d7aadbf32a',1,'utils.h']]],
   ['replace_15',['replace',['../struct_macro.html#a94360db4bd4a0a2516339dadc6c37bbd',1,'Macro']]],
   ['replacemacro_16',['replaceMacro',['../struct_macro.html#ac0ddd588c300108ca443b10316d99877',1,'Macro']]],
-  ['reset_17',['RESET',['../class_term.html#ab83834f5c35dc0cfb2460c0f5ab0526c',1,'Term']]],
-  ['return_5ftype_18',['Return_Type',['../struct_alg___line_1_1_return___type.html',1,'Alg_Line']]],
-  ['returns_19',['returns',['../class_alg___line.html#a03215ccf19977fbabeec70ba282b5391',1,'Alg_Line::returns(std::vector&lt; Return_Type &gt;::size_type index) const'],['../class_alg___line.html#a8e21f6b69eaf80a2327f7308fb4299e0',1,'Alg_Line::returns() const noexcept']]],
-  ['ris_20',['RIS',['../class_export.html#aaffe355758b60cadd8405dd8793c6444a65993c27cba86aa4fb05e353a22ece9b',1,'Export']]],
-  ['rtrim_21',['rtrim',['../utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3',1,'utils.h']]],
-  ['rtrim_5fcopy_22',['rtrim_copy',['../utils_8h.html#ad586dffdfe677cbd99967a20e58403c9',1,'utils.h']]],
-  ['rx_23',['Rx',['../struct_x_y___size.html#a4797309f669c107e3eebbbb47f5e8c8c',1,'XY_Size::Rx()'],['../class_export.html#aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35',1,'Export::Rx()'],['../class_channel___graph.html#a1ba06f3bcb94b02177ffa1f7d4b929a9',1,'Channel_Graph::Rx()']]],
-  ['ry_24',['Ry',['../struct_x_y___size.html#a8ecb2684f64c768af11665ed76dffcb6',1,'XY_Size']]]
+  ['replacexy_17',['replaceXY',['../struct_macro.html#aee7d20953d25a4e783b8e897d78c4bf7',1,'Macro']]],
+  ['reset_18',['RESET',['../class_term.html#ab83834f5c35dc0cfb2460c0f5ab0526c',1,'Term']]],
+  ['return_5ftype_19',['Return_Type',['../struct_alg___line_1_1_return___type.html',1,'Alg_Line']]],
+  ['returns_20',['returns',['../class_alg___line.html#a03215ccf19977fbabeec70ba282b5391',1,'Alg_Line::returns(std::vector&lt; Return_Type &gt;::size_type index) const'],['../class_alg___line.html#a8e21f6b69eaf80a2327f7308fb4299e0',1,'Alg_Line::returns() const noexcept']]],
+  ['ris_21',['RIS',['../class_export.html#aaffe355758b60cadd8405dd8793c6444a65993c27cba86aa4fb05e353a22ece9b',1,'Export']]],
+  ['rtrim_22',['rtrim',['../utils_8h.html#af6d6bd5c29782e3b958b5f7c0d1ea9e3',1,'utils.h']]],
+  ['rtrim_5fcopy_23',['rtrim_copy',['../utils_8h.html#ad586dffdfe677cbd99967a20e58403c9',1,'utils.h']]],
+  ['rx_24',['Rx',['../struct_x_y___size.html#a4797309f669c107e3eebbbb47f5e8c8c',1,'XY_Size::Rx()'],['../class_export.html#aaffe355758b60cadd8405dd8793c6444ac8600a0cc45fe853cb446a96bb8eae35',1,'Export::Rx()'],['../class_channel___graph.html#a1ba06f3bcb94b02177ffa1f7d4b929a9',1,'Channel_Graph::Rx()']]],
+  ['ry_25',['Ry',['../struct_x_y___size.html#a8ecb2684f64c768af11665ed76dffcb6',1,'XY_Size']]]
 ];

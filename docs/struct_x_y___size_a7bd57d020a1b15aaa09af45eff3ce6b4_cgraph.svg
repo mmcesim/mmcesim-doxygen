@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="struct_x_y___size.html#a0c52dcb9cfa4d7ccbe373c482ebf2337" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="struct_x_y___size.html#a9792ad3175a0f85674ae7e5e2ffe3a5e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="102,-38.5 102,-57.5 167,-57.5 167,-38.5 102,-38.5"/>
 <text text-anchor="middle" x="134.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">XY_Size::r</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="struct_x_y___size.html#acc0b4290938fb650a451fdd851d900a6" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="struct_x_y___size.html#a643eedefc10d0cdfd930ad024cc30f40" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="102,-0.5 102,-19.5 167,-19.5 167,-0.5 102,-0.5"/>
 <text text-anchor="middle" x="134.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">XY_Size::t</text>
 </a>

@@ -8,6 +8,7 @@ var struct_macro =
     [ "constantStr", "struct_macro.html#a2b2226fb501a9da22d7fb047ea769c5d", null ],
     [ "replace", "struct_macro.html#a94360db4bd4a0a2516339dadc6c37bbd", null ],
     [ "replaceMacro", "struct_macro.html#ac0ddd588c300108ca443b10316d99877", null ],
+    [ "replaceXY", "struct_macro.html#aee7d20953d25a4e783b8e897d78c4bf7", null ],
     [ "typeName", "struct_macro.html#a0a64263ca28e6e30160145a33ed5d77f", null ],
     [ "_B", "struct_macro.html#ad495f13e92b250a3305036cb562b213e", null ],
     [ "_cascaded_channel", "struct_macro.html#a0252622a5b2e056b244a1a055da4ad2a", null ],

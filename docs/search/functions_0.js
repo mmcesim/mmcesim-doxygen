@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['_5f_0',['_',['../struct_x_y___size.html#a5e681ada57de15aeca79e2d09f3162f1',1,'XY_Size']]],
+  ['_5f_0',['_',['../struct_x_y___size.html#a7bd57d020a1b15aaa09af45eff3ce6b4',1,'XY_Size']]],
   ['_5faddarma_1',['_addArma',['../class_calc.html#a7d793eba0a7c9fcbafec4310359f165d',1,'Calc']]],
   ['_5faddmmce_2',['_addMmce',['../class_calc.html#af58cd6a2174e577a6246366de03b949e',1,'Calc']]],
   ['_5falgorithms_3',['_algorithms',['../class_export.html#a89d3ae54dd2261cf35be148011b79fe4',1,'Export']]],

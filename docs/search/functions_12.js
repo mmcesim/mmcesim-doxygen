@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['yaml_5ferror_0',['YAML_Error',['../struct_y_a_m_l___error.html#af6f8c40181fb77e800f05bdfff0e4999',1,'YAML_Error::YAML_Error(const std::string &amp;msg, int line=-1, int col=-1)'],['../struct_y_a_m_l___error.html#a54a86cafd755b41f80755e2915c04070',1,'YAML_Error::YAML_Error(const std::string &amp;msg, Err ec, int line=-1, int col=-1)'],['../struct_y_a_m_l___error.html#a069bbe25aee9652acf21eb99a4520137',1,'YAML_Error::YAML_Error(Err ec, int line=-1, int col=-1)']]]
+  ['x_0',['x',['../struct_x_y___size.html#a1044ad37af4e25277b6f7cda06052fc1',1,'XY_Size']]],
+  ['x_5fmul_5fy_1',['x_mul_y',['../struct_x_y___size.html#a42f2c088d4a2090d3ddc884be3547d39',1,'XY_Size']]],
+  ['xy_2',['xy',['../struct_x_y___size.html#a4a5192df22d9d6bc1793eabc6ae1ffa0',1,'XY_Size']]],
+  ['xy_5fsize_3',['XY_Size',['../struct_x_y___size.html#a552558f47cda8f9b512cbb64f0b17dab',1,'XY_Size']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['_7eexport_0',['~Export',['../class_export.html#ad80ab1260b21d3a1f0bb03d39107f08b',1,'Export']]],
-  ['_7elog_1',['~Log',['../class_log.html#a0fbfda88fbee5027c89f6eb121059360',1,'Log']]],
-  ['_7emainwindow_2',['~MainWindow',['../class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7',1,'MainWindow']]]
+  ['y_0',['y',['../struct_x_y___size.html#a2db4fb0d73fbbafb70315253aa4171d4',1,'XY_Size']]],
+  ['yaml_5ferror_1',['YAML_Error',['../struct_y_a_m_l___error.html#af6f8c40181fb77e800f05bdfff0e4999',1,'YAML_Error::YAML_Error(const std::string &amp;msg, int line=-1, int col=-1)'],['../struct_y_a_m_l___error.html#a54a86cafd755b41f80755e2915c04070',1,'YAML_Error::YAML_Error(const std::string &amp;msg, Err ec, int line=-1, int col=-1)'],['../struct_y_a_m_l___error.html#a069bbe25aee9652acf21eb99a4520137',1,'YAML_Error::YAML_Error(Err ec, int line=-1, int col=-1)']]]
 ];

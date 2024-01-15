@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['_5f_0',['_',['../struct_x_y___size.html#a5e681ada57de15aeca79e2d09f3162f1',1,'XY_Size']]],
+  ['_5f_0',['_',['../struct_x_y___size.html#a7bd57d020a1b15aaa09af45eff3ce6b4',1,'XY_Size']]],
   ['_5fadd_5fcomment_1',['_add_comment',['../class_alg.html#a158f6bf28e7880d3cda12fcdd4c14996',1,'Alg']]],
   ['_5fadd_5fsemicolon_2',['_add_semicolon',['../class_alg.html#a15f04bfdbb3d37f50cf659c1d81992f4',1,'Alg']]],
   ['_5faddarma_3',['_addArma',['../class_calc.html#a7d793eba0a7c9fcbafec4310359f165d',1,'Calc']]],

@@ -1,15 +1,16 @@
 <map id="include/export/macro.h" name="include/export/macro.h">
-<area shape="rect" id="node1" title="ALG Macro." alt="" coords="778,5,950,32"/>
-<area shape="rect" id="node2" href="$lang_8h.html" title="Export Languages." alt="" coords="357,80,465,107"/>
-<area shape="rect" id="node3" href="$log__global_8h.html" title="Global Access of Log." alt="" coords="625,80,727,107"/>
+<area shape="rect" id="node1" title="ALG Macro." alt="" coords="803,5,975,32"/>
+<area shape="rect" id="node2" href="$lang_8h.html" title="Export Languages." alt="" coords="346,80,454,107"/>
+<area shape="rect" id="node3" href="$log__global_8h.html" title="Global Access of Log." alt="" coords="572,80,673,107"/>
 <area shape="rect" id="node5" href="$meta_8h.html" title="mmCEsim meta data" alt="" coords="199,229,267,256"/>
 <area shape="rect" id="node6" title=" " alt="" coords="200,311,259,338"/>
 <area shape="rect" id="node10" href="$utils_8h.html" title="Utilities." alt="" coords="833,229,895,256"/>
 <area shape="rect" id="node15" title=" " alt="" coords="1342,311,1405,338"/>
-<area shape="rect" id="node26" title=" " alt="" coords="957,80,1008,107"/>
-<area shape="rect" id="node27" title=" " alt="" coords="1032,80,1091,107"/>
-<area shape="rect" id="node28" title=" " alt="" coords="1115,80,1175,107"/>
-<area shape="rect" id="node4" href="$include_2log_8h.html" title="Log Utilities." alt="" coords="541,155,595,181"/>
+<area shape="rect" id="node26" title=" " alt="" coords="952,80,1003,107"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1027,80,1085,107"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1110,80,1197,107"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1221,80,1281,107"/>
+<area shape="rect" id="node4" href="$include_2log_8h.html" title="Log Utilities." alt="" coords="530,155,585,181"/>
 <area shape="rect" id="node7" href="$term_8h.html" title="Terminal Color and Style Control." alt="" coords="110,229,175,256"/>
 <area shape="rect" id="node21" title=" " alt="" coords="387,229,445,256"/>
 <area shape="rect" id="node22" title=" " alt="" coords="469,229,560,256"/>

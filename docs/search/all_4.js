@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['data_0',['data',['../class_type.html#a103e30d6912aa5a71f944b01778e0ead',1,'Type']]],
-  ['data_1',['Data',['../class_type.html#a573918fe25965adb633746c4efd7192d',1,'Type']]],
+  ['data_0',['Data',['../class_type.html#a573918fe25965adb633746c4efd7192d',1,'Type']]],
+  ['data_1',['data',['../class_type.html#a103e30d6912aa5a71f944b01778e0ead',1,'Type']]],
   ['datadir_2',['dataDir',['../utils_8h.html#a4b2e6c6245b704aeb7448bf62b1cf422',1,'utils.h']]],
   ['dbg_3',['dbg',['../struct_shared___info.html#a2284cf0696da8f840c254d081865bd75',1,'Shared_Info']]],
   ['default_4',['DEFAULT',['../class_term.html#a220981a76e68d90ee2bb26d9af28db31',1,'Term']]],

@@ -2,8 +2,8 @@ var searchData=
 [
   ['war_0',['WAR',['../class_term.html#a96bcc0593b315cd7b253de1134211ff6',1,'Term']]],
   ['war_1',['war',['../class_log.html#ab61203710351f6d33d7ba634d2c4eb32',1,'Log']]],
-  ['warning_2',['warning',['../class_alg.html#addba1fbe0d2e48889857ad0d2205f2c9',1,'Alg::warning()'],['../class_term.html#aab5d22a2c1060bfba638a5574d4c5639',1,'Term::warning()']]],
-  ['warning_3',['Warning',['../class_alg.html#a7a0470ed704e12c6dc2c9e00f9584607',1,'Alg']]],
+  ['warning_2',['Warning',['../class_alg.html#a7a0470ed704e12c6dc2c9e00f9584607',1,'Alg']]],
+  ['warning_3',['warning',['../class_alg.html#addba1fbe0d2e48889857ad0d2205f2c9',1,'Alg::warning()'],['../class_term.html#aab5d22a2c1060bfba638a5574d4c5639',1,'Term::warning()']]],
   ['warning_4',['WARNING',['../alg_8cpp.html#a5eb81717658ef959b101d61d2fa2cce7',1,'alg.cpp']]],
   ['warnings_5',['Warnings',['../class_alg.html#abfd2a4ae67b80ac7a81f9bdfcf8382a7',1,'Alg']]],
   ['warnings_6',['warnings',['../class_alg.html#a6814f382a13d5aee5465921a7a6d43bf',1,'Alg']]],

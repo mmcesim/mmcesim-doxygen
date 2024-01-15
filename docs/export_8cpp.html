@@ -98,6 +98,8 @@ $(document).ready(function(){initNavTree('export_8cpp.html',''); initResizable()
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">export.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -111,19 +113,56 @@ Include dependency graph for export.cpp:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="export_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-</div><a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:adeb2f3f9fc10e33dd04f73f575821dfb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="export_8cpp.html#adeb2f3f9fc10e33dd04f73f575821dfb">CREATE_MACRO_CH</a></td></tr>
+<tr class="separator:adeb2f3f9fc10e33dd04f73f575821dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Implementation of <a class="el" href="class_export.html">Export</a> Class. </p>
 <dl class="section author"><dt>Author</dt><dd>Wuqiong Zhao (<a href="#" onclick="location.href='mai'+'lto:'+'wqz'+'ha'+'o@s'+'eu'+'.ed'+'u.'+'cn'; return false;">wqzha<span class="obfuscator">.nosp@m.</span>o@se<span class="obfuscator">.nosp@m.</span>u.edu<span class="obfuscator">.nosp@m.</span>.cn</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.2.2 </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2024-01-14</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2024-01-15</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2022-2024 Wuqiong Zhao (Teddy van Jerry) </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="adeb2f3f9fc10e33dd04f73f575821dfb" name="adeb2f3f9fc10e33dd04f73f575821dfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeb2f3f9fc10e33dd04f73f575821dfb">&#9670;&nbsp;</a></span>CREATE_MACRO_CH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CREATE_MACRO_CH</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_struct" href="struct_macro.html">Macro</a> macro;                                                                                                       \</div>
+<div class="line">    macro.<a class="code hl_variable" href="struct_macro.html#a0252622a5b2e056b244a1a055da4ad2a">_cascaded_channel</a> = _cascaded_channel;                                                                       \</div>
+<div class="line">    macro.beamforming       = _beamforming;                                                                            \</div>
+<div class="line">    macro.job_num           = jobs.size();                                                                             \</div>
+<div class="line">    macro._N                = { Nx, Ny, Mx, My };                                                                      \</div>
+<div class="line">    macro._B                = { BNx, BNy, BMx, BMy };                                                                  \</div>
+<div class="line">    macro._G                = { GNx, GNy, GMx, GMy };                                                                  \</div>
+<div class="line">    for (<span class="keyword">auto</span>&amp;&amp; node : _config[<span class="stringliteral">&quot;nodes&quot;</span>]) {                                                                             \</div>
+<div class="line">        auto [Nx, Ny, Gx, Gy, Bx, By] = _getSize(node);                                                                \</div>
+<div class="line">        std::string <span class="keywordtype">id</span>                = _asStr(node[<span class="stringliteral">&quot;id&quot;</span>]);                                                            \</div>
+<div class="line">        macro._N.nodes_xy[id]         = { Nx, Ny };                                                                    \</div>
+<div class="line">        macro._B.nodes_xy[id]         = { Bx, By };                                                                    \</div>
+<div class="line">        macro._G.nodes_xy[id]         = { Gx, Gy };                                                                    \</div>
+<div class="line">    }</div>
+<div class="ttc" id="astruct_macro_html"><div class="ttname"><a href="struct_macro.html">Macro</a></div><div class="ttdef"><b>Definition:</b> macro.h:62</div></div>
+<div class="ttc" id="astruct_macro_html_a0252622a5b2e056b244a1a055da4ad2a"><div class="ttname"><a href="struct_macro.html#a0252622a5b2e056b244a1a055da4ad2a">Macro::_cascaded_channel</a></div><div class="ttdeci">std::string _cascaded_channel</div><div class="ttdef"><b>Definition:</b> macro.h:72</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="export_8cpp.html">export.cpp</a></li>
-    <li class="footer">Generated on Sun Jan 14 2024 23:08:43 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jan 15 2024 18:09:25 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

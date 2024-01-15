@@ -76,7 +76,7 @@ var NAVTREEINDEX =
 [
 "__boost__config_8h.html",
 "class_main_window.html#a0d42792293017d409ce2f2eeb560394a",
-"maintain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"
+"macro_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
