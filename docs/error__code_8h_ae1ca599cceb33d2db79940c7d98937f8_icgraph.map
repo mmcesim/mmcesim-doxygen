@@ -1,6 +1,6 @@
 <map id="errorCode" name="errorCode">
 <area shape="rect" id="node1" title="Return the integer of the error code from class Err." alt="" coords="901,177,988,204"/>
-<area shape="rect" id="node2" href="$error__code_8h.html#a19ac3b5328ffcb7b241c272b98d3f002" title="Print error message and exit with exit code." alt="" coords="640,63,719,89"/>
+<area shape="rect" id="node2" href="$error__code_8h.html#a9c6b4516abc67a835f41887633fe69e1" title="Print error message and exit with exit code." alt="" coords="640,63,719,89"/>
 <area shape="rect" id="node6" href="$src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="51,107,106,133"/>
 <area shape="rect" id="node7" href="$error__code_8h.html#a81aa27a794998cf874bbef6d0f34b9d9" title="Check if the error code corresponds to an error." alt="" coords="778,145,842,172"/>
 <area shape="rect" id="node10" href="$error__code_8h.html#a93586d9f0d85d201de99a246030d77b5" title="Check if the error code corresponds to a warning." alt="" coords="767,259,853,285"/>

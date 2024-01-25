@@ -1,6 +1,6 @@
 <map id="isError" name="isError">
 <area shape="rect" id="node1" title="Check if the error code corresponds to an error." alt="" coords="767,81,831,108"/>
-<area shape="rect" id="node2" href="$error__code_8h.html#a19ac3b5328ffcb7b241c272b98d3f002" title="Print error message and exit with exit code." alt="" coords="640,56,719,83"/>
+<area shape="rect" id="node2" href="$error__code_8h.html#a9c6b4516abc67a835f41887633fe69e1" title="Print error message and exit with exit code." alt="" coords="640,56,719,83"/>
 <area shape="rect" id="node7" href="$read_8h.html#a90e5345c902a238d6a6b0e75eed3aa26" title=" " alt="" coords="641,107,717,133"/>
 <area shape="rect" id="node3" href="$class_export.html#ad7268f886ac4826f4b6ea738e423e520" title=" " alt="" coords="395,5,592,32"/>
 <area shape="rect" id="node6" href="$src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="51,56,106,83"/>

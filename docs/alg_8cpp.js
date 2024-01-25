@@ -13,6 +13,7 @@ var alg_8cpp =
     [ "LANG_CPP", "alg_8cpp.html#a9f485ecfa4e44c1d740061050827e1bb", null ],
     [ "LANG_M", "alg_8cpp.html#a55df33c9313e39b322f64ea20c2a5762", null ],
     [ "LANG_PY", "alg_8cpp.html#aaa7f1c95472daf6833fc2f3dabd20b3d", null ],
+    [ "RECOVER_PROCESS", "alg_8cpp.html#a2cf9927dcdc3e4b7dfffaa870da895cc", null ],
     [ "SWITCH_FUNC", "alg_8cpp.html#a87090a0802c6c94f9107c9c76c4c5cd9", null ],
     [ "WARNING", "alg_8cpp.html#a5eb81717658ef959b101d61d2fa2cce7", null ]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['set_0',['set',['../class_config.html#af93e3fef79689ca4feaaeb45aae2645e',1,'Config']]],
+  ['set_0',['set',['../class_config.html#a568ec68975e8e9338356619ebfb6a4f8',1,'Config']]],
   ['setindent_1',['setIndent',['../class_alg.html#ac270ad5d52369aab7248ba7e65b68a8c',1,'Alg']]],
   ['setkey_2',['setKey',['../class_alg___line.html#a6cf4ee64fb62bf5b0a12951198471036',1,'Alg_Line']]],
   ['simulate_3',['Simulate',['../class_simulate.html#a572ceca3101ff17b0482bad3e142a596',1,'Simulate']]],

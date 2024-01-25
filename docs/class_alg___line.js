@@ -14,6 +14,7 @@ var class_alg___line =
     [ "hasKey", "class_alg___line.html#a49a98870a1f09e35a3e15a7d7bab1666", null ],
     [ "hasRepeatedKey", "class_alg___line.html#a362584c2abc68009c2b610ee8fd8f9d5", null ],
     [ "hasUnknownKey", "class_alg___line.html#a611a64761bcec69c20fa925a025a4c92", null ],
+    [ "hasUnknownKey", "class_alg___line.html#a6d184daaf970578c021ad73f37ba01a7", null ],
     [ "isEnd", "class_alg___line.html#ae47ca250987c0b3e08587892448bc4c0", null ],
     [ "isFunctionDeclaration", "class_alg___line.html#ad419191a99be7e34024e569ad833b04e", null ],
     [ "isValidKey", "class_alg___line.html#ae7ed4751a3a31f23ab51da7db4fdb199", null ],

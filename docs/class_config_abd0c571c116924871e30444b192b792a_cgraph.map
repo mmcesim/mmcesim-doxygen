@@ -1,7 +1,9 @@
 <map id="Config::Config" name="Config::Config">
-<area shape="rect" id="node1" title="Construct a new Config object." alt="" coords="5,31,117,57"/>
-<area shape="rect" id="node2" href="$class_config.html#a2f8720e9953fb42b8304089c40fe896e" title=" " alt="" coords="165,31,272,57"/>
-<area shape="rect" id="node3" href="$utils_8h.html#a4b2e6c6245b704aeb7448bf62b1cf422" title=" " alt="" coords="320,31,391,57"/>
-<area shape="rect" id="node4" href="$utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70" title=" " alt="" coords="445,5,511,32"/>
-<area shape="rect" id="node5" href="$utils_8h.html#a86caea3b83de102899d12b4100e61c1d" title=" " alt="" coords="439,56,517,83"/>
+<area shape="rect" id="node1" title="Construct a new Config object." alt="" coords="5,81,117,108"/>
+<area shape="rect" id="node2" href="$class_config.html#a2f8720e9953fb42b8304089c40fe896e" title=" " alt="" coords="165,81,272,108"/>
+<area shape="rect" id="node3" href="$utils_8h.html#a4b2e6c6245b704aeb7448bf62b1cf422" title=" " alt="" coords="331,31,402,57"/>
+<area shape="rect" id="node6" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="331,81,402,108"/>
+<area shape="rect" id="node7" href="$class_term.html#abd955a8def100354b03e33911c3b21f8" title="Print error message." alt="" coords="320,132,413,159"/>
+<area shape="rect" id="node4" href="$utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70" title=" " alt="" coords="468,5,533,32"/>
+<area shape="rect" id="node5" href="$utils_8h.html#a86caea3b83de102899d12b4100e61c1d" title=" " alt="" coords="461,56,540,83"/>
 </map>

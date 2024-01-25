@@ -153,7 +153,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa9c2fce0daadbfe925304024814096609">CONFIG_ERROR</a>
 , <br />
 &#160;&#160;<a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0aac95e5cbbbcaec5f8769364afe48e54f0">CANNOT_COPY_FROM_INCLUDE</a>
-, <a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa40c5462de11704804c682ce17d4d8932">VERSION_NOT_SPECIFIED</a> = 200
+, <a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa7db82ecc633673545221dc503850b87c">ALG_EXPORT_ESTIMATION</a>
+, <a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0aab9010d056f6791ed2b2f57e43c34a521">ALG_EXPORT_GEN_BF</a>
+, <a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa047fa2d9578b28e1f65091c0f2e4642e">ALG_EXPORT_ALGORITHM</a>
+, <br />
+&#160;&#160;<a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa40c5462de11704804c682ce17d4d8932">VERSION_NOT_SPECIFIED</a> = 200
 <br />
  }</td></tr>
 <tr class="memdesc:a7a3b7f0edb9e67ddb480d4c0a0aa5c0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error Code.  <a href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0a">More...</a><br /></td></tr>
@@ -176,16 +180,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a60ae163531328c76c18c0ea7f987a89c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="error__code_8h.html#a60ae163531328c76c18c0ea7f987a89c">isSuccess</a> (const <a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0a">Err</a> &amp;e) noexcept</td></tr>
 <tr class="memdesc:a60ae163531328c76c18c0ea7f987a89c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the error code corresponds to a warning.  <a href="error__code_8h.html#a60ae163531328c76c18c0ea7f987a89c">More...</a><br /></td></tr>
 <tr class="separator:a60ae163531328c76c18c0ea7f987a89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19ac3b5328ffcb7b241c272b98d3f002"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="error__code_8h.html#a19ac3b5328ffcb7b241c272b98d3f002">errorExit</a> (const <a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0a">Err</a> &amp;e) noexcept</td></tr>
-<tr class="memdesc:a19ac3b5328ffcb7b241c272b98d3f002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print error message and exit with exit code.  <a href="error__code_8h.html#a19ac3b5328ffcb7b241c272b98d3f002">More...</a><br /></td></tr>
-<tr class="separator:a19ac3b5328ffcb7b241c272b98d3f002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c6b4516abc67a835f41887633fe69e1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="error__code_8h.html#a9c6b4516abc67a835f41887633fe69e1">errorExit</a> (const <a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0a">Err</a> &amp;e, bool show_error=true) noexcept</td></tr>
+<tr class="memdesc:a9c6b4516abc67a835f41887633fe69e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print error message and exit with exit code.  <a href="error__code_8h.html#a9c6b4516abc67a835f41887633fe69e1">More...</a><br /></td></tr>
+<tr class="separator:a9c6b4516abc67a835f41887633fe69e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Error Codes (Including Warnings) </p>
 <dl class="section author"><dt>Author</dt><dd>Wuqiong Zhao (<a href="#" onclick="location.href='mai'+'lto:'+'wqz'+'ha'+'o@s'+'eu'+'.ed'+'u.'+'cn'; return false;">wqzha<span class="obfuscator">.nosp@m.</span>o@se<span class="obfuscator">.nosp@m.</span>u.edu<span class="obfuscator">.nosp@m.</span>.cn</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.2.2 </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2023-03-13</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2022-2023 Wuqiong Zhao (Teddy van Jerry) </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2024-01-21</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2022-2024 Wuqiong Zhao (Teddy van Jerry) </dd></dl>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a7a3b7f0edb9e67ddb480d4c0a0aa5c0a" name="a7a3b7f0edb9e67ddb480d4c0a0aa5c0a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a3b7f0edb9e67ddb480d4c0a0aa5c0a">&#9670;&nbsp;</a></span>Err</h2>
@@ -227,6 +231,9 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aab76fdae539908ae5a1e50b4376dc06e9" name="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aab76fdae539908ae5a1e50b4376dc06e9"></a>SIMULATE_ERROR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa9c2fce0daadbfe925304024814096609" name="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa9c2fce0daadbfe925304024814096609"></a>CONFIG_ERROR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aac95e5cbbbcaec5f8769364afe48e54f0" name="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aac95e5cbbbcaec5f8769364afe48e54f0"></a>CANNOT_COPY_FROM_INCLUDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa7db82ecc633673545221dc503850b87c" name="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa7db82ecc633673545221dc503850b87c"></a>ALG_EXPORT_ESTIMATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aab9010d056f6791ed2b2f57e43c34a521" name="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aab9010d056f6791ed2b2f57e43c34a521"></a>ALG_EXPORT_GEN_BF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa047fa2d9578b28e1f65091c0f2e4642e" name="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa047fa2d9578b28e1f65091c0f2e4642e"></a>ALG_EXPORT_ALGORITHM&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa40c5462de11704804c682ce17d4d8932" name="a7a3b7f0edb9e67ddb480d4c0a0aa5c0aa40c5462de11704804c682ce17d4d8932"></a>VERSION_NOT_SPECIFIED&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -274,8 +281,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a19ac3b5328ffcb7b241c272b98d3f002" name="a19ac3b5328ffcb7b241c272b98d3f002"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19ac3b5328ffcb7b241c272b98d3f002">&#9670;&nbsp;</a></span>errorExit()</h2>
+<a id="a9c6b4516abc67a835f41887633fe69e1" name="a9c6b4516abc67a835f41887633fe69e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c6b4516abc67a835f41887633fe69e1">&#9670;&nbsp;</a></span>errorExit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -287,8 +294,18 @@ Here is the caller graph for this function:</div>
           <td class="memname">static void errorExit </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="error__code_8h.html#a7a3b7f0edb9e67ddb480d4c0a0aa5c0a">Err</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>show_error</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -308,13 +325,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="error__code_8h_a19ac3b5328ffcb7b241c272b98d3f002_cgraph.svg" width="352" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="error__code_8h_a9c6b4516abc67a835f41887633fe69e1_cgraph.svg" width="366" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="error__code_8h_a19ac3b5328ffcb7b241c272b98d3f002_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="error__code_8h_a9c6b4516abc67a835f41887633fe69e1_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -509,7 +526,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="error__code_8h.html">error_code.h</a></li>
-    <li class="footer">Generated on Tue Jan 23 2024 10:43:25 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Jan 25 2024 14:22:50 for mmCEsim by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

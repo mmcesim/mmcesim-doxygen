@@ -1,6 +1,8 @@
 <map id="Config::_load" name="Config::_load">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,112,57"/>
-<area shape="rect" id="node2" href="$utils_8h.html#a4b2e6c6245b704aeb7448bf62b1cf422" title=" " alt="" coords="160,31,231,57"/>
-<area shape="rect" id="node3" href="$utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70" title=" " alt="" coords="285,5,351,32"/>
-<area shape="rect" id="node4" href="$utils_8h.html#a86caea3b83de102899d12b4100e61c1d" title=" " alt="" coords="279,56,357,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,112,108"/>
+<area shape="rect" id="node2" href="$utils_8h.html#a4b2e6c6245b704aeb7448bf62b1cf422" title=" " alt="" coords="171,31,242,57"/>
+<area shape="rect" id="node5" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="171,81,242,108"/>
+<area shape="rect" id="node6" href="$class_term.html#abd955a8def100354b03e33911c3b21f8" title="Print error message." alt="" coords="160,132,253,159"/>
+<area shape="rect" id="node3" href="$utils_8h.html#a49dc116689f1a4202be4d3f0743b1f70" title=" " alt="" coords="308,5,373,32"/>
+<area shape="rect" id="node4" href="$utils_8h.html#a86caea3b83de102899d12b4100e61c1d" title=" " alt="" coords="301,56,380,83"/>
 </map>

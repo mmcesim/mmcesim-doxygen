@@ -1,16 +1,16 @@
 <map id="Macro::replaceMacro" name="Macro::replaceMacro">
-<area shape="rect" id="node1" title=" " alt="" coords="5,157,164,184"/>
-<area shape="rect" id="node2" href="$struct_macro.html#a2b2226fb501a9da22d7fb047ea769c5d" title=" " alt="" coords="212,5,356,32"/>
-<area shape="rect" id="node3" href="$class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9" title="Flush the buff into the log file." alt="" coords="242,56,326,83"/>
-<area shape="rect" id="node4" href="$struct_x_y___size.html#a9792ad3175a0f85674ae7e5e2ffe3a5e" title=" " alt="" coords="606,259,693,285"/>
-<area shape="rect" id="node5" href="$struct_macro.html#a94360db4bd4a0a2516339dadc6c37bbd" title="RegEx replace." alt="" coords="409,107,527,133"/>
-<area shape="rect" id="node8" href="$struct_macro.html#aee7d20953d25a4e783b8e897d78c4bf7" title=" " alt="" coords="217,284,351,311"/>
-<area shape="rect" id="node10" href="$struct_x_y___size.html#a643eedefc10d0cdfd930ad024cc30f40" title=" " alt="" coords="606,360,693,387"/>
-<area shape="rect" id="node11" href="$namespacemmce.html#ad4a160832ef9fad47c531ece39752208" title="Change a number to string." alt="" coords="404,512,532,539"/>
-<area shape="rect" id="node6" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="610,183,689,209"/>
-<area shape="rect" id="node7" href="$struct_macro.html#a0a64263ca28e6e30160145a33ed5d77f" title="Get the name of Type." alt="" coords="580,107,719,133"/>
-<area shape="rect" id="node9" href="$struct_x_y___size.html#a7bd57d020a1b15aaa09af45eff3ce6b4" title=" " alt="" coords="424,309,512,336"/>
-<area shape="rect" id="node12" href="$struct_x_y___size.html#a4a5192df22d9d6bc1793eabc6ae1ffa0" title=" " alt="" coords="419,461,517,488"/>
-<area shape="rect" id="node13" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="614,436,685,463"/>
-<area shape="rect" id="node14" href="$class_term.html#abd955a8def100354b03e33911c3b21f8" title="Print error message." alt="" coords="603,487,696,513"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,244,164,271"/>
+<area shape="rect" id="node2" href="$struct_x_y___size.html#a7bd57d020a1b15aaa09af45eff3ce6b4" title=" " alt="" coords="424,41,512,68"/>
+<area shape="rect" id="node3" href="$struct_x_y___size.html#a9792ad3175a0f85674ae7e5e2ffe3a5e" title=" " alt="" coords="606,41,693,68"/>
+<area shape="rect" id="node4" href="$struct_x_y___size.html#a643eedefc10d0cdfd930ad024cc30f40" title=" " alt="" coords="606,92,693,119"/>
+<area shape="rect" id="node5" href="$struct_macro.html#a2b2226fb501a9da22d7fb047ea769c5d" title=" " alt="" coords="212,371,356,397"/>
+<area shape="rect" id="node6" href="$class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9" title="Flush the buff into the log file." alt="" coords="242,421,326,448"/>
+<area shape="rect" id="node7" href="$struct_macro.html#a94360db4bd4a0a2516339dadc6c37bbd" title="RegEx replace." alt="" coords="409,345,527,372"/>
+<area shape="rect" id="node10" href="$struct_macro.html#aee7d20953d25a4e783b8e897d78c4bf7" title=" " alt="" coords="217,219,351,245"/>
+<area shape="rect" id="node11" href="$namespacemmce.html#ad4a160832ef9fad47c531ece39752208" title="Change a number to string." alt="" coords="404,396,532,423"/>
+<area shape="rect" id="node8" href="$class_log.html#add7e611cd3267d3fd5dae017e3aeef67" title="Write infomation to the log file." alt="" coords="610,295,689,321"/>
+<area shape="rect" id="node9" href="$struct_macro.html#a0a64263ca28e6e30160145a33ed5d77f" title="Get the name of Type." alt="" coords="580,345,719,372"/>
+<area shape="rect" id="node12" href="$struct_x_y___size.html#a4a5192df22d9d6bc1793eabc6ae1ffa0" title=" " alt="" coords="419,244,517,271"/>
+<area shape="rect" id="node13" href="$class_log.html#ac7147942832455398ad289b706a02616" title="Write error message to the log file." alt="" coords="614,193,685,220"/>
+<area shape="rect" id="node14" href="$class_term.html#abd955a8def100354b03e33911c3b21f8" title="Print error message." alt="" coords="603,244,696,271"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="include/export/alg_line.h" name="include/export/alg_line.h">
-<area shape="rect" id="node1" title="Parse Line of Alg." alt="" coords="1344,5,1483,47"/>
+<area shape="rect" id="node1" title="Parse Line of Alg." alt="" coords="1481,5,1620,47"/>
 <area shape="rect" id="node2" href="$alg__opt_8h.html" title="ALG_Opt Enum." alt="" coords="417,95,545,121"/>
 <area shape="rect" id="node3" href="$functions_8h.html" title="Function Lists." alt="" coords="725,169,865,196"/>
 <area shape="rect" id="node4" href="$utils_8h.html" title="Utilities." alt="" coords="671,244,734,271"/>
@@ -7,13 +7,14 @@
 <area shape="rect" id="node8" title=" " alt="" coords="115,326,189,353"/>
 <area shape="rect" id="node9" title=" " alt="" coords="1064,326,1123,353"/>
 <area shape="rect" id="node10" title=" " alt="" coords="1155,326,1218,353"/>
-<area shape="rect" id="node17" href="$log__global_8h.html" title="Global Access of Log." alt="" coords="1273,95,1375,121"/>
+<area shape="rect" id="node17" href="$log__global_8h.html" title="Global Access of Log." alt="" coords="1320,95,1421,121"/>
 <area shape="rect" id="node22" title=" " alt="" coords="1487,326,1567,353"/>
 <area shape="rect" id="node26" title=" " alt="" coords="1513,244,1588,271"/>
 <area shape="rect" id="node28" title=" " alt="" coords="1713,95,1783,121"/>
-<area shape="rect" id="node29" title=" " alt="" coords="1807,95,1865,121"/>
-<area shape="rect" id="node30" title=" " alt="" coords="1890,95,1947,121"/>
-<area shape="rect" id="node31" title=" " alt="" coords="1971,95,2058,121"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1807,95,1894,121"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1919,95,1977,121"/>
+<area shape="rect" id="node31" title=" " alt="" coords="2002,95,2059,121"/>
+<area shape="rect" id="node32" title=" " alt="" coords="2083,95,2170,121"/>
 <area shape="rect" id="node16" title=" " alt="" coords="759,244,815,271"/>
 <area shape="rect" id="node6" title=" " alt="" coords="878,326,943,353"/>
 <area shape="rect" id="node7" title=" " alt="" coords="968,326,1040,353"/>

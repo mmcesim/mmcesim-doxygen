@@ -217,7 +217,7 @@
 <!-- Node33 -->
 <g id="node33" class="node">
 <title>Node33</title>
-<g id="a_node33"><a xlink:href="class_config.html#af93e3fef79689ca4feaaeb45aae2645e" target="_top" xlink:title="Set the key value.">
+<g id="a_node33"><a xlink:href="class_config.html#a568ec68975e8e9338356619ebfb6a4f8" target="_top" xlink:title="Set the key value.">
 <polygon fill="white" stroke="black" points="1061.5,-240.5 1061.5,-259.5 1129.5,-259.5 1129.5,-240.5 1061.5,-240.5"/>
 <text text-anchor="middle" x="1095.5" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">Config::set</text>
 </a>
@@ -610,7 +610,7 @@
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
-<g id="a_node34"><a xlink:href="class_config.html#acb4d35f12547cc3386078635fe051266" target="_top" xlink:title=" ">
+<g id="a_node34"><a xlink:href="class_config.html#aaba73cd0c0ca87e1ecd654d2ffee5927" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="165,-330.5 165,-349.5 237,-349.5 237,-330.5 165,-330.5"/>
 <text text-anchor="middle" x="201" y="-337.5" font-family="Helvetica,sans-Serif" font-size="10.00">Config::edit</text>
 </a>

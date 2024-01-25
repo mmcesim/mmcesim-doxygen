@@ -1,6 +1,6 @@
 <map id="src/export/alg_line.cpp" name="src/export/alg_line.cpp">
-<area shape="rect" id="node1" title="Implementation of Alg_Line Class." alt="" coords="1329,5,1498,32"/>
-<area shape="rect" id="node2" href="$alg__line_8h.html" title="Parse Line of Alg." alt="" coords="1348,80,1479,107"/>
+<area shape="rect" id="node1" title="Implementation of Alg_Line Class." alt="" coords="1466,5,1635,32"/>
+<area shape="rect" id="node2" href="$alg__line_8h.html" title="Parse Line of Alg." alt="" coords="1485,80,1616,107"/>
 <area shape="rect" id="node3" href="$alg__opt_8h.html" title="ALG_Opt Enum." alt="" coords="417,155,545,181"/>
 <area shape="rect" id="node4" href="$functions_8h.html" title="Function Lists." alt="" coords="725,229,865,256"/>
 <area shape="rect" id="node5" href="$utils_8h.html" title="Utilities." alt="" coords="671,304,734,331"/>
@@ -8,13 +8,14 @@
 <area shape="rect" id="node9" title=" " alt="" coords="115,386,189,413"/>
 <area shape="rect" id="node10" title=" " alt="" coords="1064,386,1123,413"/>
 <area shape="rect" id="node11" title=" " alt="" coords="1155,386,1218,413"/>
-<area shape="rect" id="node18" href="$log__global_8h.html" title="Global Access of Log." alt="" coords="1273,155,1375,181"/>
+<area shape="rect" id="node18" href="$log__global_8h.html" title="Global Access of Log." alt="" coords="1320,155,1421,181"/>
 <area shape="rect" id="node23" title=" " alt="" coords="1487,386,1567,413"/>
 <area shape="rect" id="node27" title=" " alt="" coords="1513,304,1588,331"/>
 <area shape="rect" id="node29" title=" " alt="" coords="1713,155,1783,181"/>
-<area shape="rect" id="node30" title=" " alt="" coords="1807,155,1865,181"/>
-<area shape="rect" id="node31" title=" " alt="" coords="1890,155,1947,181"/>
-<area shape="rect" id="node32" title=" " alt="" coords="1971,155,2058,181"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1807,155,1894,181"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1919,155,1977,181"/>
+<area shape="rect" id="node32" title=" " alt="" coords="2002,155,2059,181"/>
+<area shape="rect" id="node33" title=" " alt="" coords="2083,155,2170,181"/>
 <area shape="rect" id="node17" title=" " alt="" coords="759,304,815,331"/>
 <area shape="rect" id="node7" title=" " alt="" coords="878,386,943,413"/>
 <area shape="rect" id="node8" title=" " alt="" coords="968,386,1040,413"/>

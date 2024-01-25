@@ -173,21 +173,21 @@ var sectionId = 'dynsection-19';
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="class_log.html#ac7147942832455398ad289b706a02616" target="_top" xlink:title="Write error message to the log file.">
-<polygon fill="white" stroke="black" points="422,-133.5 422,-152.5 475,-152.5 475,-133.5 422,-133.5"/>
-<text text-anchor="middle" x="448.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">Log::err</text>
+<polygon fill="white" stroke="black" points="422,-152.5 422,-171.5 475,-171.5 475,-152.5 422,-152.5"/>
+<text text-anchor="middle" x="448.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Log::err</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
 <g id="edge11" class="edge">
 <title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M88.25,-190.34C107.95,-176.63 146.67,-152.17 184,-143 263.43,-123.49 360.43,-131.23 411.72,-137.67"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="411.58,-141.19 421.95,-139.02 412.49,-134.25 411.58,-141.19"/>
+<path fill="none" stroke="midnightblue" d="M88.25,-190.34C107.95,-176.63 146.67,-152.17 184,-143 263.8,-123.39 360.96,-140.54 412.1,-152.59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="411.45,-156.04 421.99,-155 413.1,-149.23 411.45,-156.04"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="error__code_8h.html#a19ac3b5328ffcb7b241c272b98d3f002" target="_top" xlink:title="Print error message and exit with exit code.">
+<g id="a_node11"><a xlink:href="error__code_8h.html#a9c6b4516abc67a835f41887633fe69e1" target="_top" xlink:title="Print error message and exit with exit code.">
 <polygon fill="white" stroke="black" points="242.5,-76.5 242.5,-95.5 301.5,-95.5 301.5,-76.5 242.5,-76.5"/>
 <text text-anchor="middle" x="272" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">errorExit</text>
 </a>
@@ -199,33 +199,33 @@ var sectionId = 'dynsection-19';
 <path fill="none" stroke="midnightblue" d="M83.92,-190.3C101.37,-171.91 141.98,-131.86 184,-110 199.05,-102.17 216.93,-96.67 232.56,-92.93"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="233.46,-96.32 242.45,-90.72 231.93,-89.48 233.46,-96.32"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node">
-<title>Node14</title>
-<g id="a_node14"><a xlink:href="class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9" target="_top" xlink:title="Flush the buff into the log file.">
-<polygon fill="white" stroke="black" points="240.5,-38.5 240.5,-57.5 303.5,-57.5 303.5,-38.5 240.5,-38.5"/>
-<text text-anchor="middle" x="272" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Log::flush</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node14 -->
-<g id="edge18" class="edge">
-<title>Node1&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M79.85,-190.44C92.94,-165.67 131.56,-99.13 184,-67 197.71,-58.6 214.64,-53.89 229.91,-51.26"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="230.77,-54.67 240.16,-49.75 229.75,-47.74 230.77,-54.67"/>
-</g>
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="class_log.html#add7e611cd3267d3fd5dae017e3aeef67" target="_top" xlink:title="Write infomation to the log file.">
-<polygon fill="white" stroke="black" points="242.5,-0.5 242.5,-19.5 301.5,-19.5 301.5,-0.5 242.5,-0.5"/>
-<text text-anchor="middle" x="272" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Log::info</text>
+<g id="a_node15"><a xlink:href="class_log.html#a48b8faa1f9d2590c6fb650f1004e73c9" target="_top" xlink:title="Flush the buff into the log file.">
+<polygon fill="white" stroke="black" points="240.5,-38.5 240.5,-57.5 303.5,-57.5 303.5,-38.5 240.5,-38.5"/>
+<text text-anchor="middle" x="272" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Log::flush</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node15 -->
 <g id="edge19" class="edge">
 <title>Node1&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M79.85,-190.44C92.94,-165.67 131.56,-99.13 184,-67 197.71,-58.6 214.64,-53.89 229.91,-51.26"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="230.77,-54.67 240.16,-49.75 229.75,-47.74 230.77,-54.67"/>
+</g>
+<!-- Node16 -->
+<g id="node16" class="node">
+<title>Node16</title>
+<g id="a_node16"><a xlink:href="class_log.html#add7e611cd3267d3fd5dae017e3aeef67" target="_top" xlink:title="Write infomation to the log file.">
+<polygon fill="white" stroke="black" points="242.5,-0.5 242.5,-19.5 301.5,-19.5 301.5,-0.5 242.5,-0.5"/>
+<text text-anchor="middle" x="272" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Log::info</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge20" class="edge">
+<title>Node1&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M78.13,-190.37C88.21,-160.95 122.79,-71.71 184,-29 197.94,-19.28 215.95,-14.4 231.96,-12"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="232.63,-15.44 242.13,-10.76 231.78,-8.5 232.63,-15.44"/>
 </g>
@@ -233,16 +233,16 @@ var sectionId = 'dynsection-19';
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="error__code_8h.html#ae1bfa02e1106eff84ddecb9f7773a1a4" target="_top" xlink:title="Return the error message of the error code from class Err.">
-<polygon fill="white" stroke="black" points="539.5,-104.5 539.5,-123.5 599.5,-123.5 599.5,-104.5 539.5,-104.5"/>
-<text text-anchor="middle" x="569.5" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">errorMsg</text>
+<polygon fill="white" stroke="black" points="539.5,-152.5 539.5,-171.5 599.5,-171.5 599.5,-152.5 539.5,-152.5"/>
+<text text-anchor="middle" x="569.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">errorMsg</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M462.69,-190.47C483.06,-175.75 522.39,-147.32 546.94,-129.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="549.2,-132.27 555.25,-123.57 545.1,-126.6 549.2,-132.27"/>
+<path fill="none" stroke="midnightblue" d="M479.53,-190.41C494.7,-185.57 513.28,-179.63 529.54,-174.44"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="530.84,-177.7 539.3,-171.32 528.71,-171.03 530.84,-177.7"/>
 </g>
 <!-- Node8&#45;&gt;Node2 -->
 <g id="edge8" class="edge">
@@ -257,52 +257,67 @@ var sectionId = 'dynsection-19';
 <polygon fill="midnightblue" stroke="midnightblue" points="394.76,-215.07 403.78,-209.52 393.27,-208.23 394.76,-215.07"/>
 </g>
 <!-- Node11&#45;&gt;Node7 -->
-<g id="edge15" class="edge">
+<g id="edge16" class="edge">
 <title>Node11&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M301.6,-88.71C354.75,-93.75 468.82,-104.56 529.18,-110.27"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="529.16,-113.79 539.45,-111.25 529.82,-106.82 529.16,-113.79"/>
+<path fill="none" stroke="midnightblue" d="M301.51,-92.84C344.74,-103.28 429.43,-123.98 501,-143 510.25,-145.46 520.17,-148.19 529.5,-150.81"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="528.74,-154.23 539.31,-153.58 530.64,-147.5 528.74,-154.23"/>
 </g>
 <!-- Node11&#45;&gt;Node10 -->
 <g id="edge13" class="edge">
 <title>Node11&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M301.8,-93.24C318.84,-97.69 340.78,-103.74 360,-110 378.15,-115.91 398.09,-123.36 414.34,-129.68"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="413.35,-133.05 423.94,-133.44 415.91,-126.53 413.35,-133.05"/>
+<path fill="none" stroke="midnightblue" d="M301.85,-90.99C319.3,-94.73 341.65,-100.79 360,-110 378.12,-119.09 378.7,-127.43 396,-138 401.94,-141.63 408.51,-145.08 414.93,-148.18"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="413.56,-151.4 424.11,-152.44 416.51,-145.05 413.56,-151.4"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="error__code_8h.html#ae1ca599cceb33d2db79940c7d98937f8" target="_top" xlink:title="Return the integer of the error code from class Err.">
-<polygon fill="white" stroke="black" points="537,-47.5 537,-66.5 602,-66.5 602,-47.5 537,-47.5"/>
-<text text-anchor="middle" x="569.5" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">errorCode</text>
+<g id="a_node12"><a xlink:href="class_term.html#abd955a8def100354b03e33911c3b21f8" target="_top" xlink:title="Print error message.">
+<polygon fill="white" stroke="black" points="413.5,-76.5 413.5,-95.5 483.5,-95.5 483.5,-76.5 413.5,-76.5"/>
+<text text-anchor="middle" x="448.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Term::error</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node12 -->
 <g id="edge14" class="edge">
 <title>Node11&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M301.6,-83.19C354.04,-78.05 465.78,-67.08 526.73,-61.1"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="527.16,-64.57 536.77,-60.11 526.48,-57.61 527.16,-64.57"/>
+<path fill="none" stroke="midnightblue" d="M301.82,-86C329.3,-86 371.1,-86 402.88,-86"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="403.25,-89.5 413.25,-86 403.25,-82.5 403.25,-89.5"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="error__code_8h.html#a81aa27a794998cf874bbef6d0f34b9d9" target="_top" xlink:title="Check if the error code corresponds to an error.">
-<polygon fill="white" stroke="black" points="424.5,-19.5 424.5,-38.5 472.5,-38.5 472.5,-19.5 424.5,-19.5"/>
-<text text-anchor="middle" x="448.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">isError</text>
+<g id="a_node13"><a xlink:href="error__code_8h.html#ae1ca599cceb33d2db79940c7d98937f8" target="_top" xlink:title="Return the integer of the error code from class Err.">
+<polygon fill="white" stroke="black" points="537,-19.5 537,-38.5 602,-38.5 602,-19.5 537,-19.5"/>
+<text text-anchor="middle" x="569.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">errorCode</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node13 -->
-<g id="edge16" class="edge">
+<g id="edge15" class="edge">
 <title>Node11&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M301.58,-81.21C318.74,-77.98 340.87,-73.18 360,-67 371.16,-63.4 396.74,-52.16 417.37,-42.83"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="419.07,-45.9 426.73,-38.58 416.18,-39.53 419.07,-45.9"/>
+<path fill="none" stroke="midnightblue" d="M301.6,-80.48C354.04,-70.37 465.78,-48.81 526.73,-37.06"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="527.62,-40.45 536.77,-35.12 526.29,-33.58 527.62,-40.45"/>
 </g>
-<!-- Node13&#45;&gt;Node12 -->
+<!-- Node14 -->
+<g id="node14" class="node">
+<title>Node14</title>
+<g id="a_node14"><a xlink:href="error__code_8h.html#a81aa27a794998cf874bbef6d0f34b9d9" target="_top" xlink:title="Check if the error code corresponds to an error.">
+<polygon fill="white" stroke="black" points="424.5,-0.5 424.5,-19.5 472.5,-19.5 472.5,-0.5 424.5,-0.5"/>
+<text text-anchor="middle" x="448.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">isError</text>
+</a>
+</g>
+</g>
+<!-- Node11&#45;&gt;Node14 -->
 <g id="edge17" class="edge">
-<title>Node13&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M472.73,-34.47C488.14,-38.09 508.79,-42.95 526.98,-47.23"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="526.24,-50.65 536.78,-49.54 527.84,-43.84 526.24,-50.65"/>
+<title>Node11&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M301.71,-83.56C319.32,-81.15 341.88,-76.4 360,-67 379.27,-57.01 377.95,-46.06 396,-34 401.9,-30.06 408.54,-26.44 415.05,-23.27"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="416.77,-26.33 424.39,-18.97 413.84,-19.98 416.77,-26.33"/>
+</g>
+<!-- Node14&#45;&gt;Node13 -->
+<g id="edge18" class="edge">
+<title>Node14&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M472.73,-13.71C488.06,-16.16 508.6,-19.44 526.73,-22.33"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="526.35,-25.81 536.78,-23.94 527.45,-18.9 526.35,-25.81"/>
 </g>
 </g>
 </svg>

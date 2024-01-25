@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['switch_5ffunc_0',['SWITCH_FUNC',['../alg_8cpp.html#a87090a0802c6c94f9107c9c76c4c5cd9',1,'alg.cpp']]]
+  ['recover_5fprocess_0',['RECOVER_PROCESS',['../alg_8cpp.html#a2cf9927dcdc3e4b7dfffaa870da895cc',1,'alg.cpp']]]
 ];

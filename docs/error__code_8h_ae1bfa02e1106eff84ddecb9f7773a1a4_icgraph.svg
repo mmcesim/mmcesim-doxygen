@@ -97,7 +97,7 @@ var sectionId = 'dynsection-5';
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="error__code_8h.html#a19ac3b5328ffcb7b241c272b98d3f002" target="_top" xlink:title="Print error message and exit with exit code.">
+<g id="a_node19"><a xlink:href="error__code_8h.html#a9c6b4516abc67a835f41887633fe69e1" target="_top" xlink:title="Print error message and exit with exit code.">
 <polygon fill="white" stroke="black" points="530.5,-28.5 530.5,-47.5 589.5,-47.5 589.5,-28.5 530.5,-28.5"/>
 <text text-anchor="middle" x="560" y="-35.5" font-family="Helvetica,sans-Serif" font-size="10.00">errorExit</text>
 </a>

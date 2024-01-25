@@ -1,7 +1,7 @@
 var searchData=
 [
   ['ec_0',['ec',['../struct_y_a_m_l___error.html#aeb76507124a25bc1417a4a8d35ad1bc5',1,'YAML_Error']]],
-  ['edit_1',['edit',['../class_config.html#acb4d35f12547cc3386078635fe051266',1,'Config']]],
+  ['edit_1',['edit',['../class_config.html#aaba73cd0c0ca87e1ecd654d2ffee5927',1,'Config']]],
   ['empty_2',['empty',['../class_type___track.html#a82bf2816561a1daa90a8cf9848fdfef9',1,'Type_Track']]],
   ['enable_3',['enable',['../class_term.html#a9cc7b2c7f2bf8931d7b46a118b445dd4',1,'Term']]],
   ['end_5flang_4',['END_LANG',['../alg_8cpp.html#a28e5bf7711c51ff3ae60a8f7f27f9e7d',1,'END_LANG():&#160;alg.cpp'],['../calc_8cpp.html#a28e5bf7711c51ff3ae60a8f7f27f9e7d',1,'END_LANG():&#160;calc.cpp']]],
@@ -14,7 +14,7 @@ var searchData=
   ['error_11',['ERROR',['../alg_8cpp.html#a435175024ad996b2a45d734fa9eea0e3',1,'alg.cpp']]],
   ['error_5fcode_2eh_12',['error_code.h',['../error__code_8h.html',1,'']]],
   ['errorcode_13',['errorCode',['../error__code_8h.html#ae1ca599cceb33d2db79940c7d98937f8',1,'error_code.h']]],
-  ['errorexit_14',['errorExit',['../error__code_8h.html#a19ac3b5328ffcb7b241c272b98d3f002',1,'error_code.h']]],
+  ['errorexit_14',['errorExit',['../error__code_8h.html#a9c6b4516abc67a835f41887633fe69e1',1,'error_code.h']]],
   ['errormsg_15',['errorMsg',['../error__code_8h.html#ae1bfa02e1106eff84ddecb9f7773a1a4',1,'error_code.h']]],
   ['errors_16',['errors',['../class_alg.html#afe8843617743411afe2c271b99926c47',1,'Alg']]],
   ['errors_17',['Errors',['../class_alg.html#aa4dcb006a15af00e2514793c8234428d',1,'Alg']]],
