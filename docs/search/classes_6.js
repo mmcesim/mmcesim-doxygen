@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['param_5ftype_0',['Param_Type',['../struct_alg___line_1_1_param___type.html',1,'Alg_Line']]]
+  ['macro_0',['Macro',['../struct_macro.html',1,'']]],
+  ['mainwindow_1',['MainWindow',['../class_main_window.html',1,'']]]
 ];

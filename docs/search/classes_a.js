@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['value_5fvec_0',['Value_Vec',['../class_value___vec.html',1,'']]],
-  ['var_1',['Var',['../struct_alg_1_1_var.html',1,'Alg']]]
+  ['term_0',['Term',['../class_term.html',1,'']]],
+  ['termopt_1',['TermOpt',['../class_term_opt.html',1,'']]],
+  ['type_2',['Type',['../class_type.html',1,'']]],
+  ['type_5ftrack_3',['Type_Track',['../class_type___track.html',1,'']]]
 ];

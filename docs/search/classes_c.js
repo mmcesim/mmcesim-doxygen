@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yaml_5ferror_0',['YAML_Error',['../struct_y_a_m_l___error.html',1,'']]]
+  ['xy_5fsize_0',['XY_Size',['../struct_x_y___size.html',1,'']]]
 ];

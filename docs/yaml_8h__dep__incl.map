@@ -1,7 +1,7 @@
 <map id="include/yaml.h" name="include/yaml.h">
 <area shape="rect" id="node1" title="Wrapper for yaml&#45;cpp for static linking." alt="" coords="336,5,455,32"/>
 <area shape="rect" id="node2" href="$config_8h.html" title="Read and Write User Configuration." alt="" coords="163,87,287,114"/>
-<area shape="rect" id="node7" href="$value__vec_8h.html" title=" " alt="" coords="318,80,473,121"/>
+<area shape="rect" id="node7" href="$value__vec_8h.html" title="Value Vector in .sim File." alt="" coords="318,80,473,121"/>
 <area shape="rect" id="node10" href="$read_8h.html" title="Read YAML Configuration." alt="" coords="497,87,611,114"/>
 <area shape="rect" id="node3" href="$simulate_8h.html" title="Simulate Generated Code." alt="" coords="140,169,283,196"/>
 <area shape="rect" id="node4" href="$src_2main_8cpp.html" title="Program Command Line Options." alt="" coords="268,244,373,271"/>

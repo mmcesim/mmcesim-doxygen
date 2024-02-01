@@ -6,6 +6,7 @@ var hierarchy =
     [ "Channel_Graph", "class_channel___graph.html", null ],
     [ "CLI_Options", "struct_c_l_i___options.html", null ],
     [ "Config", "class_config.html", null ],
+    [ "Export::DataParams", "struct_export_1_1_data_params.html", null ],
     [ "Alg::Error", "struct_alg_1_1_error.html", null ],
     [ "Export", "class_export.html", null ],
     [ "fmt::formatter< std::any >", "structfmt_1_1formatter_3_01std_1_1any_01_4.html", null ],

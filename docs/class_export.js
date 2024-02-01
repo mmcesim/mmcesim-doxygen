@@ -1,5 +1,6 @@
 var class_export =
 [
+    [ "DataParams", "struct_export_1_1_data_params.html", "struct_export_1_1_data_params" ],
     [ "DType", "class_export.html#acc3267fe239d28f10e4b64f3061d4bb9", [
       [ "INT", "class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a638654137c5bc24b7bf15f7f588a65ad", null ],
       [ "DOUBLE", "class_export.html#acc3267fe239d28f10e4b64f3061d4bb9a953929e17447ad5a32078a646c0336fe", null ],
@@ -46,9 +47,9 @@ var class_export =
     [ "_reporting", "class_export.html#af64597af0c0b4cf569f96216bcd23b2c", null ],
     [ "_setCascadedChannel", "class_export.html#ad7bd412c3fe1d5accc38cf1f2ab65ea0", null ],
     [ "_setChannelGains", "class_export.html#a709b6e378fd97721b07a369d8a6191d7", null ],
+    [ "_setDataParams", "class_export.html#a0c9ede5b58ca76050a448947712212dc", null ],
     [ "_setLang", "class_export.html#a4e527db408e6caeca560fb9b3c38fe87", null ],
     [ "_setLatestError", "class_export.html#a6223103ee7fb91e057fe72c574b61317", null ],
-    [ "_setMaxTestNum", "class_export.html#a69e74a4cd5dd68dec262869fecc0d359", null ],
     [ "_setVarNames", "class_export.html#af41ce4a9c8f549930d43fbe47f84abaa", null ],
     [ "_sounding", "class_export.html#a26fa49d9882a342d011ba715e0c14109", null ],
     [ "_topComment", "class_export.html#a1ba2d8e9de49698d93a6dedbafbe6a0f", null ],
@@ -65,10 +66,10 @@ var class_export =
     [ "_channel_graph", "class_export.html#a537f42a1ecd0914a7c2054b831fb74aa", null ],
     [ "_config", "class_export.html#ab9f4b8af6d46cd43480d55103a2c0760", null ],
     [ "_constants", "class_export.html#a2eadcbdd3b429de5811e7c5aa0fc92fd", null ],
+    [ "_data_params", "class_export.html#a2147a68d6a53a962e671c515ee78f28e", null ],
     [ "_errors", "class_export.html#ac46a3b37a484a40d2ba2fa66fd11474a", null ],
     [ "_f_ptr", "class_export.html#ac088a82f536e08327b35efa33b6e0fe8", null ],
     [ "_MAX_RX", "class_export.html#aa6f6498e6ae8e60f100022f730ca70bb", null ],
-    [ "_max_test_num", "class_export.html#af5b3c2123c4f9e6af02201ca2a763048", null ],
     [ "_MAX_TX", "class_export.html#aeb11d45448d3d5760e04a3524cac7caa", null ],
     [ "_noise", "class_export.html#a026d7ecd2bd56159d4eeac65d0e72295", null ],
     [ "_opt", "class_export.html#a762fdfc59ceedf998b69da6f324b5a68", null ],

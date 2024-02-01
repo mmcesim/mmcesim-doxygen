@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['term_0',['Term',['../class_term.html',1,'']]],
-  ['termopt_1',['TermOpt',['../class_term_opt.html',1,'']]],
-  ['type_2',['Type',['../class_type.html',1,'']]],
-  ['type_5ftrack_3',['Type_Track',['../class_type___track.html',1,'']]]
+  ['shared_5finfo_0',['Shared_Info',['../struct_shared___info.html',1,'']]],
+  ['simulate_1',['Simulate',['../class_simulate.html',1,'']]],
+  ['style_2',['Style',['../class_style.html',1,'']]]
 ];
